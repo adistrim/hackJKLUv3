@@ -1,24 +1,16 @@
 'use client';
-
 import NextLink from 'next/link';
 import { usePathname } from 'next/navigation';
 
 const Header: React.FC = () => {
     const pathname = usePathname()
 
-    const Devfolio = () => {
-        window.open('https://devfolio.co/', '_blank'); // Open in new tab
-    };
-    const JKLU = () => {
-        window.open('https://jklu.edu.in/', '_blank'); // Open in new tab
-    };
-
     return (
         <header className="bg-gray-800 text-white py-7 px-24 flex justify-between items-center">
             {/* Left side - Logos */}
             <div className="flex items-center">
                 {/* <img
-                    src="/path/to/your/logo.png" 
+                    src="logo.png" 
                     alt="Logo"
                     className="h-8 w-8 mr-2"
                 /> */}
@@ -27,7 +19,11 @@ const Header: React.FC = () => {
                         <span className="text-xl font-bold">Hack JKLU 3.0</span>
                     </NextLink>
                     <span className="text-xl ">|</span>
-                    <span className="text-xl cursor-pointer font-bold" onClick={JKLU}>JKLU</span>
+                    <NextLink href="https://jklu.edu.in/" passHref legacyBehavior>
+                        <a target="_blank">
+                            <span className="text-xl cursor-pointer font-bold">JKLU</span>
+                        </a>
+                    </NextLink>
                 </div>
             </div>
 
@@ -44,9 +40,13 @@ const Header: React.FC = () => {
                 <NextLink href="/benefits" passHref>
                     <span className={`cursor-pointer ${pathname === '/benefits' ? 'underline' : 'hover:underline'}`}>Benefits</span>
                 </NextLink>
-                <button className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-1 px-4 rounded focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-800" onClick={Devfolio}>
-                    Register
-                </button>
+                <NextLink href="https://devfolio.co/" passHref legacyBehavior>
+                    <a target='_blank'>
+                        <button className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-1 px-4 rounded focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-800">
+                            Register
+                        </button>
+                    </a>
+                </NextLink>
             </div>
         </header>
     );

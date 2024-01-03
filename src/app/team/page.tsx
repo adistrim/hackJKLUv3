@@ -1,7 +1,5 @@
 import React from 'react';
-import NextLink from 'next/link';
 import OgPicCardList from '../components/ogPicCardList';
-import Header from '../components/header';
 
 const ogData = [
   {
@@ -26,9 +24,7 @@ const Team = () => {
 
   return (
     <div>
-      <Header />
       <div className="mx-auto">
-
         <div className="flex flex-col items-center justify-center h-screen">
           <OgPicCardList ogData={visibleogData} />
         </div>
