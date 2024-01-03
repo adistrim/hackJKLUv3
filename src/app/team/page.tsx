@@ -14,7 +14,7 @@ const ogData = [
     description: 'Organizing Committee'
   },
   {
-    imageSrc: 'team-photos/AnanyaSharma.jpg',
+    imageSrc: 'team-photos/AnanyaSharma.JPG',
     ogName: 'Ananya Sharma',
     description: 'Organizing Committee'
   }
