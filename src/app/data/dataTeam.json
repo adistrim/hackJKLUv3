@@ -1,0 +1,98 @@
+[
+    {
+        "role": "Internal Arrangements",
+        "name": "MANAN PANDYA",
+        "photo": "/team-photos/MananPandya.jpg",
+        "linkedin": "https://www.linkedin.com/in/manan-pandya-8478bb244/"
+    },
+    {
+        "role": "Discipline",
+        "name": "YASH VAID",
+        "photo": "/team-photos/YashVaid.jpg",
+        "linkedin": "https://www.linkedin.com/in/yash-vaid-09573122b/"
+    },
+    {
+        "role": "Promotion & Sponsorship",
+        "name": "DEVESH GUPTA",
+        "photo": "/team-photos/DeveshGupta.jpg",
+        "linkedin": "hhttps://www.linkedin.com/in/deveshgupta06/"
+    },
+    {
+        "role": "Promotion & Sponsorship",
+        "name": "Shivam Sharma",
+        "photo": "/team-photos/dev-rishi.jpeg",
+        "linkedin": "https://www.linkedin.com/in/shivam-sharma-8a7618259/"
+    },
+    {
+        "role": "Food & Accomodation",
+        "name": "PRIYANSHU PALIWAL",
+        "photo": "/team-photos/dev-rishi.jpeg",
+        "linkedin": "https://www.linkedin.com/in/priyanshu-paliwal-b36447146/"
+    },
+    {
+        "role": "Food & Accomodation",
+        "name": "PARAS GOYAL",
+        "photo": "/team-photos/dev-rishi.jpeg",
+        "linkedin": "https://www.linkedin.com/in/paras-goyal-a19249264/"
+    },
+    {
+        "role": "Prize & Certificate",
+        "name": "MUSKAN SHARMA",
+        "photo": "/team-photos/DivyaSharma.jpg",
+        "linkedin": "https://www.linkedin.com/in/muskan-sharma-b969bb1b1/"
+    },
+    {
+        "role": "Photography",
+        "name": "PRIYANSH AGARWAL",
+        "photo": "/team-photos/dev-rishi.jpeg",
+        "linkedin": "https://www.linkedin.com/in/priyanshagarwal01/"
+    },
+    {
+        "role": "Media & Report",
+        "name": "AYUSH JAIN",
+        "photo": "/team-photos/dev-rishi.jpeg",
+        "linkedin": "https://www.linkedin.com/in/ayush-jain-719293269/"
+    },
+    {
+        "role": "Social Media",
+        "name": "DEV RISHI VERMA",
+        "photo": "/team-photos/dev-rishi.jpeg",
+        "linkedin": "https://www.linkedin.com/in/dev-rishi-verma-7b5684249/"
+    },
+    {
+        "role": "Registration",
+        "name": "PRIYANKA JASWAL",
+        "photo": "/team-photos/DivyaSharma.jpg",
+        "linkedin": "https://www.linkedin.com/in/priyankajaswal16/"
+    },
+    {
+        "role": "Registration",
+        "name": "SURYANSH PATHAK",
+        "photo": "/team-photos/SuryanshPathak.jpg",
+        "linkedin": "https://www.linkedin.com/in/suryansh5545/"
+    },
+    {
+        "role": "Design",
+        "name": "TRISHA ROY",
+        "photo": "/team-photos/TrishaRoy.jpg",
+        "linkedin": "nope"
+    },
+    {
+        "role": "Tech & Support",
+        "name": "Aditya Raj",
+        "photo": "/team-photos/AdityaRaj.jpg",
+        "linkedin": "https://www.linkedin.com/in/adistrim/"
+    },
+    {
+        "role": "Web Designer",
+        "name": "KUMARI SNEHA",
+        "photo": "/team-photos/KumariSneha.jpg",
+        "linkedin": "https://www.linkedin.com/in/kumari-sneha-1852561a6/"
+    },
+    {
+        "role": "Web Designer",
+        "name": "RUPAKSHI SHARMA",
+        "photo": "/team-photos/RupakshiSharma.jpg",
+        "linkedin": "www.linkedin.com/in/rupakshi-sharma-interaction-designer"
+    }
+]

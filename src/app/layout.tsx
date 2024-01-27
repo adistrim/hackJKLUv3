@@ -5,7 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Hack JKLU 3.0',
+  title: 'HackJKLU 3.0',
   description: 'Hackathon of JK Lakshmipat University',
 }
 
@@ -16,6 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/hackjklu-logo.png"/>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )

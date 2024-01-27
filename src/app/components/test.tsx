@@ -28,15 +28,15 @@ const Header: React.FC = () => {
             </div>
 
 
-            <nav className="flex items-center space-x-[5.5rem]">
+            <nav className="flex items-center space-x-16">
                 <NextLink href="/" passHref>
-                    <div className={`cursor-pointer ${pathname === '/' ? 'underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2' : 'hover:underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-5'}`}>Home</div>
+                    <span className={`cursor-pointer ${pathname === '/' ? 'underline decoration-blue-500 underline-offset-8 decoration-2' : 'hover:underline decoration-blue-500 underline-offset-8 decoration-2'}`}>Home</span>
                 </NextLink>
-                <NextLink href="/challenges" passHref>
-                    <span className={`cursor-pointer ${pathname === '/challenges' ? 'underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2' : 'hover:underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2'}`}>Challenges</span>
+                <NextLink href="/challengers" passHref>
+                    <span className={`cursor-pointer ${pathname === '/challenges' ? 'underline decoration-blue-500 underline-offset-8 decoration-2' : 'hover:underline decoration-blue-500 underline-offset-8 decoration-2'}`}>Challenges</span>
                 </NextLink>
                 <NextLink href="/team" passHref>
-                    <span className={`cursor-pointer ${pathname === '/team' ? 'underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2' : 'hover:underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2'}`}>Team</span>
+                    <span className={`cursor-pointer ${pathname === '/team' ? 'underline decoration-blue-500 underline-offset-8 decoration-2' : 'hover:underline decoration-blue-500 underline-offset-8 decoration-2'}`}>Team</span>
                 </NextLink>
             </nav>
         </header>
