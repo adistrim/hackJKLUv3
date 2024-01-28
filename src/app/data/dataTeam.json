@@ -6,10 +6,10 @@
         "linkedin": "https://www.linkedin.com/in/manan-pandya-8478bb244/"
     },
     {
-        "role": "Discipline",
-        "name": "YASH VAID",
+        "role": "Internal Arrangements",
+        "name": "KUNAL PUROHIT",
         "photo": "/team-photos/YashVaid.jpg",
-        "linkedin": "https://www.linkedin.com/in/yash-vaid-09573122b/"
+        "linkedin": "https://www.linkedin.com/in/kunal-purohit-0934781b5/"
     },
     {
         "role": "Promotion & Sponsorship",
@@ -20,25 +20,25 @@
     {
         "role": "Promotion & Sponsorship",
         "name": "Shivam Sharma",
-        "photo": "/team-photos/dev-rishi.jpeg",
+        "photo": "/team-photos/ShivamSharma.jpg",
         "linkedin": "https://www.linkedin.com/in/shivam-sharma-8a7618259/"
     },
     {
         "role": "Food & Accomodation",
         "name": "PRIYANSHU PALIWAL",
-        "photo": "/team-photos/dev-rishi.jpeg",
+        "photo": "/team-photos/PriyanshuPaliwal.jpg",
         "linkedin": "https://www.linkedin.com/in/priyanshu-paliwal-b36447146/"
     },
     {
         "role": "Food & Accomodation",
         "name": "PARAS GOYAL",
-        "photo": "/team-photos/dev-rishi.jpeg",
+        "photo": "/team-photos/ParasGoyal.jpg",
         "linkedin": "https://www.linkedin.com/in/paras-goyal-a19249264/"
     },
     {
         "role": "Prize & Certificate",
         "name": "MUSKAN SHARMA",
-        "photo": "/team-photos/DivyaSharma.jpg",
+        "photo": "/team-photos/MuskanSharma.jpg",
         "linkedin": "https://www.linkedin.com/in/muskan-sharma-b969bb1b1/"
     },
     {
@@ -50,7 +50,7 @@
     {
         "role": "Media & Report",
         "name": "AYUSH JAIN",
-        "photo": "/team-photos/dev-rishi.jpeg",
+        "photo": "/team-photos/AyushJain.jpg",
         "linkedin": "https://www.linkedin.com/in/ayush-jain-719293269/"
     },
     {
@@ -62,7 +62,7 @@
     {
         "role": "Registration",
         "name": "PRIYANKA JASWAL",
-        "photo": "/team-photos/DivyaSharma.jpg",
+        "photo": "/team-photos/PriyankaJaswal.jpg",
         "linkedin": "https://www.linkedin.com/in/priyankajaswal16/"
     },
     {
@@ -75,13 +75,19 @@
         "role": "Design",
         "name": "TRISHA ROY",
         "photo": "/team-photos/TrishaRoy.jpg",
-        "linkedin": "nope"
+        "linkedin": "https://www.linkedin.com/in/trisha-roy-01b45a2ab"
     },
     {
         "role": "Tech & Support",
         "name": "Aditya Raj",
         "photo": "/team-photos/AdityaRaj.jpg",
         "linkedin": "https://www.linkedin.com/in/adistrim/"
+    },
+    {
+        "role": "Discipline",
+        "name": "YASH VAID",
+        "photo": "/team-photos/YashVaid.jpg",
+        "linkedin": "https://www.linkedin.com/in/yash-vaid-09573122b/"
     },
     {
         "role": "Web Designer",

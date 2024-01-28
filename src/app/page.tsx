@@ -1,11 +1,25 @@
-import React from 'react';
-import Header from './components/header';
+"use client";
+import React, { useEffect } from 'react';
 import Image from 'next/image';
+import Header
+ from './components/header';
 import HomeComponent from './components/home';
+import Footer from './components/footer';
 
 const Home: React.FC = () => {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
-    <div className="">
+    <div>
       <Header />
 
       {/* Background Image */}
@@ -21,7 +35,7 @@ const Home: React.FC = () => {
 
       <HomeComponent />
 
-      
+      <Footer />
     </div>
   );
 };
