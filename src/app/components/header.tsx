@@ -13,7 +13,7 @@ const Header: React.FC = () => {
         <div className={`relative ${tech_mono.className}`}>
 
             <header
-                className="relative opacity-75 text-white py-3 px-24 flex mt-10 justify-between items-center p-4 bg-black-rgba text-white"
+                className="relative opacity-85 text-white py-3 px-24 flex mt-10 justify-between items-center p-4 bg-black-rgba text-white"
 
                 style={{ boxShadow: '0px 0px 500px 0px rgba(29, 43, 57, 0.28), 0px 0px 500px 0px rgba(34, 81, 127, 0.28), 0px 0px 500px 0px rgba(34, 81, 127, 0.28), 0px 0px 500px 0px rgba(34, 81, 127, 0.28), 0px 0px 500px 0px rgba(34, 81, 127, 0.28)' }}>
 

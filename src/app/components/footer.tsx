@@ -64,9 +64,11 @@ const Footer: React.FC = () => {
                     </div>
                     <p className='mx-auto'>&copy;2024 HackJKLU. All rights reserved.</p>
                     <div>
+                        <span className="text-gray-400 text-sm">Made with ❤️ by </span>
                         <NextLink href="https://github.com/adistrim/" target='_blank' passHref>
-                            <span className="text-gray-400 text-sm">adistrim: </span>
+                            <span className="text-gray-400 text-sm">@adistrim</span>
                         </NextLink>
+                        <span className="text-gray-400 text-sm"> | </span>
                         <NextLink href="https://github.com/adistrim/hackJKLUv3/" target='_blank' passHref>
                             <span className="text-gray-400 text-sm">source code</span>
                         </NextLink>
