@@ -49,6 +49,71 @@ const HomeComponent = () => {
                 width={1920}
                 height={1080}
             />
+            <div className=" my-[10rem]">
+                <h1 className="text-[4rem] text-center mb-4" style={{ backgroundImage: 'linear-gradient(90deg, #cf3a33 5.87%, #f6982f 59.11%)', WebkitBackgroundClip: 'text', color: 'transparent' }}>
+                    TRACKS
+                </h1>
+                <div className='cursor-pointer flex flex-wrap justify-center'>
+                    <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
+                        <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
+                            <p className="text-white text-[2rem]">IOT</p>
+                        </div>
+                    </div>
+                    <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
+                        <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
+                            <p className="text-white text-[2rem]">AI/ML</p>
+                        </div>
+                    </div>
+                    <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
+                        <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
+                            <p className="text-white text-[2rem]">WEB 2</p>
+                        </div>
+                    </div>
+                    <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
+                        <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
+                            <p className="text-white text-[2rem]">WEB 3</p>
+                        </div>
+                    </div>
+                    <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
+                        <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
+                            <p className="text-white text-[2rem]">GAME DEV/ AR/ VR</p>
+                        </div>
+                    </div>
+                    <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
+                        <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
+                            <p className="text-white text-[2rem]">CYBER SECURITY</p>
+                        </div>
+                    </div>
+                    <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
+                        <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
+                            <p className="text-white text-[2rem]">OPEN INNOVATION</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="flex justify-center my-[12rem]">
+                <div>
+                    <Image
+                        src="/whoshouldapplyimg.png"
+                        alt=""
+                        width={500}
+                        height={500}
+                    />
+                </div>
+                <div className="ml-8">
+                    <h1 className="text-[4rem] mb-4" style={{ backgroundImage: 'linear-gradient(90deg, #cf3a33 5.87%, #f6982f 59.11%)', WebkitBackgroundClip: 'text', color: 'transparent' }}>
+                        WHO SHOULD APPLY?
+                    </h1>
+                    <ul className="ml-[5rem] mt-[2rem] list-disc text-[2.5rem]">
+                        <li className="mb-4">STUDENTS</li>
+                        <div className="opacity-30 w-full h-0.5 bg-gradient-to-r from-white via-white to-white" style={{ boxShadow: '0px 0px 2.783px 0px #FFF, 0px 0px 5.566px 0px #FFF, 0px 0px 19.481px 0px #FFF' }}></div>
+                        <li className="mt-4 mb-4">ENTREPRENEURS</li>
+                        <div className="opacity-30 w-full h-0.5 bg-gradient-to-r from-white via-white to-white" style={{ boxShadow: '0px 0px 2.783px 0px #FFF, 0px 0px 5.566px 0px #FFF, 0px 0px 19.481px 0px #FFF' }}></div>
+                        <li className="mt-4 mb-4">ENTHUSIASTS</li>
+                        <div className="opacity-30 w-full h-0.5 bg-gradient-to-r from-white via-white to-white" style={{ boxShadow: '0px 0px 2.783px 0px #FFF, 0px 0px 5.566px 0px #FFF, 0px 0px 19.481px 0px #FFF' }}></div>
+                    </ul>
+                </div>
+            </div>
             <div className="relative">
                 <div className="absolute -inset-0.5 bg-white rounded-[1rem] blur opacity-75"></div>
                 <div className="flex flex-col bg-black rounded-[1rem] items-center justify-center mt-[12rem] relative">
@@ -94,6 +159,8 @@ const HomeComponent = () => {
                     </div>
                 </div>
             </div>
+
+
         </div>
     )
 }
