@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import NextLink from "next/link";
+import RegisterBtn from "./registerbtn";
 import { Share_Tech_Mono, Inter } from "next/font/google";
 
 const tech_mono = Share_Tech_Mono({ subsets: ["latin"], weight: ['400'] });
@@ -23,11 +23,8 @@ const HomeComponent = () => {
                     <p className="text-[1.1rem] mb-4">
                         An event where incredible minds work together to solve a problem and create a solution, application, or service. Top 3 contestants all receive prizes. So, Put your skill to the test in the mainframe and register today.
                     </p>
-                    <NextLink href="https://devfolio.co/" passHref>
-                        <p className="inline-flex px-8 py-3 text-black text-[1.3rem] justify-center items-center gap-4 rounded-md bg-gradient-to-r from-red-600 to-yellow-500">
-                            Register Now
-                        </p>
-                    </NextLink>
+                    <RegisterBtn />
+                    
 
                 </div>
 

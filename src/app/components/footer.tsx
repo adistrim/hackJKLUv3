@@ -1,6 +1,7 @@
 "use client";
 import React from 'react';
 import NextLink from 'next/link';
+import RegisterBtn from './registerbtn';
 
 const Footer: React.FC = () => {
 
@@ -15,19 +16,8 @@ const Footer: React.FC = () => {
                 <div className="flex justify-between items-start">
                     {/* Left Side */}
                     <div className="w-40%">
-                        <div
-                            className="apply-button"
-                            data-hackathon-slug="hackjklu3"
-                            data-button-theme="dark-inverted"
-                            style={{ height: "44px", width: "312px" }}
-                        >
-                            Register Now
-                        </div>
-                        <NextLink href="https://devfolio.co/" passHref>
-                            <p className="inline-flex px-8 py-3 text-black text-[1.3rem] justify-center items-center gap-4 rounded-md bg-gradient-to-r from-red-600 to-yellow-500">
-                                Register Now
-                            </p>
-                        </NextLink>
+                        
+                        <RegisterBtn />
 
                         <div className="mt-[2rem] mr-[7rem] mb-[2rem]">
                             <h4 className="text-[1.5rem] text-[#E16931] mb-[1.5rem]">ADDRESS</h4>
