@@ -87,7 +87,7 @@ const HomeComponent = () => {
                                     height={150}
                                 />
                                 <p className="text-[1rem] text-center mt-[1rem]">
-                                    Hackathons are a great way to meet new people, learn new skills, and have fun! We encourage all students to participate, regardless of their experience level.
+                                    Projects are evaluated by a panel of experts based on criteria such as innovation & execution. Teams receive feedback, fostering continuous improvement & learning.
                                 </p>
                             </div>
                         </div>
