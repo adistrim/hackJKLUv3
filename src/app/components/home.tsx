@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import RegisterBtn from "./registerbtn";
+import NextLink from "next/link";
 import { Share_Tech_Mono, Inter } from "next/font/google";
 
 const tech_mono = Share_Tech_Mono({ subsets: ["latin"], weight: ['400'] });
@@ -24,7 +25,7 @@ const HomeComponent = () => {
                         An event where incredible minds work together to solve a problem and create a solution, application, or service. Top 3 contestants all receive prizes. So, Put your skill to the test in the mainframe and register today.
                     </p>
                     <RegisterBtn />
-                    
+
 
                 </div>
 
@@ -50,43 +51,45 @@ const HomeComponent = () => {
                 <h1 className="text-[4rem] text-center mb-4" style={{ backgroundImage: 'linear-gradient(90deg, #cf3a33 5.87%, #f6982f 59.11%)', WebkitBackgroundClip: 'text', color: 'transparent' }}>
                     TRACKS
                 </h1>
-                <div className='cursor-pointer flex flex-wrap justify-center'>
-                    <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
-                        <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
-                            <p className="text-white text-[2rem]">IOT</p>
+                <NextLink href="challenges" passHref>
+                    <div className='cursor-pointer flex flex-wrap justify-center'>
+                        <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
+                            <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
+                                <p className="text-white text-[2rem]">IOT</p>
+                            </div>
+                        </div>
+                        <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
+                            <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
+                                <p className="text-white text-[2rem]">AI/ML</p>
+                            </div>
+                        </div>
+                        <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
+                            <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
+                                <p className="text-white text-[2rem]">WEB 2</p>
+                            </div>
+                        </div>
+                        <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
+                            <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
+                                <p className="text-white text-[2rem]">WEB 3</p>
+                            </div>
+                        </div>
+                        <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
+                            <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
+                                <p className="text-white text-[2rem]">GAME DEV/ AR/ VR</p>
+                            </div>
+                        </div>
+                        <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
+                            <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
+                                <p className="text-white text-[2rem]">CYBER SECURITY</p>
+                            </div>
+                        </div>
+                        <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
+                            <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
+                                <p className="text-white text-[2rem]">OPEN INNOVATION</p>
+                            </div>
                         </div>
                     </div>
-                    <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
-                        <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
-                            <p className="text-white text-[2rem]">AI/ML</p>
-                        </div>
-                    </div>
-                    <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
-                        <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
-                            <p className="text-white text-[2rem]">WEB 2</p>
-                        </div>
-                    </div>
-                    <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
-                        <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
-                            <p className="text-white text-[2rem]">WEB 3</p>
-                        </div>
-                    </div>
-                    <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
-                        <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
-                            <p className="text-white text-[2rem]">GAME DEV/ AR/ VR</p>
-                        </div>
-                    </div>
-                    <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
-                        <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
-                            <p className="text-white text-[2rem]">CYBER SECURITY</p>
-                        </div>
-                    </div>
-                    <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
-                        <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
-                            <p className="text-white text-[2rem]">OPEN INNOVATION</p>
-                        </div>
-                    </div>
-                </div>
+                </NextLink>
             </div>
             <div className="flex justify-center my-[12rem]">
                 <div>
