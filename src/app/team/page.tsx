@@ -16,9 +16,9 @@ const Team: React.FC = () => {
   return (
     <div className="bg-black">
       <Header />
-      <div className={`mx-[1rem] md:mx-[5rem] lg:mx-[10rem] mt-[8rem] md:mt-16 ${tech_mono.className}`}>
+      <div className={`mx-[1rem] md:mx-[5rem] lg:mx-[10rem] mt-8 md:mt-16 ${tech_mono.className}`}>
         <section className="mb-16">
-          <h3 className="text-xl md:text-[4rem] font-bold text-center my-[6rem] text-[#f58b40]">
+          <h3 className="text-[2rem] md:text-[4rem] font-bold text-center my-[4rem] md:my-[6rem] text-[#f58b40]">
             <span
               className="text-transparent bg-clip-text"
               style={{
@@ -28,12 +28,12 @@ const Team: React.FC = () => {
               ORGANISING COMMITTEE
             </span>
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-[5rem] mx-[5rem]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-[5rem] mx-[1rem] md:mx-[5rem]">
             {importedDataOC.map((member) => (
               <div key={member.name} className="relative">
                 <div className="absolute -inset-0.5 bg-white rounded-[1rem] blur opacity-75"></div>
-                <div className="relative flex flex-col items-center bg-black justify-center rounded-[1rem] p-4">
-                  <div className="mb-4 relative h-40 w-40 md:h-[14rem] md:w-[14rem] overflow-hidden rounded-md shadow-lg mx-auto">
+                <div className="relative flex flex-row md:flex-col items-center bg-black justify-between md:justify-center rounded-[1rem] p-4">
+                  <div className="md:mb-4 relative h-40 w-40 md:h-[14rem] md:w-[14rem] overflow-hidden rounded-md shadow-lg md:mx-auto">
                     <div className="w-full h-full overflow-hidden rounded-md">
                       <Image
                         src={member.photo}
@@ -44,10 +44,12 @@ const Team: React.FC = () => {
                       />
                     </div>
                   </div>
-                  <p className="font-bold text-base md:text-lg mb-2">{member.name}</p>
-                  <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="flex justify-center text-cyan-200 hover:underline">
-                    LinkedIn
-                  </a>
+                  <div className="flex flex-col pr-4">
+                    <p className="font-bold text-base md:text-lg mb-2">{member.name}</p>
+                    <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="flex justify-center text-cyan-200 hover:underline">
+                      LinkedIn
+                    </a>
+                  </div>
                 </div>
               </div>
             ))}
