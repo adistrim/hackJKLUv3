@@ -18,7 +18,7 @@ const Team: React.FC = () => {
       <Header />
       <div className={`mx-[1rem] md:mx-[5rem] lg:mx-[10rem] mt-8 md:mt-16 ${tech_mono.className}`}>
         <section className="mb-16">
-          <h3 className="text-[2rem] md:text-[4rem] font-bold text-center my-[4rem] md:my-[6rem] text-[#f58b40]">
+          <h3 className="text-[1.8rem] md:text-[4rem] font-bold text-center my-[4rem] md:my-[6rem] text-[#f58b40]">
             <span
               className="text-transparent bg-clip-text"
               style={{
@@ -33,7 +33,7 @@ const Team: React.FC = () => {
               <div key={member.name} className="relative">
                 <div className="absolute -inset-0.5 bg-white rounded-[1rem] blur opacity-75"></div>
                 <div className="relative flex flex-row md:flex-col items-center bg-black justify-between md:justify-center rounded-[1rem] p-4">
-                  <div className="md:mb-4 relative h-40 w-40 md:h-[14rem] md:w-[14rem] overflow-hidden rounded-md shadow-lg md:mx-auto">
+                  <div className="md:mb-4 relative h-[8rem] w-[8rem] md:h-[14rem] md:w-[14rem] overflow-hidden rounded-md shadow-lg md:mx-auto">
                     <div className="w-full h-full overflow-hidden rounded-md">
                       <Image
                         src={member.photo}
@@ -44,7 +44,7 @@ const Team: React.FC = () => {
                       />
                     </div>
                   </div>
-                  <div className="flex flex-col pr-4">
+                  <div className="flex flex-col">
                     <p className="font-bold text-base md:text-lg mb-2">{member.name}</p>
                     <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="flex justify-center text-cyan-200 hover:underline">
                       LinkedIn
