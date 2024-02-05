@@ -36,18 +36,21 @@ const Header: React.FC = () => {
         <div className={`relative ${tech_mono.className}`}>
 
             <header
-                className="relative opacity-85 text-white py-3 px-24 flex mt-10 justify-between items-center p-4 bg-black-rgba text-white"
+                className="relative opacity-85 text-white py-3 px-4 md:px-14 lg:px-24 flex mt-10 justify-between items-center p-4 bg-black-rgba text-white"
 
                 style={{ boxShadow: '0px 0px 500px 0px rgba(29, 43, 57, 0.28), 0px 0px 500px 0px rgba(34, 81, 127, 0.28), 0px 0px 500px 0px rgba(34, 81, 127, 0.28), 0px 0px 500px 0px rgba(34, 81, 127, 0.28), 0px 0px 500px 0px rgba(34, 81, 127, 0.28)' }}>
 
                 <div className="flex items-center">
                     <NextLink href="/" passHref>
-                        <Image
-                            src="/hackjklu-logo.png"
-                            alt="Logo"
-                            width={65}
-                            height={16}
-                        />
+                        <div className='relative h-[3rem] w-[3rem] md:h-[5rem] md:w-[5rem]'>
+                            <Image
+                                src="/hackjklu-logo.png"
+                                alt="Logo"
+                                fill
+                                style={{ objectFit: "cover" }}
+                                className="h-full w-full"
+                            />
+                        </div>
                     </NextLink>
                     <NextLink href="/" passHref>
                         <Image
@@ -84,15 +87,15 @@ const Header: React.FC = () => {
 
                 {/* Sidebar - Mobile View */}
                 {menuOpen && (
-                    <div ref={sidebarRef} className=" md:hidden lg:hidden flex flex-col fixed top-0 right-0 h-full w-1/2 bg-black p-4 shadow-md z-50 overflow-y-auto">
+                    <div ref={sidebarRef} className=" md:hidden lg:hidden flex flex-col fixed top-0 right-0 h-full w-1/2 bg-black p-4 shadow-md z-50 overflow-y-20">
                         <NextLink href="/" passHref>
-                            <span className={`m-10 cursor-pointer text-[1.5rem]`}>Home</span>
+                            <span className={`cursor-pointer text-[1.5rem]`}>Home</span>
                         </NextLink>
                         <NextLink href="/challenges" passHref>
-                            <span className={`m-10 cursor-pointer text-[1.5rem]`}>Challenges</span>
+                            <span className={`cursor-pointer text-[1.5rem]`}>Challenges</span>
                         </NextLink>
                         <NextLink href="/team" passHref>
-                            <span className={`m-10 cursor-pointer text-[1.5rem]`}>Team</span>
+                            <span className={`cursor-pointer text-[1.5rem]`}>Team</span>
                         </NextLink>
                     </div>
                 )}
