@@ -36,13 +36,13 @@ const Header: React.FC = () => {
         <div className={`relative ${tech_mono.className}`}>
 
             <header
-                className="relative opacity-85 text-white py-3 px-4 md:px-14 lg:px-24 flex mt-10 justify-between items-center p-4 bg-black-rgba text-white"
+                className="relative opacity-85 text-white py-3 px-4 md:px-14 lg:px-24 flex mt-5 md:mt-10 justify-between items-center p-4 bg-black-rgba text-white"
 
                 style={{ boxShadow: '0px 0px 500px 0px rgba(29, 43, 57, 0.28), 0px 0px 500px 0px rgba(34, 81, 127, 0.28), 0px 0px 500px 0px rgba(34, 81, 127, 0.28), 0px 0px 500px 0px rgba(34, 81, 127, 0.28), 0px 0px 500px 0px rgba(34, 81, 127, 0.28)' }}>
 
                 <div className="flex items-center">
                     <NextLink href="/" passHref>
-                        <div className='relative h-[3rem] w-[3rem] md:h-[5rem] md:w-[5rem]'>
+                        <div className='relative h-[2rem] w-[2rem] md:h-[5rem] md:w-[5rem]'>
                             <Image
                                 src="/hackjklu-logo.png"
                                 alt="Logo"
@@ -66,9 +66,9 @@ const Header: React.FC = () => {
                 {/* Hamburger menu */}
                 <div className="block md:hidden">
                     <button onClick={toggleMenu} className="navbar-burger flex flex-col items-center py-1.5 px-2">
-                        <span className="block w-10 h-[0.15rem] bg-white rounded"></span>
-                        <span className="block w-10 h-[0.2rem] bg-white mt-[0.5rem] rounded"></span>
-                        <span className="block w-10 h-[0.15rem] bg-white mt-[0.5rem] rounded"></span>
+                        <span className="block w-8 h-[0.15rem] bg-white rounded"></span>
+                        <span className="block w-8 h-[0.15rem] bg-white mt-[0.35rem] rounded"></span>
+                        <span className="block w-8 h-[0.15rem] bg-white mt-[0.35rem] rounded"></span>
                     </button>
                 </div>
 
