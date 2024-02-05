@@ -5,11 +5,6 @@ import RegisterBtn from './registerbtn';
 
 const Footer: React.FC = () => {
 
-    // const iframeWrapperStyle = {
-    //     width: '45rem',
-    //     height: '25rem',
-    // };
-
     return (
         <footer className="bg-[#121212] mt-[10rem] text-white p-5 md:p-8">
             <div className='md:mx-[3rem]'>

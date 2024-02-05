@@ -33,8 +33,8 @@ const Team: React.FC = () => {
               <div key={member.name} className="relative">
                 <div className="absolute inset-0.5 md:-inset-0.5 bg-white rounded-[1rem] blur opacity-75"></div>
                 <div className="relative flex flex-row md:flex-col items-center bg-black justify-between md:justify-center rounded-[1rem] p-4 md:p-4">
-                  <div className="md:mb-4 relative h-[8rem] w-[8rem] md:h-[14rem] md:w-[14rem] overflow-hidden rounded-md shadow-lg md:mx-auto">
-                    <div className="w-full h-full overflow-hidden rounded-md">
+                <div className="md:mb-4 relative h-[8rem] w-[8rem] md:h-[14rem] md:w-[14rem] overflow-hidden rounded-md shadow-lg md:mx-auto">
+                  <div className="w-full h-full overflow-hidden rounded-md">
                       <Image
                         src={member.photo}
                         alt={member.name}

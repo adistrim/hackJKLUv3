@@ -42,7 +42,7 @@ const Header: React.FC = () => {
 
                 <div className="flex items-center">
                     <NextLink href="/" passHref>
-                        <div className='relative h-[2rem] w-[2rem] md:h-[5rem] md:w-[5rem]'>
+                        <div className='relative h-[2rem] w-[2rem] md:h-[4rem] md:w-[4rem]'>
                             <Image
                                 src="/hackjklu-logo.png"
                                 alt="Logo"
@@ -87,18 +87,19 @@ const Header: React.FC = () => {
 
                 {/* Sidebar - Mobile View */}
                 {menuOpen && (
-                    <div ref={sidebarRef} className=" md:hidden lg:hidden flex flex-col fixed top-0 right-0 h-full w-1/2 bg-black p-4 shadow-md z-50 overflow-y-20">
+                    <div ref={sidebarRef} className="md:hidden lg:hidden fixed top-0 right-0 h-full w-1/2 bg-black p-4 shadow-md z-50 overflow-y-auto">
                         <NextLink href="/" passHref>
-                            <span className={`cursor-pointer text-[1.5rem]`}>Home</span>
+                            <span style={{ backgroundImage: 'linear-gradient(90deg, #cf3a33 5.87%, #f6982f 59.11%)', WebkitBackgroundClip: 'text', color: 'transparent' }} className={`cursor-pointer text-1.5rem text-white block mb-4`}>Home</span>
                         </NextLink>
                         <NextLink href="/challenges" passHref>
-                            <span className={`cursor-pointer text-[1.5rem]`}>Challenges</span>
+                            <span style={{ backgroundImage: 'linear-gradient(90deg, #cf3a33 5.87%, #f6982f 59.11%)', WebkitBackgroundClip: 'text', color: 'transparent' }} className={`cursor-pointer text-1.5rem text-white block mb-4`}>Challenges</span>
                         </NextLink>
                         <NextLink href="/team" passHref>
-                            <span className={`cursor-pointer text-[1.5rem]`}>Team</span>
+                            <span style={{ backgroundImage: 'linear-gradient(90deg, #cf3a33 5.87%, #f6982f 59.11%)', WebkitBackgroundClip: 'text', color: 'transparent' }} className={`cursor-pointer text-1.5rem text-white block mb-4`}>Team</span>
                         </NextLink>
                     </div>
                 )}
+
             </header>
         </div>
     );

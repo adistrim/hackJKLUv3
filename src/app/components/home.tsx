@@ -9,29 +9,28 @@ const inter = Inter({ subsets: ['latin'] })
 
 const HomeComponent = () => {
     return (
-        <div className={`mx-[10rem] ${tech_mono.className}`}>
-            <div className={`flex mt-[8rem]`}>
-                <div className="flex flex-col items-start justify-center w-1/2">
-                    <h2 className="text-[2.25rem] text-left">
-                        15th - 17th March
+        <div className={`mx-[1rem] md:mx-[10rem] ${tech_mono.className}`}>
+            <div className={`flex flex-col md:flex-row items-center justify-center mt-[4rem] md:mt-[8rem]`}>
+                <div className="flex flex-col items-center md:items-start justify-center w-100% md:w-1/2">
+                    <h2 className="text-[1.3rem] md:text-[2.25rem] text-center md:text-left">
+                        15th - 17th March, 2024
                     </h2>
-                    <h1 className="text-[4rem] font-bold text-left mb-4" style={{ backgroundImage: 'linear-gradient(90deg, #cf3a33 5.87%, #f6982f 59.11%)', WebkitBackgroundClip: 'text', color: 'transparent' }}>
+                    <h1 className="text-[2.8rem] md:text-[4rem] font-bold text-left mb-4" style={{ backgroundImage: 'linear-gradient(90deg, #cf3a33 5.87%, #f6982f 59.11%)', WebkitBackgroundClip: 'text', color: 'transparent' }}>
                         HackJKLU 3.0
                     </h1>
-                    <h3 className="text-[2rem] font-thin text-left mb-4 border-l-4 border-solid border-gray-300 pl-4">
+                    <h3 className="hidden md:block text-[2rem] font-thin text-left mb-4 border-l-4 border-solid border-gray-300 pl-4">
                         We Challenge You!
                     </h3>
-                    <p className="text-[1.1rem] mb-4">
+                    <p className="hidden md:block text-[1.1rem] mb-4">
                         An event where incredible minds work together to solve a problem and create a solution, application, or service. Top 3 contestants all receive prizes. So, Put your skill to the test in the mainframe and register today.
                     </p>
-                    <RegisterBtn />
-
-
+                    <div className="hidden md:block">
+                        <RegisterBtn />
+                    </div>
                 </div>
 
-                <div className="w-1/2 ml-[2rem] flex justfiy-center items-center">
+                <div className="w-4/5  md:w-1/2 ml-[2rem] flex justfiy-center items-center">
                     <Image
-
                         className=""
                         src="/hero-image.png"
                         alt=""
@@ -39,60 +38,90 @@ const HomeComponent = () => {
                         height={600}
                     />
                 </div>
+                <h3 className="block md:hidden text-[1.5rem] font-thin text-left my-10 border-l-4 border-solid border-gray-300 pl-4">
+                    We Challenge You!
+                </h3>
+                <p className="block md:hidden text-center text-[0.9rem] mb-4">
+                    An event where incredible minds work together to solve a problem and create a solution, application, or service. Top 3 contestants all receive prizes. So, Put your skill to the test in the mainframe and register today.
+                </p>
+                <div className="my-[1rem] block md:hidden">
+                    <RegisterBtn />
+                </div>
             </div>
             <Image
-                className="my-[12rem]"
+                className="hidden md:block my-[12rem]"
                 src="/CODE_CREATE_CONNECT.png"
                 alt=""
                 width={1920}
                 height={1080}
             />
-            <div className=" my-[10rem]">
-                <h1 className="text-[4rem] text-center mb-4" style={{ backgroundImage: 'linear-gradient(90deg, #cf3a33 5.87%, #f6982f 59.11%)', WebkitBackgroundClip: 'text', color: 'transparent' }}>
+            <div className="block md:hidden text-center my-20 flex flex-col justify-center items-center space-y-5">
+                <Image
+                    src="/CODE.png"
+                    alt=""
+                    width={170}
+                    height={100}
+                />
+                <Image
+                    src="/CREATE.png"
+                    alt=""
+                    width={220}
+                    height={100}
+                />
+                <Image
+                    src="/CONNECT.png"
+                    alt=""
+                    width={270}
+                    height={100}
+                />
+            </div>
+
+            <div className=" mt-[10rem]">
+                <h1 className="text-[2rem] md:text-[4rem] text-center mb-4" style={{ backgroundImage: 'linear-gradient(90deg, #cf3a33 5.87%, #f6982f 59.11%)', WebkitBackgroundClip: 'text', color: 'transparent' }}>
                     TRACKS
                 </h1>
                 <NextLink href="challenges" passHref>
                     <div className='cursor-pointer flex flex-wrap justify-center'>
                         <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
                             <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
-                                <p className="text-white text-[2rem]">IOT</p>
+                                <p className="text-white md:text-[2rem]">IOT</p>
                             </div>
                         </div>
                         <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
                             <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
-                                <p className="text-white text-[2rem]">AI/ML</p>
+                                <p className="text-white md:text-[2rem]">AI/ML</p>
                             </div>
                         </div>
                         <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
                             <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
-                                <p className="text-white text-[2rem]">WEB 2</p>
+                                <p className="text-white md:text-[2rem]">WEB 2</p>
                             </div>
                         </div>
                         <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
                             <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
-                                <p className="text-white text-[2rem]">WEB 3</p>
+                                <p className="text-white md:text-[2rem]">WEB 3</p>
                             </div>
                         </div>
                         <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
                             <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
-                                <p className="text-white text-[2rem]">GAME DEV/ AR/ VR</p>
+                                <p className="text-white md:text-[2rem]">GAME DEV/ AR/ VR</p>
                             </div>
                         </div>
                         <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
                             <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
-                                <p className="text-white text-[2rem]">CYBER SECURITY</p>
+                                <p className="text-white md:text-[2rem]">CYBER SECURITY</p>
                             </div>
                         </div>
                         <div className='rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5'>
                             <div className='rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1'>
-                                <p className="text-white text-[2rem]">OPEN INNOVATION</p>
+                                <p className="text-white md:text-[2rem]">OPEN INNOVATION</p>
                             </div>
                         </div>
                     </div>
                 </NextLink>
             </div>
-            <div className="flex justify-center my-[12rem]">
-                <div>
+            <div className="flex justify-center my-[5rem] md:my-[12rem]">
+                <div className="hidden md:block">
                     <Image
                         src="/whoshouldapplyimg.png"
                         alt=""
@@ -100,16 +129,24 @@ const HomeComponent = () => {
                         height={500}
                     />
                 </div>
-                <div className="ml-8">
-                    <h1 className="text-[4rem] mb-4" style={{ backgroundImage: 'linear-gradient(90deg, #cf3a33 5.87%, #f6982f 59.11%)', WebkitBackgroundClip: 'text', color: 'transparent' }}>
+                <div className="m-4 md:ml-8">
+                    <h1 className="text-[2rem] md:text-[3.5rem] mb-4" style={{ backgroundImage: 'linear-gradient(90deg, #cf3a33 5.87%, #f6982f 59.11%)', WebkitBackgroundClip: 'text', color: 'transparent' }}>
                         WHO SHOULD APPLY?
                     </h1>
-                    <ul className="ml-[5rem] mt-[2rem] list-disc text-[2.5rem]">
-                        <li className="mb-4">STUDENTS</li>
+                    <div className="block md:hidden">
+                        <Image
+                            src="/whoshouldapplyimg.png"
+                            alt=""
+                            width={500}
+                            height={500}
+                        />
+                    </div>
+                    <ul className="ml-[1rem] md:ml-[5rem] mt-[2rem] list-disc text-[2.5rem]">
+                        <li className="text-[1.9rem] md:text-[2.7rem] mb-4">STUDENTS</li>
                         <div className="opacity-30 w-full h-0.5 bg-gradient-to-r from-white via-white to-white" style={{ boxShadow: '0px 0px 2.783px 0px #FFF, 0px 0px 5.566px 0px #FFF, 0px 0px 19.481px 0px #FFF' }}></div>
-                        <li className="mt-4 mb-4">ENTREPRENEURS</li>
+                        <li className="text-[1.9rem] md:text-[2.7rem] my-4">ENTREPRENEURS</li>
                         <div className="opacity-30 w-full h-0.5 bg-gradient-to-r from-white via-white to-white" style={{ boxShadow: '0px 0px 2.783px 0px #FFF, 0px 0px 5.566px 0px #FFF, 0px 0px 19.481px 0px #FFF' }}></div>
-                        <li className="mt-4 mb-4">ENTHUSIASTS</li>
+                        <li className="text-[1.9rem] md:text-[2.7rem] my-4">ENTHUSIASTS</li>
                         <div className="opacity-30 w-full h-0.5 bg-gradient-to-r from-white via-white to-white" style={{ boxShadow: '0px 0px 2.783px 0px #FFF, 0px 0px 5.566px 0px #FFF, 0px 0px 19.481px 0px #FFF' }}></div>
                     </ul>
                 </div>
@@ -117,11 +154,11 @@ const HomeComponent = () => {
             <div className="relative">
                 <div className="absolute -inset-0.5 bg-white rounded-[1rem] blur opacity-75"></div>
                 <div className="flex flex-col bg-black rounded-[1rem] items-center justify-center mt-[12rem] relative">
-                    <div className="m-[3.5rem]">
-                        <h1 className="text-[4rem] text-center mb-4" style={{ backgroundImage: 'linear-gradient(90deg, #cf3a33 5.87%, #f6982f 59.11%)', WebkitBackgroundClip: 'text', color: 'transparent' }}>
+                    <div className="mt-[2rem] md:m-[3.5rem]">
+                        <h1 className="text-[2rem] md:text-[4rem] text-center mb-4" style={{ backgroundImage: 'linear-gradient(90deg, #cf3a33 5.87%, #f6982f 59.11%)', WebkitBackgroundClip: 'text', color: 'transparent' }}>
                             HOW IT WORKS?
                         </h1>
-                        <div className={`flex flex-row ${inter.className}`}>
+                        <div className={`flex flex-col md:flex-row ${inter.className}`}>
                             <div className="flex flex-col justify-center items-center m-[2rem]">
                                 <Image
                                     src="/section-image-1.png"
