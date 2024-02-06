@@ -1,17 +1,17 @@
 [
+  {
+      "name": "Divya Sharma",
+      "photo": "/team-photos/DivyaSharma.jpg",
+      "linkedin": "https://www.linkedin.com/in/divya-sharma-profile/"
+    },
     {
-        "name": "Divya Sharma",
-        "photo": "/team-photos/DivyaSharma.jpg",
-        "linkedin": "https://www.linkedin.com/in/dheerajsanghi/"
-      },
-      {
-        "name": "Kushagra Pandey",
-        "photo": "/team-photos/Kushagra.jpg",
-        "linkedin": "https://www.linkedin.com/in/kesharma/"
-      },
-      {
-        "name": "Ananya Sharma",
-        "photo": "/team-photos/AnanyaSharma.JPG",
-        "linkedin": "https://in.linkedin.com/in/asheesh-gupta-5866a33"
-      }
+      "name": "Kushagra Pandey",
+      "photo": "/team-photos/Kushagra.jpg",
+      "linkedin": "hhttps://www.linkedin.com/in/kushagra-pandey-reachme/"
+    },
+    {
+      "name": "Ananya Sharma",
+      "photo": "/team-photos/AnanyaSharma.JPG",
+      "linkedin": "https://www.linkedin.com/in/ananya-sharma-822b5b215/"
+    }
 ]
