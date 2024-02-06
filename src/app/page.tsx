@@ -1,8 +1,6 @@
 "use client";
 import React, { useEffect } from 'react';
 import Image from 'next/image';
-import Header
- from './components/header';
 import HomeComponent from './components/home';
 import Footer from './components/footer';
 
@@ -20,9 +18,6 @@ const Home: React.FC = () => {
 
   return (
     <div>
-      <Header />
-
-      {/* Background Image */}
       <div className="absolute inset-0 z-[-1]">
         <Image
           src="/bg.png"
@@ -34,8 +29,6 @@ const Home: React.FC = () => {
       </div>
 
       <HomeComponent />
-
-      <Footer />
     </div>
   );
 };

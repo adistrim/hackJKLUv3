@@ -22,7 +22,7 @@ const HomeComponent = () => {
                         We Challenge You!
                     </h3>
                     <p className="hidden md:block text-[1.1rem] mb-4">
-                        An event where incredible minds work together to solve a problem and create a solution, application, or service. Top 3 contestants all receive prizes. So, Put your skill to the test in the mainframe and register today.
+                    Come be a part of an event where amazing minds team up to solve problems and bring new ideas to life. The top three contestants will each win prizes. Don't miss out—register today and put your skills to the test in the mainframe!
                     </p>
                     <div className="hidden md:block">
                         <RegisterBtn />
@@ -42,7 +42,7 @@ const HomeComponent = () => {
                     We Challenge You!
                 </h3>
                 <p className="block md:hidden text-center text-[0.9rem] mb-4">
-                    An event where incredible minds work together to solve a problem and create a solution, application, or service. Top 3 contestants all receive prizes. So, Put your skill to the test in the mainframe and register today.
+                Come be a part of an event where amazing minds team up to solve problems and bring new ideas to life. The top three contestants will each win prizes. Don't miss out—register today and put your skills to the test in the mainframe!
                 </p>
                 <div className="my-[1rem] block md:hidden">
                     <RegisterBtn />
