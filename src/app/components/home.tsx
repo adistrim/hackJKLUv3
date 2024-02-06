@@ -167,7 +167,7 @@ const HomeComponent = () => {
                                     height={150}
                                 />
                                 <p className="text-[1rem] text-center mt-[1rem]">
-                                    HackJKLU is a 36-hour hackathon where students from all over the world come together to work in teams of 1 - 4 to build an innovative solution to a problem.
+                                    HackJKLU is a 36-hour hackathon where students from all over the world come together to work in teams of 2 - 5 to build an innovative solution to a problem.
                                 </p>
                             </div>
                             <div className="flex flex-col justify-center items-center m-[2rem]">
