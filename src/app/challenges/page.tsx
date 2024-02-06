@@ -34,7 +34,7 @@ const Challenges: React.FC = () => {
                     <div key={challenge.id} className={`${tech_mono.className} md:mb-[3rem] relative`}>
                         <div className='flex flex-row items-center mt-[3rem] '>
                             <span className='text-[#ECECEC] text-[2.5rem] md:text-[4.75rem] not-italic font-normal leading-[normal] tracking-[-0.54rem] text-shadow: 1px 3px 6px rgba(93, 213, 240, 0.4)'>{challenge.id}</span>
-                            <span className={`ml-[2rem] text-white text-[0.7rem] md:text-2xl not-italic font-normal leading-[normal] ${inter.className}`}>{challenge.title}</span>
+                            <span className={`ml-[2rem] text-white text-[0.8rem] md:text-2xl not-italic font-normal leading-[normal]`}>{challenge.title}</span>
                         </div>
                         <div className="flex mt-2 space-x-2 md:space-x-4 mb-[1.5rem]">
                             {challenge.track.map((trackItem: string, index: number) => (
