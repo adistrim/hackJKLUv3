@@ -1,33 +1,63 @@
 [
     {
         "id": "A1",
-        "title": "Problem Statement A1 Problem Statement A1 Problem Statement A1 Problem Statement A1 Problem Statement A1",
-        "description": "This is a problem statement for A1",
-        "track": ["AI/Ml", "Web 2", "Web 3", "Cybersecurity"]
+        "title": "Mental Health Support Ecosystem",
+        "description": "Develop a transformative platform that fosters meaningful connections between individuals in need of mental health support and a diverse array of resources, qualified professionals, and a compassionate community.",
+        "track": ["Web 2", "Web 3"]
     },
     {
         "id": "A2",
-        "title": "Problem Statement A2 Problem Statement A2 Problem Statement A2 Problem Statement A2 Problem Statement A2 Problem Statement A2 Problem Statement A2",
-        "description": "This is a problem statement for A2",
-        "track": ["AI/Ml", "Web 2", "Web 3", "Cybersecurity"]
+        "title": "Web Platform for Smart City Solutions",
+        "description": "Web platform that harmonizes diverse urban services, including intelligent traffic management, optimized waste disposal systems, enhanced energy efficiency measures, and streamlined public transportation networks. The goal is to empower cities with a centralized, interconnected solution for sustainable urban living, leveraging technology to improve efficiency, reduce environmental impact, and enhance the overall quality of life for residents.",
+        "track": ["Web 2", "Web 3"]
 
     },
     {
         "id": "A3",
-        "title": "Problem Statement A3",
-        "description": "This is a problem statement for A3",
-        "track": ["Web 2", "Web 3", "Cybersecurity"]
+        "title": "Sustainable Food Sharing Platform",
+        "description": "A user-friendly platform that facilitates the seamless connection between individuals, businesses, and organizations, fostering the sharing of surplus food resources with those facing hunger.",
+        "track": ["Web 2", "Web 3"]
     },
     {
         "id": "A4",
-        "title": "Problem Statement A4",
-        "description": "This is a problem statement for A4",
-        "track": ["AI/Ml", "Web 2", "Web 3", "Cybersecurity"]
+        "title": "Explainable AI for building trust and transparency",
+        "description": "Develop techniques to explain how AI models reach their decisions, fostering trust and transparency in AI applications.",
+        "track": ["AI/Ml", "Web 2", "Web 3"]
     },
     {
         "id": "A5",
-        "title": "Problem Statement A5",
-        "description": "This is a problem statement for A5",
-        "track": ["AI/Ml", "Web 2", "Web 3", "Cybersecurity"]
+        "title": "Automated Emergency Call Analysis System for Emotional and Mental State Identification",
+        "description": "Develop an emergency response system to  listen to a caller in distress and identify the emotional/mental state of the caller. The system should be able to classify the voice as Stressed/Drunk/ Prank/Abusive/Painful and send sms alerts to  Police at 100.",
+        "track": ["IOT"]
+    },
+    {
+        "id": "A6",
+        "title": "Secure Geolocation-Based Toll Payment and Speed Monitoring System for Expressways",
+        "description": "Develop a secure geolocation based  payment system which deduct the toll fees at entry of any expressway as soon as the car enters the expressway, without having any toll barriers. The system should also scan the number plate and generate an alarm if speed exceeds 100kph at any time.",
+        "track": ["IOT"]
+    },
+    {
+        "id": "A7",
+        "title": "Network Camera Sniffer: Geotagging and Video Capture for Surveillance Identification",
+        "description": "Design a sniffer which can sniff the network to identify open cameras and geotag them to find the location as well as capture the videos.",
+        "track": ["Cyber Security"]
+    },
+    {
+        "id": "A8",
+        "title": "Network Threat Detection and Reporting System: Identifying and Collecting Information on Malicious Activity",
+        "description": "Develop a system to report threat events/attempts on the network and collect information as attacker IP address, port and type of malicious activity.",
+        "track": ["Cyber Security"]
+    },
+    {
+        "id": "A9",
+        "title": "Integrated Surveillance and Traffic Management System: Camera-Based Detection, Tracking, and Violation Recognition",
+        "description": "Develop an advanced surveillance and traffic management system capable of detecting, tracking, and recognizing various violations on roadways. The system should utilize surveillance cameras for real-time detection and tracking of moving vehicles, enabling automatic number plate recognition (ANPR) for identification purposes. Additionally, the system should have the capability to monitor and enforce traffic regulations by identifying and reporting violations such as speeding, illegal parking, and lane violations. It should provide real-time alerts and data on detected violations, including vehicle speed and license plate information, while ensuring accuracy and efficiency in the detection process.",
+        "track": ["AI/Ml"]
+    },
+    {
+        "id": "B1",
+        "title": "Sports Video Analytics for Ball Tracking and Player Identification",
+        "description": "Develop a sports video analytics system tailored for ball tracking in games like tennis and cricket, alongside player detection and disambiguation. This system will enable accurate tracking of the ball's trajectory during gameplay and identification of individual players, enhancing performance analysis and viewer experience.",
+        "track": ["AI/Ml"]
     }
 ]
