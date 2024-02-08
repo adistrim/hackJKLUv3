@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
                         <div className="my-4">
                             <h4 className="text-[1rem] md:text-[1.5rem] text-[#E16931] font-base mb-[1.5rem]">CONTACT INFO</h4>
                             <a className='md:mb-[0.5rem] text-[0.7rem] md:text-[1.2rem] font-thin' href='mailto:counciloftechnicalaffairs@jklu.edu.in'>Email: counciloftechnicalaffairs@jklu.edu.in</a>
-                            <p className='md:mb-[1rem] text-[0.7rem] md:text-[1.2rem] font-thin'>Phone:<br />- +91 88905 97856<br />- +91 96105 19864<br />- +91 97857 24320<br />- +91 86199 60229</p>
+                            <p className='md:mb-[1rem] text-[0.7rem] md:text-[1.2rem] font-thin'>Phone:<br /> Sponsorship: +91 98285 35479<br />Registrations: +91 86199 60229</p>
                             <a href="https://www.instagram.com/smart_tech_club/" className="text-white font-thin  text-[0.7rem] md:text-[1.2rem]">Follow us:
                                 <img src="instagram-logo.png" alt="Instagram" className="h-6 md:h-8 inline-block" />
                             </a>
