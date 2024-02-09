@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 const HomeComponent = () => {
     return (
         <div className={`mx-[1rem] md:mx-[10rem] ${tech_mono.className}`}>
-            <div className={`flex flex-col md:flex-row items-center justify-center mt-[4rem] md:mt-[8rem]`}>
+            <div className={`flex flex-col md:flex-row items-center justify-center mt-[1.5rem] md:mt-[8rem]`}>
                 <div className="flex flex-col items-center md:items-start justify-center w-100% md:w-1/2">
                     <h2 className="text-[1.3rem] md:text-[2.25rem] text-center md:text-left">
                         15th - 17th March, 2024
@@ -18,7 +18,7 @@ const HomeComponent = () => {
                     <h1 className="text-[2.8rem] md:text-[4rem] font-bold text-left mb-4" style={{ backgroundImage: 'linear-gradient(90deg, #cf3a33 5.87%, #f6982f 59.11%)', WebkitBackgroundClip: 'text', color: 'transparent' }}>
                         HackJKLU 3.0
                     </h1>
-                    <h3 className="hidden md:block text-[2rem] font-thin text-left mb-4 border-l-4 border-solid border-gray-300 pl-4">
+                    <h3 className="hidden md:block text-[2rem] font-thin text-left mb-9 border-l-4 border-solid border-gray-300 pl-4">
                         We Challenge You!
                     </h3>
                     <p className="hidden md:block text-[1.1rem] mb-4">
@@ -38,7 +38,7 @@ const HomeComponent = () => {
                         height={600}
                     />
                 </div>
-                <h3 className="block md:hidden text-[1.5rem] font-thin text-left my-10 border-l-4 border-solid border-gray-300 pl-4">
+                <h3 className="block md:hidden text-[1.5rem] font-thin text-left my-8 border-l-4 border-solid border-gray-300 pl-4">
                     We Challenge You!
                 </h3>
                 <p className="block md:hidden text-center text-[0.9rem] mb-4">
