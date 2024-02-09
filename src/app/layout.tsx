@@ -7,11 +7,11 @@ import Footer from "./components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "HackJKLU 3.0",
+  title: "HackJKLU",
   description:
     "Come be a part of HackJKLU 3.0, the hackathon organized by the Smart Tech Club of JK Lakshmipat University. Join us from 15th to 17th March 2024 for a thrilling experience in web2, web3, IoT, game dev, AR/VR, cybersecurity, AI/ML, and open innovation. Register now!",
   keywords:
-    "HackJKLU, JKLU hackathon, web development hackathon, AI/ML hackathon, cybersecurity challenge, game development hackathon, AR/VR hackathon, IoT hackathon, open innovation, JK Lakshmipat University, Jaipur, Rajasthan, India, hackathon, Jaipur hackathon, hackathon in march, hackathon in 2024, hackathon in India, hackathon in Rajasthan, hackathon in Jaipur, hackathon in JKLU, hackathon in JK Lakshmipat University, hackathon in JKLU Jaipur, hackathon in JKLU Rajasthan, hackathon in JKLU India, hackathon in JKLU Jaipur Rajasthan India, hackathon in JKLU Jaipur Rajasthan, hackathon in JKLU Jaipur India, hackathon in JKLU",
+    "HackJKLU, HackJKLU 3.0, HackJKLU v3.0, hackjklu, JKLU hackathon, web development hackathon, AI/ML hackathon, cybersecurity challenge, game development hackathon, AR/VR hackathon, IoT hackathon, open innovation, JK Lakshmipat University, Jaipur, Rajasthan, India, hackathon, Jaipur hackathon, hackathon in march, hackathon in 2024, hackathon in India, hackathon in Rajasthan, hackathon in Jaipur, hackathon in JKLU, hackathon in JK Lakshmipat University, hackathon in JKLU Jaipur, hackathon in JKLU Rajasthan, hackathon in JKLU India, hackathon in JKLU Jaipur Rajasthan India, hackathon in JKLU Jaipur Rajasthan, hackathon in JKLU Jaipur India, hackathon in JKLU",
 };
 
 export default function RootLayout({
