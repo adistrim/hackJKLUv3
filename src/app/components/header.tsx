@@ -80,6 +80,9 @@ const Header: React.FC = () => {
                     <NextLink href="/challenges" passHref>
                         <span className={`cursor-pointer text-[1.2rem] ${pathname === '/challenges' ? 'underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2' : 'hover:underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2'}`}>Challenges</span>
                     </NextLink>
+                    <NextLink href="/gallery" passHref>
+                        <span className={`cursor-pointer text-[1.2rem] ${pathname === '/gallery' ? 'underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2' : 'hover:underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2'}`}>Gallery</span>
+                    </NextLink>
                     <NextLink href="/team" passHref>
                         <span className={`cursor-pointer text-[1.2rem] ${pathname === '/team' ? 'underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2' : 'hover:underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2'}`}>Team</span>
                     </NextLink>
@@ -93,6 +96,9 @@ const Header: React.FC = () => {
                         </NextLink>
                         <NextLink href="/challenges" passHref>
                             <span style={{ backgroundImage: 'linear-gradient(90deg, #cf3a33 5.87%, #f6982f 59.11%)', WebkitBackgroundClip: 'text', color: 'transparent' }} className={`cursor-pointer text-1.5rem text-white block mb-4`}>Challenges</span>
+                        </NextLink>
+                        <NextLink href="/gallery" passHref>
+                            <span style={{ backgroundImage: 'linear-gradient(90deg, #cf3a33 5.87%, #f6982f 59.11%)', WebkitBackgroundClip: 'text', color: 'transparent' }} className={`cursor-pointer text-1.5rem text-white block mb-4`}>Gallery</span>
                         </NextLink>
                         <NextLink href="/team" passHref>
                             <span style={{ backgroundImage: 'linear-gradient(90deg, #cf3a33 5.87%, #f6982f 59.11%)', WebkitBackgroundClip: 'text', color: 'transparent' }} className={`cursor-pointer text-1.5rem text-white block mb-4`}>Team</span>
