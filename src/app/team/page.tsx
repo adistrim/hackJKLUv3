@@ -80,7 +80,7 @@ const Team: React.FC = () => {
                 </div>
                 <div className="flex flex-col">
                   <p className="font-bold text-base mt-[1rem] md:mt-0 md:text-[1.7rem] md:mb-[1rem]">{member.name}</p>
-                  <p className="mb-2 text-base text-[1.2rem] md:my-[2rem]"><span className="text-transparent bg-clip-text"
+                  <p className="mb-2 text-base text-[1.2rem] md:my-[2rem] px-1 md:px-0"><span className="text-transparent bg-clip-text"
                     style={{
                       backgroundImage: 'linear-gradient(90deg, #C33C39 7.95%, #E69235 94.22%)',
                     }}>{member.role}</span></p>
