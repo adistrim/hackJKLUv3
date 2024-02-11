@@ -12,7 +12,7 @@ const Gallery: React.FC = () => {
   );
 
   return (
-    <div className={`container mx-auto my-[5rem] px-4 ${tech_mono.className}`}>
+    <div className={`container mx-auto my-[2rem] md:my-[5rem] px-4 ${tech_mono.className}`}>
       <div className="text-center my-[3rem] md:my-[6rem]">
         <h1 className="text-[2.2rem] md:text-[4rem] font-bold text-center">
           <span
