@@ -55,7 +55,7 @@ const HomeComponent = () => {
                 width={1920}
                 height={1080}
             />
-            <div className="block md:hidden text-center my-20 flex flex-col justify-center items-center space-y-5">
+            <div className="md:hidden text-center my-20 flex flex-col justify-center items-center space-y-5">
                 <Image
                     src="/CODE.png"
                     alt=""

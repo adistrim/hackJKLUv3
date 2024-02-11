@@ -32,11 +32,15 @@ const Header: React.FC = () => {
         };
     }, [menuOpen]);
 
+    useEffect(() => {
+        setMenuOpen(false);
+    }, [pathname]);
+
     return (
         <div className={`relative ${tech_mono.className}`}>
 
             <header
-                className="relative opacity-85 text-white py-3 px-4 md:px-14 lg:px-24 flex mt-5 md:mt-10 justify-between items-center p-4 bg-black-rgba text-white"
+                className="relative opacity-85 text-white py-3 px-4 md:px-14 lg:px-24 flex mt-5 md:mt-10 justify-between items-center p-4 bg-black-rgba"
 
                 style={{ boxShadow: '0px 0px 500px 0px rgba(29, 43, 57, 0.28), 0px 0px 500px 0px rgba(34, 81, 127, 0.28), 0px 0px 500px 0px rgba(34, 81, 127, 0.28), 0px 0px 500px 0px rgba(34, 81, 127, 0.28), 0px 0px 500px 0px rgba(34, 81, 127, 0.28)' }}>
 
@@ -87,9 +91,9 @@ const Header: React.FC = () => {
                         <span className={`cursor-pointer text-[1.2rem] ${pathname === '/team' ? 'underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2' : 'hover:underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2'}`}>Team</span>
                     </NextLink>
                 </nav>
-
-                {/* Sidebar - Mobile View */}
-                {menuOpen && (
+            </header>
+            {/* Sidebar - Mobile View */}
+            {menuOpen && (
                     <div ref={sidebarRef} className="md:hidden lg:hidden fixed top-0 right-0 h-full w-1/2 bg-black p-4 shadow-md z-50 overflow-y-auto">
                         <NextLink href="/" passHref>
                             <span style={{ backgroundImage: 'linear-gradient(90deg, #cf3a33 5.87%, #f6982f 59.11%)', WebkitBackgroundClip: 'text', color: 'transparent' }} className={`cursor-pointer text-1.5rem text-white block mb-4`}>Home</span>
@@ -105,8 +109,6 @@ const Header: React.FC = () => {
                         </NextLink>
                     </div>
                 )}
-
-            </header>
         </div>
     );
 };
