@@ -10,10 +10,12 @@ const Conduct: React.FC = () => {
       <div
         className={`mx-[1rem] md:mx-[5rem] lg:mx-[10rem] mt-8 md:mt-16 ${tech_mono.className}`}
       >
-        <h1 className={'text-[4rem]'}>Code Of Conduct</h1>
+        <h1 className={"mx-[0.5rem] md:mx-0 text-[2rem] md:text-[4rem]"}>
+          Code Of Conduct
+        </h1>
         <section className="mb-1 md:mb-16">
           <section>
-          <h2>
+            <h2>
               <span
                 style={{
                   backgroundImage:
@@ -27,17 +29,7 @@ const Conduct: React.FC = () => {
               </span>
             </h2>
             <div className={`mb-[1.5rem] md:mb-[3rem]`}>
-              <div
-                className="absolute opacity-30 w-2/3 h-0.5 bg-gradient-to-r from-white via-white to-white"
-                style={{
-                    boxShadow:
-                      "0px 0px 2.783px 0px #FFF, 0px 0px 5.566px 0px #FFF, 0px 0px 19.481px 0px #FFF",
-                    width: "80%",
-                    left: "50%",
-                    transform: "translateX(-50%)",
-                  }}
-                  
-              ></div>
+              <div className="absolute opacity-30 w-[85%] md:w-[77%] h-0.5 bg-gradient-to-r from-white via-white to-white shadow-xl left-1/2 transform -translate-x-1/2"></div>
             </div>
             <p className={`text-white p-3 text-[1rem] md:p-1 md:text-[1.3rem]`}>
               This policy shall be applicable on all spaces related to Devfolio,
@@ -46,7 +38,7 @@ const Conduct: React.FC = () => {
             </p>
             <ul
               className={`list-disc ml-[2rem] text-[1rem] text-white p-3 md:ml-[5rem] md:text-[1.3rem]`}
-              >
+            >
               <li>hackathons</li>
               <li>talks, presentations, or demos</li>
               <li>workshops</li>
@@ -59,11 +51,8 @@ const Conduct: React.FC = () => {
               hackathon.
             </p>
           </section>
-
-          {/* <div className={"absolute opacity-30 w-2/3 h-0.5 bg-gradient-to-r mt-[1rem] mb-[1rem] from-white via-white to-white"} style={{ boxShadow: '0px 0px 2.783px 0px #FFF, 0px 0px 5.566px 0px #FFF, 0px 0px 19.481px 0px #FFF' }}></div> */}
-
           <section>
-          <h2>
+            <h2>
               <span
                 style={{
                   backgroundImage:
@@ -77,17 +66,7 @@ const Conduct: React.FC = () => {
               </span>
             </h2>
             <div className={`mb-[1.5rem] md:mb-[3rem]`}>
-              <div
-                className="absolute opacity-30 w-2/3 h-0.5 bg-gradient-to-r from-white via-white to-white"
-                style={{
-                    boxShadow:
-                      "0px 0px 2.783px 0px #FFF, 0px 0px 5.566px 0px #FFF, 0px 0px 19.481px 0px #FFF",
-                    width: "80%",
-                    left: "50%",
-                    transform: "translateX(-50%)",
-                  }}
-                  
-              ></div>
+            <div className="absolute opacity-30 w-[85%] md:w-[77%] h-0.5 bg-gradient-to-r from-white via-white to-white shadow-xl left-1/2 transform -translate-x-1/2"></div>
             </div>
             <p className={`text-white p-3 text-[1rem] md:p-1 md:text-[1.3rem]`}>
               Hackathons hosted on Devfolio are dedicated to providing a safe
@@ -97,7 +76,7 @@ const Conduct: React.FC = () => {
             </p>
             <ul
               className={`list-disc ml-[2rem] text-[1rem] text-white p-3 md:ml-[5rem] md:text-[1.3rem]`}
-              >
+            >
               <li>gender</li>
               <li>gender identity and expression</li>
               <li>age</li>
@@ -115,8 +94,6 @@ const Conduct: React.FC = () => {
               <li>chosen programming language or tech stack</li>
             </ul>
           </section>
-
-          {/* <div className={"absolute opacity-30 w-2/3 h-0.5 bg-gradient-to-r mt-[1rem] mb-[1rem] from-white via-white to-white"} style={{ boxShadow: '0px 0px 2.783px 0px #FFF, 0px 0px 5.566px 0px #FFF, 0px 0px 19.481px 0px #FFF' }}></div> */}
           <section>
             <h2>
               <span
@@ -132,17 +109,7 @@ const Conduct: React.FC = () => {
               </span>
             </h2>
             <div className={`mb-[1.5rem] md:mb-[3rem]`}>
-              <div
-                className="absolute opacity-30 w-2/3 h-0.5 bg-gradient-to-r from-white via-white to-white"
-                style={{
-                    boxShadow:
-                      "0px 0px 2.783px 0px #FFF, 0px 0px 5.566px 0px #FFF, 0px 0px 19.481px 0px #FFF",
-                    width: "80%",
-                    left: "50%",
-                    transform: "translateX(-50%)",
-                  }}
-                  
-              ></div>
+              <div className="absolute opacity-30 w-[85%] md:w-[77%] h-0.5 bg-gradient-to-r from-white via-white to-white shadow-xl left-1/2 transform -translate-x-1/2"></div>
             </div>
             <p className={`text-white p-3 text-[1rem] md:p-1 md:text-[1.3rem]`}>
               We encourage you to submit projects only prepared in the duration
@@ -161,10 +128,8 @@ const Conduct: React.FC = () => {
             </p>
           </section>
 
-          {/* <div className={"absolute opacity-30 w-2/3 h-0.5 bg-gradient-to-r mt-[1rem] mb-[1rem] from-white via-white to-white"} style={{ boxShadow: '0px 0px 2.783px 0px #FFF, 0px 0px 5.566px 0px #FFF, 0px 0px 19.481px 0px #FFF' }}></div> */}
-
           <section>
-          <h2>
+            <h2>
               <span
                 style={{
                   backgroundImage:
@@ -178,17 +143,7 @@ const Conduct: React.FC = () => {
               </span>
             </h2>
             <div className={`mb-[1.5rem] md:mb-[3rem]`}>
-              <div
-                className="absolute opacity-30 w-2/3 h-0.5 bg-gradient-to-r from-white via-white to-white"
-                style={{
-                    boxShadow:
-                      "0px 0px 2.783px 0px #FFF, 0px 0px 5.566px 0px #FFF, 0px 0px 19.481px 0px #FFF",
-                    width: "80%",
-                    left: "50%",
-                    transform: "translateX(-50%)",
-                  }}
-                  
-              ></div>
+              <div className="absolute opacity-30 w-[85%] md:w-[77%] h-0.5 bg-gradient-to-r from-white via-white to-white shadow-xl left-1/2 transform -translate-x-1/2"></div>
             </div>
             <p className={`text-white p-3 text-[1rem] md:p-1 md:text-[1.3rem]`}>
               We do not tolerate harassment of hackathon participants in any
@@ -200,10 +155,8 @@ const Conduct: React.FC = () => {
             </p>
           </section>
 
-          {/* <div className={"absolute opacity-30 w-2/3 h-0.5 bg-gradient-to-r mt-[1rem] mb-[1rem] from-white via-white to-white"} style={{ boxShadow: '0px 0px 2.783px 0px #FFF, 0px 0px 5.566px 0px #FFF, 0px 0px 19.481px 0px #FFF' }}></div> */}
-
           <section>
-          <h2>
+            <h2>
               <span
                 style={{
                   backgroundImage:
@@ -217,17 +170,7 @@ const Conduct: React.FC = () => {
               </span>
             </h2>
             <div className={`mb-[1.5rem] md:mb-[3rem]`}>
-              <div
-                className="absolute opacity-30 w-2/3 h-0.5 bg-gradient-to-r from-white via-white to-white"
-                style={{
-                    boxShadow:
-                      "0px 0px 2.783px 0px #FFF, 0px 0px 5.566px 0px #FFF, 0px 0px 19.481px 0px #FFF",
-                    width: "80%",
-                    left: "50%",
-                    transform: "translateX(-50%)",
-                  }}
-                  
-              ></div>
+              <div className="absolute opacity-30 w-[85%] md:w-[77%] h-0.5 bg-gradient-to-r from-white via-white to-white shadow-xl left-1/2 transform -translate-x-1/2"></div>
             </div>
             <p className={`text-white p-3 text-[1rem] md:p-1 md:text-[1.3rem]`}>
               While photography and videography is encouraged, other
@@ -254,7 +197,7 @@ const Conduct: React.FC = () => {
            */}
 
           <section>
-          <h2>
+            <h2>
               <span
                 style={{
                   backgroundImage:
@@ -268,17 +211,7 @@ const Conduct: React.FC = () => {
               </span>
             </h2>
             <div className={`mb-[1.5rem] md:mb-[3rem]`}>
-              <div
-                className="absolute opacity-30 w-2/3 h-0.5 bg-gradient-to-r from-white via-white to-white"
-                style={{
-                    boxShadow:
-                      "0px 0px 2.783px 0px #FFF, 0px 0px 5.566px 0px #FFF, 0px 0px 19.481px 0px #FFF",
-                    width: "80%",
-                    left: "50%",
-                    transform: "translateX(-50%)",
-                  }}
-                  
-              ></div>
+              <div className="absolute opacity-30 w-[85%] md:w-[77%] h-0.5 bg-gradient-to-r from-white via-white to-white shadow-xl left-1/2 transform -translate-x-1/2"></div>
             </div>
             <p className={`text-white p-3 text-[1rem] md:p-1 md:text-[1.3rem]`}>
               No sponsors, partners, or participants shall use sexualised
@@ -292,7 +225,7 @@ const Conduct: React.FC = () => {
           {/*
            */}
           <section>
-          <h2>
+            <h2>
               <span
                 style={{
                   backgroundImage:
@@ -306,17 +239,7 @@ const Conduct: React.FC = () => {
               </span>
             </h2>
             <div className={`mb-[1.5rem] md:mb-[3rem]`}>
-              <div
-                className="absolute opacity-30 w-2/3 h-0.5 bg-gradient-to-r from-white via-white to-white"
-                style={{
-                    boxShadow:
-                      "0px 0px 2.783px 0px #FFF, 0px 0px 5.566px 0px #FFF, 0px 0px 19.481px 0px #FFF",
-                    width: "80%",
-                    left: "50%",
-                    transform: "translateX(-50%)",
-                  }}
-                  
-              ></div>
+              <div className="absolute opacity-30 w-[85%] md:w-[77%] h-0.5 bg-gradient-to-r from-white via-white to-white shadow-xl left-1/2 transform -translate-x-1/2"></div>
             </div>
             <p className={`text-white p-3 text-[1rem] md:p-1 md:text-[1.3rem]`}>
               You will own any developments made by you, and all rights, titles
@@ -332,7 +255,7 @@ const Conduct: React.FC = () => {
           {/*
            */}
           <section>
-          <h2>
+            <h2>
               <span
                 style={{
                   backgroundImage:
@@ -346,17 +269,7 @@ const Conduct: React.FC = () => {
               </span>
             </h2>
             <div className={`mb-[1.5rem] md:mb-[3rem]`}>
-              <div
-                className="absolute opacity-30 w-2/3 h-0.5 bg-gradient-to-r from-white via-white to-white"
-                style={{
-                    boxShadow:
-                      "0px 0px 2.783px 0px #FFF, 0px 0px 5.566px 0px #FFF, 0px 0px 19.481px 0px #FFF",
-                    width: "80%",
-                    left: "50%",
-                    transform: "translateX(-50%)",
-                  }}
-                  
-              ></div>
+              <div className="absolute opacity-30 w-[85%] md:w-[77%] h-0.5 bg-gradient-to-r from-white via-white to-white shadow-xl left-1/2 transform -translate-x-1/2"></div>
             </div>
             <p className={`text-white p-3 text-[1rem] md:p-1 md:text-[1.3rem]`}>
               If you notice any violation of this Code of Conduct or find
@@ -371,11 +284,8 @@ const Conduct: React.FC = () => {
             </p>
           </section>
 
-          {/*
-           */}
-
           <section>
-          <h2>
+            <h2>
               <span
                 style={{
                   backgroundImage:
@@ -389,17 +299,7 @@ const Conduct: React.FC = () => {
               </span>
             </h2>
             <div className={`mb-[1.5rem] md:mb-[3rem]`}>
-              <div
-                className="absolute opacity-30 w-2/3 h-0.5 bg-gradient-to-r from-white via-white to-white"
-                style={{
-                    boxShadow:
-                      "0px 0px 2.783px 0px #FFF, 0px 0px 5.566px 0px #FFF, 0px 0px 19.481px 0px #FFF",
-                    width: "80%",
-                    left: "50%",
-                    transform: "translateX(-50%)",
-                  }}
-                  
-              ></div>
+              <div className="absolute opacity-30 w-[85%] md:w-[77%] h-0.5 bg-gradient-to-r from-white via-white to-white shadow-xl left-1/2 transform -translate-x-1/2"></div>
             </div>
             <p className={`text-white p-3 text-[1rem] md:p-1 md:text-[1.3rem]`}>
               In case any participant violates this Code of Conduct, the
@@ -407,7 +307,7 @@ const Conduct: React.FC = () => {
             </p>
             <ul
               className={`list-disc ml-[2rem] text-[1rem] text-white p-3 md:ml-[5rem] md:text-[1.3rem]`}
-              >
+            >
               <li>
                 expel them from the hackathon with no refund (if applicable),
               </li>

@@ -9,6 +9,6 @@ jobs:
   trigger_portainer_webhook:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger Portainer Webhook | WE SERVE THE SOVIET UNION
+      - name: Trigger Portainer Webhook
         run: |
           curl -X POST https://portainer.ticketify.tech/api/stacks/webhooks/01d57455-9636-41e5-8b8a-a3dd356f4c18
