@@ -110,7 +110,7 @@ const Itinerary: React.FC = () => {
         </div>
       </div>
       <button
-        className="fixed hidden md:block md:bottom-10 md:right-10 text-black py-2 px-4 rounded-full bg-gradient-to-r from-yellow-400 to-red-500 z-50"
+        className="fixed hidden md:block md:bottom-20 md:right-10 text-black py-2 px-4 rounded-full bg-gradient-to-r from-yellow-400 to-red-500 z-50"
         onClick={scrollToItinerary}
       >
         Go to Itinerary

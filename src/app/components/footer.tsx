@@ -15,7 +15,9 @@ const Footer: React.FC = () => {
           <div className="w-full md:w-50% lg:40% flex flex-col">
             <RegisterBtn />
             <NextLink href="/code-of-conduct" passHref>
-              <p className={`text-[0.9rem] mt-[2rem] md:text-[1.2rem] font-thin text-gray-400 hover:text-white hover:underline ${tech_mono.className}`}>
+              <p
+                className={`text-[0.9rem] mt-[2rem] md:text-[1.2rem] font-thin text-gray-400 hover:text-white hover:underline ${tech_mono.className}`}
+              >
                 Code of conduct
               </p>
             </NextLink>
@@ -99,14 +101,10 @@ const Footer: React.FC = () => {
                 @adistrim
               </span>
             </NextLink>
-            <span className="text-gray-400 text-[0.7rem] md:text-sm"> | </span>
-            <NextLink
-              href="https://github.com/adistrim/hackJKLUv3/"
-              target="_blank"
-              passHref
-            >
+            <span className="text-gray-400 text-[0.7rem] md:text-sm"> & </span>
+            <NextLink href="https://github.com/ShubhamJain-23">
               <span className="text-gray-400 text-[0.7rem] md:text-sm">
-                source code
+                Shubham Jain
               </span>
             </NextLink>
           </div>
