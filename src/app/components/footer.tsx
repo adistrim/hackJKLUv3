@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
           {/* Left Side */}
           <div className="w-full md:w-50% lg:40% flex flex-col">
             <RegisterBtn />
-            <NextLink href="https://devfolio.co/code-of-conduct" passHref target="_blank">
+            <NextLink href="/code-of-conduct" passHref target="_blank">
               <p className={`text-[0.9rem] mt-[2rem] md:text-[1.2rem] font-thin text-gray-400 hover:text-white hover:underline ${tech_mono.className}`}>
                 Code of conduct
               </p>
