@@ -40,6 +40,7 @@ const HomeComponent = () => {
           </p>
           <div className="hidden md:block">
             <RegisterBtn />
+            <p className="text-[0.8rem] mt-[3rem]">Note: Food & Accomodation info are coming soon.</p>
           </div>
         </div>
 
@@ -64,6 +65,7 @@ const HomeComponent = () => {
         <div className="my-[1rem] block md:hidden">
           <RegisterBtn />
         </div>
+        <p className="block md:hidden text-[0.8rem] mx-[5rem] text-center">Note: Food & Accomodation info are coming soon.</p>
       </div>
       <Image
         className="hidden md:block my-[12rem]"
