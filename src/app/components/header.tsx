@@ -182,7 +182,20 @@ const Header: React.FC = () => {
               Team
             </span>
           </NextLink>
-          <div onClick={toggleMenu}>
+          <NextLink href="/itinerary" passHref>
+            <span
+              style={{
+                backgroundImage:
+                  "linear-gradient(90deg, #cf3a33 5.87%, #f6982f 59.11%)",
+                WebkitBackgroundClip: "text",
+                color: "transparent",
+              }}
+              className={`cursor-pointer text-1.5rem text-white block mb-4`}
+            >
+              Itinerary
+            </span>
+          </NextLink>
+          {/* <div onClick={toggleMenu}>
             <button
               onClick={scrollToItinerary}
               style={{
@@ -195,7 +208,7 @@ const Header: React.FC = () => {
             >
               Itinerary
             </button>
-          </div>
+          </div> */}
         </div>
       )}
     </div>

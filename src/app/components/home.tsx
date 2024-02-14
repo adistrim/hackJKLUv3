@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import RegisterBtn from "./registerbtn";
 import NextLink from "next/link";
-import Itinerary from "./itinerary";
+import Itinerary from "../itinerary/page";
 import { Share_Tech_Mono, Inter } from "next/font/google";
 
 const tech_mono = Share_Tech_Mono({ subsets: ["latin"], weight: ["400"] });
@@ -12,7 +12,7 @@ const HomeComponent = () => {
   return (
     <div className={`mx-[1rem] md:mx-[10rem] ${tech_mono.className}`}>
       <div
-        className={`flex flex-col md:flex-row items-center justify-center mt-[1.5rem] md:mt-[8rem]`}
+        className={`flex flex-col md:flex-row items-center justify-center mt-[1.5rem] md:mt-[5.5rem]`}
       >
         <div className="flex flex-col items-center md:items-start justify-center w-100% md:w-1/2">
           <h2 className="text-[1.3rem] md:text-[2.25rem] text-center md:text-left">
@@ -32,7 +32,7 @@ const HomeComponent = () => {
           <h3 className="hidden md:block text-[2rem] font-thin text-left mb-9 border-l-4 border-solid border-gray-300 pl-4">
             We Challenge You!
           </h3>
-          <p className="hidden md:block text-[1.1rem] mb-4">
+          <p className="hidden md:block text-gray-300 text-[1.1rem] mb-[2rem]">
             Come be a part of an event where amazing minds team up to solve
             problems and bring new ideas to life. The top three contestants will
             each win prizes. Don't miss out—register today and put your skills
@@ -40,7 +40,7 @@ const HomeComponent = () => {
           </p>
           <div className="hidden md:block">
             <RegisterBtn />
-            <p className="text-[0.8rem] mt-[3rem]">Note: Food & Accomodation info are coming soon.</p>
+            <p className="text-[0.8rem] mt-[2rem]">Note: Food & Accomodation info are coming soon.</p>
           </div>
         </div>
 
@@ -56,7 +56,7 @@ const HomeComponent = () => {
         <h3 className="block md:hidden text-[1.5rem] font-thin text-left my-8 border-l-4 border-solid border-gray-300 pl-4">
           We Challenge You!
         </h3>
-        <p className="block md:hidden text-center text-[0.9rem] mb-4">
+        <p className="block md:hidden text-center text-gray-300 text-[0.9rem] mb-[1.5rem]">
           Come be a part of an event where amazing minds team up to solve
           problems and bring new ideas to life. The top three contestants will
           each win prizes. Don't miss out—register today and put your skills to
@@ -65,7 +65,7 @@ const HomeComponent = () => {
         <div className="my-[1rem] block md:hidden">
           <RegisterBtn />
         </div>
-        <p className="block md:hidden text-[0.8rem] mx-[5rem] text-center">Note: Food & Accomodation info are coming soon.</p>
+        <p className="block md:hidden text-[0.8rem] mx-[4.5rem] text-center">Note: Food & Accomodation info are coming soon.</p>
       </div>
       <Image
         className="hidden md:block my-[12rem]"

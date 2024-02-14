@@ -1,4 +1,9 @@
+"use client";
 import React from "react";
+import { usePathname } from "next/navigation";
+import { Share_Tech_Mono } from "next/font/google";
+
+const tech_mono = Share_Tech_Mono({ subsets: ["latin"], weight: ["400"] });
 
 interface TimelineEvent {
   time: string;
@@ -7,20 +12,28 @@ interface TimelineEvent {
 
 interface TimelineProps {
   events: TimelineEvent[];
-  highlightEvents?: string[]; 
+  highlightEvents?: string[];
 }
 
 const Timeline: React.FC<TimelineProps> = ({ events, highlightEvents }) => {
   return (
     <div className="relative ml-[3.5rem]">
-      <div className="h-full w-px bg-gray-500 absolute left-0" style={{ boxShadow: '0px 0px 2.783px 0px #FFF, 0px 0px 5.566px 0px #FFF, 0px 0px 19.481px 0px #FFF' }}></div>
+      <div
+        className="h-full w-px bg-gray-500 absolute left-0"
+        style={{
+          boxShadow:
+            "0px 0px 2.783px 0px #FFF, 0px 0px 5.566px 0px #FFF, 0px 0px 19.481px 0px #FFF",
+        }}
+      ></div>
       <div className="flex flex-col items-start">
         {events.map((event, index) => (
           <div key={index} className="flex items-start my-4">
             <div
               className={`absolute left-0 transform -translate-x-1/2 bg-gray-700 text-white
             font-semibold px-3 py-2 rounded-full text-sm ${
-              highlightEvents && highlightEvents.includes(event.event) ? 'bg-gradient-to-r from-orange-500 to-red-500 text-black' : ''
+              highlightEvents && highlightEvents.includes(event.event)
+                ? "bg-gradient-to-r from-orange-500 to-red-500 text-black"
+                : ""
             }`}
             >
               {event.time}
@@ -36,6 +49,8 @@ const Timeline: React.FC<TimelineProps> = ({ events, highlightEvents }) => {
 };
 
 const Itinerary: React.FC = () => {
+  const pathname = usePathname();
+
   const day1Events: TimelineEvent[] = [
     { time: "12:00 PM", event: "Check-in starts" },
     { time: "02:00 PM", event: "Check-in Closes" },
@@ -81,10 +96,12 @@ const Itinerary: React.FC = () => {
       console.error("Itinerary section not found");
     }
   };
-  
 
   return (
-    <div className="min-h-screen my-[8rem] md:my-[15rem]" id="itinerary-section">
+    <div
+      className={`${pathname === '/itinerary' ? 'block' : 'hidden md:block'} ${tech_mono.className} min-h-screen mx-[1rem] my-[3rem] md:my-[15rem]`}
+      id="itinerary-section"
+    >
       <div className="container mx-auto">
         <h1
           className="text-[2rem] md:text-[4rem] text-center mb-4"
@@ -98,14 +115,38 @@ const Itinerary: React.FC = () => {
           Itinerary
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className=" rounded-xl border-2 border-gray-500">
-            <Timeline events={day1Events} highlightEvents={["Opening Ceremony", "Workshop by JDW"]} />
+          <div className="rounded-xl border-2 border-gray-500">
+            <h2 className="text-center border-b-2 border-gray-500 text-lg font-semibold text-gray-300 bg-gray-800 px-4 py-2 rounded-t-xl">
+              Day 1
+            </h2>
+            <Timeline
+              events={day1Events}
+              highlightEvents={["Opening Ceremony", "Workshop by JDW"]}
+            />
           </div>
           <div className="border-2 border-gray-500 rounded-xl">
-            <Timeline events={day2Events} highlightEvents={["Scavenger Hunt", "Coding Ninja Event", "Guest Speaker Session", "Improv Event", "Kawali Night"]} />
+            <h2 className="text-center border-b-2 border-gray-500 text-lg font-semibold text-gray-300 bg-gray-800 px-4 py-2 rounded-t-xl">
+              Day 2
+            </h2>
+            <Timeline
+              events={day2Events}
+              highlightEvents={[
+                "Scavenger Hunt",
+                "Coding Ninja Event",
+                "Guest Speaker Session",
+                "Improv Event",
+                "Kawali Night",
+              ]}
+            />
           </div>
           <div className="border-2 border-gray-500 rounded-xl">
-            <Timeline events={day3Events} highlightEvents={["DJ night by JDW", "Closing Ceremony"]} />
+            <h2 className="text-center border-b-2 border-gray-500 text-lg font-semibold text-gray-300 bg-gray-800 px-4 py-2 rounded-t-xl">
+              Day 3
+            </h2>
+            <Timeline
+              events={day3Events}
+              highlightEvents={["DJ night by JDW", "Closing Ceremony"]}
+            />
           </div>
         </div>
       </div>
