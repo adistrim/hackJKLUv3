@@ -1,9 +1,10 @@
 "use client";
 import React from "react";
 import { usePathname } from "next/navigation";
-import { Share_Tech_Mono } from "next/font/google";
+import { Share_Tech_Mono, Inter } from "next/font/google";
 
 const tech_mono = Share_Tech_Mono({ subsets: ["latin"], weight: ["400"] });
+const inter = Inter({ subsets: ["latin"] });
 
 interface TimelineEvent {
   time: string;
@@ -27,7 +28,7 @@ const Timeline: React.FC<TimelineProps> = ({ events, highlightEvents }) => {
       ></div>
       <div className="flex flex-col items-start">
         {events.map((event, index) => (
-          <div key={index} className="flex items-start my-4">
+          <div key={index} className="flex items-start my-2.5">
             <div
               className={`absolute left-0 transform -translate-x-1/2 bg-gray-700 text-white
             font-semibold px-3 py-2 rounded-full text-sm ${
@@ -38,7 +39,7 @@ const Timeline: React.FC<TimelineProps> = ({ events, highlightEvents }) => {
             >
               {event.time}
             </div>
-            <div className="bg-gray-800 text-gray-200 px-4 py-3 rounded-lg ml-[3.5rem]">
+            <div className={`text-gray-200 px-4 py-3 rounded-lg ml-[3.5rem] ${inter.className}`}>
               {event.event}
             </div>
           </div>
@@ -121,7 +122,7 @@ const Itinerary: React.FC = () => {
             </h2>
             <Timeline
               events={day1Events}
-              highlightEvents={["Opening Ceremony", "Workshop by JDW"]}
+              highlightEvents={["Opening Ceremony", "Workshop by JDW", "Hackathon Starts"]}
             />
           </div>
           <div className="border-2 border-gray-500 rounded-xl">
@@ -151,7 +152,7 @@ const Itinerary: React.FC = () => {
         </div>
       </div>
       <button
-        className="fixed hidden md:block md:bottom-20 md:right-10 text-black py-2 px-4 rounded-full bg-gradient-to-r from-yellow-400 to-red-500 z-50"
+        className={`fixed hidden md:block md:bottom-20 md:right-10 text-black py-2 px-4 rounded-full bg-gradient-to-r from-yellow-400 to-red-500 z-50 ${inter.className}`}
         onClick={scrollToItinerary}
       >
         Go to Itinerary

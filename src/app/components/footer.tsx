@@ -13,17 +13,19 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-start">
           {/* Left Side */}
           <div className="w-full md:w-50% lg:40% flex flex-col">
-            <RegisterBtn />
-            <NextLink href="/code-of-conduct" passHref>
-              <p
-                className={`text-[0.9rem] mt-[2rem] md:text-[1.2rem] font-thin text-gray-400 hover:text-white hover:underline ${tech_mono.className}`}
-              >
-                Code of conduct
-              </p>
-            </NextLink>
+            <div className="flex flex-col md:flex-row md:justify-between">
+              <RegisterBtn />
+              <NextLink href="/code-of-conduct" passHref>
+                <p
+                  className={`text-[0.9rem] my-[1rem] md:mr-[8rem] md:text-[1.2rem] text-gray-700 hover:text-white hover:underline`}
+                >
+                  Code of conduct
+                </p>
+              </NextLink>
+            </div>
 
             <div className="mt-[2rem] md:mr-[7rem] mb-[2rem]">
-              <h4 className="text-[1rem] md:text-[1.5rem] text-[#E16931] mb-[1.5rem]">
+              <h4 className="text-[1rem] md:text-[1.5rem] text-[#E16931] mb-[0.5rem] md:mb-[1.5rem]">
                 ADDRESS
               </h4>
               <p className="text-[0.7rem] md:text-[1.1rem] font-thin">
@@ -31,9 +33,8 @@ const Footer: React.FC = () => {
                 MAHINDRA SEZ, MAHAPURA, RAJASTHAN 302026
               </p>
             </div>
-
             <div className="my-4">
-              <h4 className="text-[1rem] md:text-[1.5rem] text-[#E16931] font-base mb-[1.5rem]">
+              <h4 className="text-[1rem] md:text-[1.5rem] text-[#E16931] font-base mb-[0.5rem] md:mb-[1.5rem]">
                 CONTACT INFO
               </h4>
               <a
@@ -43,21 +44,15 @@ const Footer: React.FC = () => {
                 Email: counciloftechnicalaffairs@jklu.edu.in
               </a>
               <p className="md:mb-[1rem] text-[0.7rem] md:text-[1.2rem] font-thin">
-                Phone:
-                <br /> Sponsorship: +91 98285 35479
+                Sponsorship: +91 98285 35479 (Shivam Sharma)
                 <br />
-                Registrations: +91 86199 60229
+                Registrations: +91 86199 60229 (Suryansh Pathak)
               </p>
               <a
-                href="https://www.instagram.com/smart_tech_club/"
-                className="text-white font-thin  text-[0.7rem] md:text-[1.2rem]"
+                href="https://www.instagram.com/hackjklu_stc//"
+                className="text-white  text-[0.8rem] md:text-[1.1rem] my-[1rem]"
               >
-                Follow us:
-                <img
-                  src="instagram-logo.png"
-                  alt="Instagram"
-                  className="h-6 md:h-8 inline-block"
-                />
+                Follow us: @hackjklu_stc
               </a>
             </div>
           </div>

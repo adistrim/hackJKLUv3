@@ -44,13 +44,13 @@ const Challenges: React.FC = () => {
                                 </div>
                             ))}
                             <div className="flex-grow"></div>
-                            <button className="px-2 py-1 bg-[#1C4B79] text-white text-[0.8rem] md:text-base rounded-md" onClick={() => toggleDescription(challenge.id)}>
+                            <button className="px-2 py-1 bg-[#0d2339] text-white text-[0.5rem] md:text-[0.8rem] md:text-base rounded-md" onClick={() => toggleDescription(challenge.id)}>
                                 {expandedId === challenge.id ? "Hide" : "Show"}
                             </button>
                         </div>
                         <div className="absolute opacity-30 w-full h-0.5 bg-gradient-to-r from-white via-white to-white" style={{ boxShadow: '0px 0px 2.783px 0px #FFF, 0px 0px 5.566px 0px #FFF, 0px 0px 19.481px 0px #FFF' }}></div>
                         {expandedId === challenge.id && (
-                            <div className="mt-2 bg-gray-800 text-white text-[0.8rem] md:text-base rounded-md p-4">
+                            <div className={`mt-2 bg-gray-900 text-white text-[0.8rem] md:text-base rounded-md p-4 ${inter.className} `}>
                                 <p>{challenge.description}</p>
                             </div>
                         )}

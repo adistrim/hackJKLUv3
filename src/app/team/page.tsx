@@ -28,7 +28,7 @@ const Team: React.FC = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-[5rem] mx-[1rem] md:mx-[5rem]">
             {importedDataOC.map((member) => (
               <div key={member.name} className="relative">
-                <div className="absolute inset-0.5 md:-inset-0.5 bg-white rounded-[1rem] blur opacity-75"></div>
+                <div className="absolute inset-0.5 md:-inset-0.5 bg-gray-400 rounded-[1rem] blur opacity-75"></div>
                 <div className="relative flex flex-row md:flex-col items-center bg-black justify-between md:justify-center rounded-[1rem] p-4 md:p-4">
                 <div className="md:mb-4 relative h-[8rem] w-[8rem] md:h-[14rem] md:w-[14rem] overflow-hidden rounded-md shadow-lg md:mx-auto">
                   <div className="w-full h-full overflow-hidden rounded-md">

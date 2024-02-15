@@ -40,7 +40,7 @@ const HomeComponent = () => {
           </p>
           <div className="hidden md:block">
             <RegisterBtn />
-            <p className="text-[0.8rem] mt-[2rem]">Note: Food & Accomodation info are coming soon.</p>
+            <p className={`text-[0.8rem] mt-[2rem] ${inter.className}`}>Note: Food & Accomodation info are coming soon.</p>
           </div>
         </div>
 
@@ -65,7 +65,7 @@ const HomeComponent = () => {
         <div className="my-[1rem] block md:hidden">
           <RegisterBtn />
         </div>
-        <p className="block md:hidden text-[0.8rem] mx-[4.5rem] text-center">Note: Food & Accomodation info are coming soon.</p>
+        <p className={`block md:hidden text-[0.8rem] mx-[4.5rem] text-center ${inter.className}`}>Note: Food & Accomodation info are coming soon.</p>
       </div>
       <Image
         className="hidden md:block my-[12rem]"
@@ -148,36 +148,36 @@ const HomeComponent = () => {
           >
             WHO SHOULD APPLY?
           </h1>
-          <div className="block md:hidden">
+          <div className="flex justify-center items-center md:hidden">
             <Image
               src="/whoshouldapplyimg.png"
               alt=""
-              width={500}
-              height={500}
+              width={250}
+              height={250}
             />
           </div>
-          <ul className="ml-[1rem] md:ml-[5rem] mt-[2rem] list-disc text-[2.5rem]">
-            <li className="text-[1.9rem] md:text-[2.7rem] mb-4">STUDENTS</li>
+          <ul className="ml-[1rem] md:ml-[5rem] mt-[0.5rem] list-disc text-[2.5rem]">
+            <li className="text-[1.5rem] md:text-[2.7rem] mb-4">STUDENTS</li>
             <div
-              className="opacity-30 w-full h-0.5 bg-gradient-to-r from-white via-white to-white"
+              className="hidden md:block opacity-30 w-full h-0.5 bg-gradient-to-r from-white via-white to-white"
               style={{
                 boxShadow:
                   "0px 0px 2.783px 0px #FFF, 0px 0px 5.566px 0px #FFF, 0px 0px 19.481px 0px #FFF",
               }}
             ></div>
-            <li className="text-[1.9rem] md:text-[2.7rem] my-4">
+            <li className="text-[1.5rem] md:text-[2.7rem] my-4">
               ENTREPRENEURS
             </li>
             <div
-              className="opacity-30 w-full h-0.5 bg-gradient-to-r from-white via-white to-white"
+              className="hidden md:block opacity-30 w-full h-0.5 bg-gradient-to-r from-white via-white to-white"
               style={{
                 boxShadow:
                   "0px 0px 2.783px 0px #FFF, 0px 0px 5.566px 0px #FFF, 0px 0px 19.481px 0px #FFF",
               }}
             ></div>
-            <li className="text-[1.9rem] md:text-[2.7rem] my-4">ENTHUSIASTS</li>
+            <li className="text-[1.5rem] md:text-[2.7rem] my-4">ENTHUSIASTS</li>
             <div
-              className="opacity-30 w-full h-0.5 bg-gradient-to-r from-white via-white to-white"
+              className="hidden md:block opacity-30 w-full h-0.5 bg-gradient-to-r from-white via-white to-white"
               style={{
                 boxShadow:
                   "0px 0px 2.783px 0px #FFF, 0px 0px 5.566px 0px #FFF, 0px 0px 19.481px 0px #FFF",
@@ -187,8 +187,8 @@ const HomeComponent = () => {
         </div>
       </div>
       <div className="relative">
-        <div className="absolute -inset-0.5 bg-white rounded-[1rem] blur opacity-75"></div>
-        <div className="flex flex-col bg-black rounded-[1rem] items-center justify-center mt-[12rem] relative">
+        <div className="absolute -inset-0.5 bg-gray-400 rounded-[1rem] blur opacity-75"></div>
+        <div className="flex flex-col bg-black rounded-[1rem] items-center justify-center relative">
           <div className="mt-[2rem] md:m-[3.5rem]">
             <h1
               className="text-[2rem] md:text-[4rem] text-center mb-4"
