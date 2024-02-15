@@ -39,7 +39,7 @@ const Timeline: React.FC<TimelineProps> = ({ events, highlightEvents }) => {
             >
               {event.time}
             </div>
-            <div className={`text-gray-200 px-4 py-3 rounded-lg ml-[3.5rem] ${inter.className}`}>
+            <div className={`text-gray-200 px-4 py-3 ml-[3.5rem] ${inter.className}`}>
               {event.event}
             </div>
           </div>

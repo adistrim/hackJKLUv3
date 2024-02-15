@@ -3,9 +3,8 @@ import React, { useState, useEffect, useRef } from "react";
 import NextLink from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { Share_Tech_Mono, Inter } from "next/font/google";
+import { Inter } from "next/font/google";
 
-const tech_mono = Share_Tech_Mono({ subsets: ["latin"], weight: ["400"] });
 const inter = Inter({ subsets: ["latin"] });
 
 const Header: React.FC = () => {
@@ -97,28 +96,28 @@ const Header: React.FC = () => {
         <nav className="hidden md:flex items-center space-x-[5.5rem] ${menuOpen ? 'hidden' : 'block'}">
           <NextLink href="/" passHref>
             <span
-              className={`cursor-pointer text-[1.2rem] ${pathname === "/" ? "underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 text-gray-100" : "hover:underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-5 text-gray-400"}`}
+              className={`cursor-pointer text-[1.2rem] ${pathname === "/" ? "underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 text-gray-100" : "hover:underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-5 hover:text-gray-100 text-gray-400"}`}
             >
               Home
             </span>
           </NextLink>
           <NextLink href="/challenges" passHref>
             <span
-              className={`cursor-pointer text-[1.2rem] ${pathname === "/challenges" ? "underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 text-gray-100" : "hover:underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 text-gray-400"}`}
+              className={`cursor-pointer text-[1.2rem] ${pathname === "/challenges" ? "underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 text-gray-100" : "hover:underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 hover:text-gray-100 text-gray-400"}`}
             >
               Challenges
             </span>
           </NextLink>
           <NextLink href="/gallery" passHref>
             <span
-              className={`cursor-pointer text-[1.2rem] ${pathname === "/gallery" ? "underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 text-gray-100" : "hover:underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 text-gray-400"}`}
+              className={`cursor-pointer text-[1.2rem] ${pathname === "/gallery" ? "underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 text-gray-100" : "hover:underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 hover:text-gray-100 text-gray-400"}`}
             >
               Gallery
             </span>
           </NextLink>
           <NextLink href="/team" passHref>
             <span
-              className={`cursor-pointer text-[1.2rem] ${pathname === "/team" ? "underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 text-gray-100" : "hover:underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 text-gray-400"}`}
+              className={`cursor-pointer text-[1.2rem] ${pathname === "/team" ? "underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 text-gray-100" : "hover:underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 hover:text-gray-100 text-gray-400"}`}
             >
               Team
             </span>
