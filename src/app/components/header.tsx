@@ -108,6 +108,13 @@ const Header: React.FC = () => {
               Challenges
             </span>
           </NextLink>
+          <NextLink href="/about" passHref>
+            <span
+              className={`cursor-pointer text-[1.2rem] ${pathname === "/about" ? "underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 text-gray-100" : "hover:underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 hover:text-gray-100 text-gray-400"}`}
+            >
+              About
+            </span>
+          </NextLink>
           <NextLink href="/gallery" passHref>
             <span
               className={`cursor-pointer text-[1.2rem] ${pathname === "/gallery" ? "underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 text-gray-100" : "hover:underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 hover:text-gray-100 text-gray-400"}`}
@@ -143,6 +150,13 @@ const Header: React.FC = () => {
                 className={`cursor-pointer text-1.5rem text-white block mb-4`}
               >
                 Challenges
+              </span>
+            </NextLink>
+            <NextLink href="/about" passHref>
+              <span
+                className={`cursor-pointer text-1.5rem text-white block mb-4`}
+              >
+                About
               </span>
             </NextLink>
             <NextLink href="/gallery" passHref>
