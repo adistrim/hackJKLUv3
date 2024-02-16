@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
                 Registrations: +91 86199 60229 (Suryansh Pathak)
               </p>
               <a
-                href="https://www.instagram.com/hackjklu_stc//"
+                href="https://www.instagram.com/hackjklu_stc/"
                 className="text-white  text-[0.8rem] md:text-[1.1rem] my-[1rem]"
               >
                 Follow us: @hackjklu_stc
