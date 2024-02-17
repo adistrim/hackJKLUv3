@@ -28,37 +28,48 @@
         "id": "A2",
         "title": "Automated Emergency Call Analysis System for Emotional and Mental State Identification",
         "description": "Develop an emergency response system to listen to a caller in distress and identify the emotional/mental state of the caller. The system should be able to classify the voice as Stressed/Drunk/ Prank/Abusive/Painful and send SMS alerts to Police at 100.",
-        "track": ["AI/ML"]
-    },
-    {
-        "id": "I1",
-        "title": "Secure Geolocation-Based Toll Payment and Speed Monitoring System for Expressways",
-        "description": "Develop a secure geolocation based  payment system which deduct the toll fees at entry of any expressway as soon as the car enters the expressway, without having any toll barriers. The system should also scan the number plate and generate an alarm if speed exceeds 100kph at any time.",
-        "track": ["IoT"]
-    },
-    {
-        "id": "C1",
-        "title": "Network Camera Sniffer: Geotagging and Video Capture for Surveillance Identification",
-        "description": "Design a sniffer which can sniff the network to identify open cameras and geotag them to find the location as well as capture the videos.",
-        "track": ["Cybersecurity",  "IoT"]
-    },
-    {
-        "id": "C2",
-        "title": "Network Threat Detection and Reporting System: Identifying and Collecting Information on Malicious Activity",
-        "description": "Develop a system to report threat events/attempts on the network and collect information as attacker IP address, port and type of malicious activity.",
-        "track": ["Cybersecurity"]
+        "track": ["AI/ML"],
+        "contributor":"Dr. Devika Kataria"
     },
     {
         "id": "A3",
         "title": "Integrated Surveillance and Traffic Management System: Camera-Based Detection, Tracking, and Violation Recognition",
         "description": "Develop an advanced surveillance and traffic management system capable of detecting, tracking, and recognizing various violations on roadways. The system should utilize surveillance cameras for real-time detection and tracking of moving vehicles, enabling automatic number plate recognition (ANPR) for identification purposes. Additionally, the system should have the capability to monitor and enforce traffic regulations by identifying and reporting violations such as speeding, illegal parking, and lane violations. It should provide real-time alerts and data on detected violations, including vehicle speed and license plate information, while ensuring accuracy and efficiency in the detection process.",
-        "track": ["AI/ML"]
+        "track": ["AI/ML"],
+        "contributor":"Dr. Arpan Gupta"
     },
     {
         "id": "A4",
         "title": "Sports Video Analytics for Ball Tracking and Player Identification",
         "description": "Develop a sports video analytics system tailored for ball tracking in games like tennis and cricket, alongside player detection and disambiguation. This system will enable accurate tracking of the ball's trajectory during gameplay and identification of individual players, enhancing performance analysis and viewer experience.",
+        "track": ["AI/ML"],
+        "contributor":"Dr. Arpan Gupta"
+    },
+    {
+        "id": "A5",
+        "title": "Computer Vision for Robotics and Autonomous Systems",
+        "description": "Design computer vision algorithms that enable robots and autonomous vehicles to navigate their environment safely and efficiently.",
+        "track": ["AI/ML", "IoT"]
+    },
+    {
+        "id": "A6",
+        "title": "Smart Tutor for Personalized Learning",
+        "description": "Design an AI-powered tutoring system that adapts to individual students' learning styles and pace. It could analyse homework performance, offer targeted explanations, and recommend supplementary resources to help students master concepts and stay motivated.",
         "track": ["AI/ML"]
+    },
+    {
+        "id": "C1",
+        "title": "Network Camera Sniffer: Geotagging and Video Capture for Surveillance Identification",
+        "description": "Design a sniffer which can sniff the network to identify open cameras and geotag them to find the location as well as capture the videos.",
+        "track": ["Cybersecurity",  "IoT"],
+        "contributor":"Dr. Devika Kataria"
+    },
+    {
+        "id": "C2",
+        "title": "Network Threat Detection and Reporting System: Identifying and Collecting Information on Malicious Activity",
+        "description": "Develop a system to report threat events/attempts on the network and collect information as attacker IP address, port and type of malicious activity.",
+        "track": ["Cybersecurity"],
+        "contributor": "Dr. Devika Kataria"
     },
     {
         "id": "C3",
@@ -79,36 +90,12 @@
         "track": ["Cybersecurity"]
     },
     {
-        "id": "A5",
-        "title": "Computer Vision for Robotics and Autonomous Systems",
-        "description": "Design computer vision algorithms that enable robots and autonomous vehicles to navigate their environment safely and efficiently.",
-        "track": ["AI/ML", "IoT"]
-    },
-    {
-        "id": "A6",
-        "title": "Smart Tutor for Personalized Learning",
-        "description": "Design an AI-powered tutoring system that adapts to individual students' learning styles and pace. It could analyse homework performance, offer targeted explanations, and recommend supplementary resources to help students master concepts and stay motivated.",
-        "track": ["AI/ML"]
-    },
-    {
-        "id": "I2",
-        "title": "Waste to Wonder",
-        "description": "Plastic bottles, food scraps, and discarded electronics clutter college waste bins. Design a creative, sustainable way to upcycle or repurpose these waste materials into valuable objects. Imagine turning single-use plastics into 3D-printed furniture or transforming food scraps into campus compost for community gardens.",
-        "track": ["IoT"]
-    },
-    {
-        "id": "I3",
-        "title": "Water Management",
-        "description": "College water usage can be high, leading to strain on local resources. Develop a system to monitor water consumption, identify leaks, promote water conservation practices, or even harvest rainwater for non-potable uses.",
-        "track": ["IoT"]
-    },
-    {
         "id": "G1",
         "title": "Simple Snake Game with a Twist",
         "description": "How about a 3D snake game, where you are the snake and you are playing with a first-person perspective? At hackathons, various VR and AR systems are being developed to build such advanced games.",
         "track": ["GAME DEV/AR/VR"]
     },
-        {
+    {
         "id": "G2",
         "title": "Economy and Gaming Interlinked with each other",
         "description": "How can we create an efficient and dynamic in-game economy that strikes a balance between player engagement and fair monetization, addressing challenges such as creating compelling virtual goods, preventing inflation, and fostering a sustainable ecosystem for both free-to-play and paying users?",
@@ -132,6 +119,26 @@
         "description": "Use generative AI to create or evolve game mechanics, characters, or your favorite game, or share an idea for a new game from scratch.",
         "track": ["GAME DEV/AR/VR"]
     },
+    {
+        "id": "I1",
+        "title": "Secure Geolocation-Based Toll Payment and Speed Monitoring System for Expressways",
+        "description": "Develop a secure geolocation based  payment system which deduct the toll fees at entry of any expressway as soon as the car enters the expressway, without having any toll barriers. The system should also scan the number plate and generate an alarm if speed exceeds 100kph at any time.",
+        "track": ["IoT"],
+        "contributor":"Dr. Devika Kataria"
+    },
+    {
+        "id": "I2",
+        "title": "Waste to Wonder",
+        "description": "Plastic bottles, food scraps, and discarded electronics clutter college waste bins. Design a creative, sustainable way to upcycle or repurpose these waste materials into valuable objects. Imagine turning single-use plastics into 3D-printed furniture or transforming food scraps into campus compost for community gardens.",
+        "track": ["IoT"]
+    },
+    {
+        "id": "I3",
+        "title": "Water Management",
+        "description": "College water usage can be high, leading to strain on local resources. Develop a system to monitor water consumption, identify leaks, promote water conservation practices, or even harvest rainwater for non-potable uses.",
+        "track": ["IoT"]
+    },
+    
     {
         "id": "I4",
         "title": "Precision Irrigation Management System",
@@ -196,7 +203,8 @@
         "id": "I14",
         "title": "Traffic Management",
         "description": "Create a smart traffic management system using IoT devices and sensors to gather real-time data on traffic flow, optimize signal timings, and provide intelligent recommendations to reduce congestion and enhance overall traffic efficiency.",
-        "track": ["IoT","Web 2"]
+        "track": ["IoT","Web 2"],
+        "contributor":""
     },
     {
         "id": "I15",
