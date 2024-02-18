@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
               <RegisterBtn />
               <NextLink href="/code-of-conduct" passHref>
                 <p
-                  className={`text-[0.9rem] my-[1rem] md:mr-[8rem] md:text-[1.2rem] text-gray-700 hover:text-white hover:underline`}
+                  className={`text-[0.9rem] my-[1rem] md:mr-[3rem] md:text-[1.2rem] text-gray-600 hover:text-gray-500 hover:underline`}
                 >
                   Code of conduct
                 </p>
@@ -58,7 +58,7 @@ const Footer: React.FC = () => {
           </div>
 
           {/* Right Side (Google Maps) */}
-          <div className="w-full md:w-50% lg:w-60%">
+          <div className="w-full md:w-50% lg:w-50%">
             <div>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.117070008914!2d75.64722912457951!3d26.836228513374916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4af4fe68f403%3A0x3bf05f95df22b8c4!2sJK%20Lakshmipat%20University!5e0!3m2!1sen!2sin!4v1695563431231!5m2!1sen!2sin"
