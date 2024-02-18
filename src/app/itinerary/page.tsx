@@ -113,7 +113,7 @@ const Itinerary: React.FC = () => {
             color: "transparent",
           }}
         >
-          Itinerary
+          ITINERARY
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="rounded-xl border-2 border-gray-500">

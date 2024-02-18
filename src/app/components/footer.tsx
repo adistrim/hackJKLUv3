@@ -8,7 +8,7 @@ const tech_mono = Share_Tech_Mono({ subsets: ["latin"], weight: ["400"] });
 
 const Footer: React.FC = () => {
   return (
-    <footer className={`bg-[#121212] mt-[5rem] text-white p-5 md:p-8`}>
+    <footer className={`bg-[#121212] mt-[1rem] md:mt-[2rem] text-white p-5 md:p-8`}>
       <div className="md:mx-[3rem]">
         <div className="flex flex-col md:flex-row justify-between items-start">
           {/* Left Side */}

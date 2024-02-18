@@ -3,12 +3,23 @@ import Image from "next/image";
 import RegisterBtn from "./registerbtn";
 import NextLink from "next/link";
 import Itinerary from "../itinerary/page";
+import Faq from "./faq";
 import { Share_Tech_Mono, Inter } from "next/font/google";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 
 const tech_mono = Share_Tech_Mono({ subsets: ["latin"], weight: ["400"] });
 const inter = Inter({ subsets: ["latin"] });
 
 const HomeComponent = () => {
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <div className={`mx-[1rem] md:mx-[10rem] ${tech_mono.className}`}>
       <div
@@ -40,7 +51,9 @@ const HomeComponent = () => {
           </p>
           <div className="hidden md:block">
             <RegisterBtn />
-            <p className={`text-[0.8rem] mt-[2rem] ${inter.className}`}>Note: Food & Accomodation info are coming soon.</p>
+            <p className={`text-[0.8rem] mt-[2rem] ${inter.className}`}>
+              Note: Food & Accomodation info are coming soon.
+            </p>
           </div>
         </div>
 
@@ -65,7 +78,11 @@ const HomeComponent = () => {
         <div className="my-[1rem] block md:hidden">
           <RegisterBtn />
         </div>
-        <p className={`block md:hidden text-[0.8rem] mx-[4.5rem] text-center ${inter.className}`}>Note: Food & Accomodation info are coming soon.</p>
+        <p
+          className={`block md:hidden text-[0.8rem] mx-[4.5rem] text-center ${inter.className}`}
+        >
+          Note: Food & Accomodation info are coming soon.
+        </p>
       </div>
       <Image
         className="hidden md:block my-[12rem]"
@@ -246,6 +263,15 @@ const HomeComponent = () => {
         </div>
       </div>
       <Itinerary />
+      <Faq />
+      <div className="flex justify-center item-center">
+      <button
+        className="bg-gray-700 text-white rounded-full w-12 h-12 flex items-center justify-center shadow-md hover:bg-gray-800 focus:outline-none"
+        onClick={scrollToTop}
+      >
+        <FontAwesomeIcon icon={faArrowUp} />
+      </button>
+      </div>
     </div>
   );
 };
