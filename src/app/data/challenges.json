@@ -1,24 +1,5 @@
 [
     {
-        "id": "W1",
-        "title": "Mental Health Support Ecosystem",
-        "description": "Develop a transformative platform that fosters meaningful connections between individuals in need of mental health support and a diverse array of resources, qualified professionals, and a compassionate community.",
-        "track": ["Web 2", "Web 3"]
-    },
-    {
-        "id": "W2",
-        "title": "Web Platform for Smart City Solutions",
-        "description": "Web platform that harmonizes diverse urban services, including intelligent traffic management, optimized waste disposal systems, enhanced energy efficiency measures, and streamlined public transportation networks. The goal is to empower cities with a centralized, interconnected solution for sustainable urban living, leveraging technology to improve efficiency, reduce environmental impact, and enhance the overall quality of life for residents.",
-        "track": ["Web 2", "Web 3"]
-
-    },
-    {
-        "id": "W3",
-        "title": "Sustainable Food Sharing Platform",
-        "description": "A user-friendly platform that facilitates the seamless connection between individuals, businesses, and organizations, fostering the sharing of surplus food resources with those facing hunger. Design an app or service that connects local restaurants/groceries with individuals or organizations willing to pick up surplus food near closing time, preventing waste and feeding those in need. Consider incorporating logistics, volunteer management, and food safety features",
-        "track": ["Web 2", "Web 3"]
-    },
-    {
         "id": "A1",
         "title": "Explainable AI for building trust and transparency",
         "description": "Develop techniques to explain how AI models reach their decisions, fostering trust and transparency in AI applications.",
@@ -58,6 +39,13 @@
         "track": ["AI/ML"]
     },
     {
+        "id": "A7",
+        "title": "Comprehensive Incubator Growth Metrics",
+        "description": "Developing a comprehensive framework for tracking startup growth within incubators is crucial. Current metrics like funding and job creation are insufficient. The challenge is to create a customizable framework that integrates existing data sources, provides actionable insights, and facilitates data-driven decision-making to enhance startup success within incubators.",
+        "track": ["AI/ML"],
+        "contributor":"AIC-JKLU"
+    },
+    {
         "id": "C1",
         "title": "Network Camera Sniffer: Geotagging and Video Capture for Surveillance Identification",
         "description": "Design a sniffer which can sniff the network to identify open cameras and geotag them to find the location as well as capture the videos.",
@@ -69,33 +57,62 @@
         "title": "Network Threat Detection and Reporting System: Identifying and Collecting Information on Malicious Activity",
         "description": "Develop a system to report threat events/attempts on the network and collect information as attacker IP address, port and type of malicious activity.",
         "track": ["Cybersecurity"],
-        "contributor": "Dr. Devika Kataria"
+        "contributor":"Dr. Devika Kataria"
     },
     {
         "id": "C3",
+        "title": "Cryptocurrency Security: Hardware Wallet Solution",
+        "description": "Create a hardware wallet for storing and managing cryptocurrencies securely. Participants can focus on implementing secure key storage, transaction signing, and protection against physical tampering.",
+        "track": ["Cybersecurity", "Web 3"],
+        "contributor":"Dr. Surbhi Chhabra"
+    },
+    {
+        "id": "C4",
+        "title": "Secure Boot for Embedded Systems",
+        "description": "Develop a secure boot process for a microcontroller or embedded system, ensuring that only authorized firmware is executed. Participants can explore techniques like digital signatures, secure key storage, and chain of trust.",
+        "track": ["Cybersecurity", "IoT"],
+        "contributor" :"Dr. Surbhi Chhabra"
+    },
+    {
+        "id": "C5",
         "title": "Employee Phishing Awareness",
         "description": "Develop an interactive platform to educate employees about phishing attacks, simulating real-world scenarios to enhance their ability to recognize and report suspicious emails.",
         "track": ["Cybersecurity"]
     },
     {
-        "id": "C4",
+        "id": "C6",
         "title": "Mobile App Security",
         "description": "Create a tool to assess and enhance the security of mobile applications, focusing on preventing data leakage, unauthorized access, and mitigating risks associated with third-party libraries.",
         "track": ["Cybersecurity"]
     },
     {
-        "id": "C5",
+        "id": "C7",
         "title": "Secure File Transfer",
         "description": "Design a secure file transfer protocol that ensures the confidentiality and integrity of data during transmission. The challenge involves creating a reliable method for encrypted file transfers between devices.",
         "track": ["Cybersecurity"]
     },
+    {
+        "id": "C8",
+        "title": "Fault Injection Defense for Embedded Systems",
+        "description": "Develop a countermeasure against fault injection attacks on hardware devices. Participants can explore techniques to detect and mitigate the effects of voltage and clock glitch attacks on embedded systems/IoT devices.",
+        "track": ["Cybersecurity","IoT"],
+        "contributor":"Dr. Surbhi Chhabra"
+    },
+    {
+        "id": "C9",
+        "title": "Fortified IoT Hardware Architecture Solution",
+        "description": "Develop a secure hardware architecture for Internet of Things (IoT) devices. Participants can consider power-efficient cryptographic algorithms, secure communication protocols, and resistance against physical attacks.",
+        "track": ["Cybersecurity","IoT"],
+        "contributor":"Dr. Surbhi Chhabra"
+    },
+
     {
         "id": "G1",
         "title": "Simple Snake Game with a Twist",
         "description": "How about a 3D snake game, where you are the snake and you are playing with a first-person perspective? At hackathons, various VR and AR systems are being developed to build such advanced games.",
         "track": ["GAME DEV/AR/VR"]
     },
-    {
+        {
         "id": "G2",
         "title": "Economy and Gaming Interlinked with each other",
         "description": "How can we create an efficient and dynamic in-game economy that strikes a balance between player engagement and fair monetization, addressing challenges such as creating compelling virtual goods, preventing inflation, and fostering a sustainable ecosystem for both free-to-play and paying users?",
@@ -138,7 +155,7 @@
         "description": "College water usage can be high, leading to strain on local resources. Develop a system to monitor water consumption, identify leaks, promote water conservation practices, or even harvest rainwater for non-potable uses.",
         "track": ["IoT"]
     },
-    
+
     {
         "id": "I4",
         "title": "Precision Irrigation Management System",
@@ -203,14 +220,32 @@
         "id": "I14",
         "title": "Traffic Management",
         "description": "Create a smart traffic management system using IoT devices and sensors to gather real-time data on traffic flow, optimize signal timings, and provide intelligent recommendations to reduce congestion and enhance overall traffic efficiency.",
-        "track": ["IoT","Web 2"],
-        "contributor":""
+        "track": ["IoT","Web 2"]
     },
     {
         "id": "I15",
         "title": "Waste Management",
         "description": "Create an IoT-enabled waste management system that optimizes garbage collection routes based on fill levels of bins. The solution should also include a user interface for residents to receive alerts and contribute to waste reduction efforts.",
         "track": ["IoT"]
+    },
+    {
+        "id": "W1",
+        "title": "Mental Health Support Ecosystem",
+        "description": "Develop a transformative platform that fosters meaningful connections between individuals in need of mental health support and a diverse array of resources, qualified professionals, and a compassionate community.",
+        "track": ["Web 2", "Web 3"]
+    },
+    {
+        "id": "W2",
+        "title": "Web Platform for Smart City Solutions",
+        "description": "Web platform that harmonizes diverse urban services, including intelligent traffic management, optimized waste disposal systems, enhanced energy efficiency measures, and streamlined public transportation networks. The goal is to empower cities with a centralized, interconnected solution for sustainable urban living, leveraging technology to improve efficiency, reduce environmental impact, and enhance the overall quality of life for residents.",
+        "track": ["Web 2", "Web 3"]
+
+    },
+    {
+        "id": "W3",
+        "title": "Sustainable Food Sharing Platform",
+        "description": "A user-friendly platform that facilitates the seamless connection between individuals, businesses, and organizations, fostering the sharing of surplus food resources with those facing hunger. Design an app or service that connects local restaurants/groceries with individuals or organizations willing to pick up surplus food near closing time, preventing waste and feeding those in need. Consider incorporating logistics, volunteer management, and food safety features",
+        "track": ["Web 2", "Web 3"]
     }
 
 ]
