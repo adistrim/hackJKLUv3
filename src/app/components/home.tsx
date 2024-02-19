@@ -3,6 +3,7 @@ import Image from "next/image";
 import RegisterBtn from "./registerbtn";
 import NextLink from "next/link";
 import Itinerary from "../itinerary/page";
+import Sponsors from "./sponsors";
 import { Share_Tech_Mono, Inter } from "next/font/google";
 
 const tech_mono = Share_Tech_Mono({ subsets: ["latin"], weight: ["400"] });
@@ -246,6 +247,7 @@ const HomeComponent = () => {
         </div>
       </div>
       <Itinerary />
+      <Sponsors />
     </div>
   );
 };
