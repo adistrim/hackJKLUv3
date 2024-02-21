@@ -4,6 +4,7 @@ import RegisterBtn from "./registerbtn";
 import NextLink from "next/link";
 import Itinerary from "../itinerary/page";
 import Faq from "./faq";
+import Sponsors from "./sponsors";
 import { Share_Tech_Mono, Inter } from "next/font/google";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
@@ -272,6 +273,7 @@ const HomeComponent = () => {
         <FontAwesomeIcon icon={faArrowUp} />
       </button>
       </div>
+      <Sponsors />
     </div>
   );
 };

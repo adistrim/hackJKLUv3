@@ -1,0 +1,37 @@
+[
+    {
+        "name": "AIC-JKLU",
+        "photo": "/sponsors/aic-jklu.png",
+        "website": "https://www.aicjklu.in/"
+    },
+    {
+        "name": "AIM",
+        "photo": "/sponsors/aim.png",
+        "website": "https://aim.gov.in/"
+    },
+    {
+        "name": "Niti-Aayog",
+        "photo": "/sponsors/niti-aayog.png",
+        "website": "https://www.niti.gov.in/"
+    },
+    {
+        "name": "IEEE",
+        "photo": "/sponsors/ieee.png",
+        "website": "https://www.ieee.org/"
+    },
+    {
+        "name": "Devfolio",
+        "photo": "/sponsors/devfolio.png",
+        "website": "https://devfolio.co/"
+    },
+    {
+        "name": "Polygon",
+        "photo": "/sponsors/polygon.png",
+        "website": "https://polygon.technology/"
+    },
+    {
+        "name": "Coding Ninjas",
+        "photo": "/sponsors/coding-ninjas.png",
+        "website": "https://www.codingninjas.com/"
+    }
+]
