@@ -6,18 +6,17 @@ import Itinerary from "../itinerary/page";
 import Faq from "./faq";
 import Sponsors from "./sponsors";
 import { Share_Tech_Mono, Inter } from "next/font/google";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 
 const tech_mono = Share_Tech_Mono({ subsets: ["latin"], weight: ["400"] });
 const inter = Inter({ subsets: ["latin"] });
 
 const HomeComponent = () => {
-
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth'
+      behavior: "smooth",
     });
   };
 
@@ -265,15 +264,15 @@ const HomeComponent = () => {
       </div>
       <Itinerary />
       <Faq />
-      <div className="flex justify-center item-center">
-      <button
-        className="bg-gray-700 text-white rounded-full w-12 h-12 flex items-center justify-center shadow-md hover:bg-gray-800 focus:outline-none"
-        onClick={scrollToTop}
-      >
-        <FontAwesomeIcon icon={faArrowUp} />
-      </button>
-      </div>
       <Sponsors />
+      <div className="flex justify-center item-center">
+        <button
+          className="bg-gray-700 text-white rounded-full w-12 h-12 flex items-center justify-center shadow-md hover:bg-gray-800 focus:outline-none"
+          onClick={scrollToTop}
+        >
+          <FontAwesomeIcon icon={faArrowUp} />
+        </button>
+      </div>
     </div>
   );
 };
