@@ -113,9 +113,9 @@ const HomeComponent = () => {
           <div className="cursor-pointer flex flex-wrap justify-center">
             <div className="rounded-[0.7rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
               <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-3 py-1">
-                <div className="mx-1 my-2 md:mx-5 md:my-7">
+                <div className="mx-1 my-3 md:mx-5 md:my-7">
                   <h1
-                    className={`${inter.className} text-white text-center font-bold text-[1.5rem] md:text-[2rem]`}
+                    className={`${inter.className} text-white my-3 text-center font-bold text-[1.5rem] md:text-[2rem]`}
                   >
                     IoT
                   </h1>
@@ -132,9 +132,9 @@ const HomeComponent = () => {
             </div>
             <div className="rounded-[0.7rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
               <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-3 py-1">
-                <div className="mx-1 my-2 md:mx-5 md:my-7">
+                <div className="mx-1 my-3 md:mx-5 md:my-7">
                   <h1
-                    className={`${inter.className} text-white text-center font-bold text-[1.5rem] md:text-[2rem]`}
+                    className={`${inter.className} text-white my-3 text-center font-bold text-[1.5rem] md:text-[2rem]`}
                   >
                     AI/ML
                   </h1>
@@ -151,9 +151,9 @@ const HomeComponent = () => {
             </div>
             <div className="rounded-[0.7rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
               <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-3 py-1">
-                <div className="mx-1 my-2 md:mx-5 md:my-7">
+                <div className="mx-1 my-3 md:mx-5 md:my-7">
                   <h1
-                    className={`${inter.className} text-white text-center font-bold text-[1.5rem] md:text-[2rem]`}
+                    className={`${inter.className} text-white my-3 text-center font-bold text-[1.5rem] md:text-[2rem]`}
                   >
                     Web 2
                   </h1>
@@ -170,9 +170,9 @@ const HomeComponent = () => {
             </div>
             <div className="rounded-[0.7rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
               <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-3 py-1">
-                <div className="mx-1 my-2 md:mx-5 md:my-7">
+                <div className="mx-1 my-3 md:mx-5 md:my-7">
                   <h1
-                    className={`${inter.className} text-white text-center font-bold text-[1.5rem] md:text-[2rem]`}
+                    className={`${inter.className} text-white my-3 text-center font-bold text-[1.5rem] md:text-[2rem]`}
                   >
                     Web 3
                   </h1>
@@ -189,9 +189,9 @@ const HomeComponent = () => {
             </div>
             <div className="rounded-[0.7rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
               <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-3 py-1">
-                <div className="mx-1 my-2 md:mx-5 md:my-7">
+                <div className="mx-1 my-3 md:mx-5 md:my-7">
                   <h1
-                    className={`${inter.className} text-white text-center font-bold text-[1.5rem] md:text-[2rem]`}
+                    className={`${inter.className} text-white my-3 text-center font-bold text-[1.5rem] md:text-[2rem]`}
                   >
                     Game Dev/AR/VR
                   </h1>
@@ -208,9 +208,9 @@ const HomeComponent = () => {
             </div>
             <div className="rounded-[0.7rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
               <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-3 py-1">
-                <div className="mx-1 my-2 md:mx-5 md:my-7">
+                <div className="mx-1 my-3 md:mx-5 md:my-7">
                   <h1
-                    className={`${inter.className} text-white text-center font-bold text-[1.5rem] md:text-[2rem]`}
+                    className={`${inter.className} text-white my-3 text-center font-bold text-[1.5rem] md:text-[2rem]`}
                   >
                     Cyber Security
                   </h1>
@@ -228,9 +228,9 @@ const HomeComponent = () => {
             </div>
             <div className="rounded-[0.7rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
               <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-3 py-1">
-                <div className="mx-1 my-2 md:mx-5 md:my-7">
+                <div className="mx-1 my-3 md:mx-5 md:my-7">
                   <h1
-                    className={`${inter.className} text-white text-center font-bold text-[1.5rem] md:text-[2rem]`}
+                    className={`${inter.className} text-white my-3 text-center font-bold text-[1.5rem] md:text-[2rem]`}
                   >
                     Open Innovation
                   </h1>
