@@ -1,13 +1,12 @@
 "use client";
-import React, { useEffect } from 'react';
-import Image from 'next/image';
-import HomeComponent from './components/home';
-import Footer from './components/footer';
+import React, { useEffect } from "react";
+import Image from "next/image";
+import HomeComponent from "./components/home";
 
 const Home: React.FC = () => {
   useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
     script.async = true;
     script.defer = true;
     document.body.appendChild(script);

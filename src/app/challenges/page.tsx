@@ -11,6 +11,7 @@ interface Challenge {
   title: string;
   track: string[];
   description: string;
+  sponsored?: string;
 }
 
 const Challenges: React.FC = () => {
@@ -26,7 +27,19 @@ const Challenges: React.FC = () => {
     }
   };
 
-  const filteredChallenges = challengesData.filter((challenge: Challenge) => {
+  const sortedChallenges = [...challengesData].sort(
+    (a: Challenge, b: Challenge) => {
+      if (a.sponsored === "true" && b.sponsored !== "true") {
+        return -1;
+      } else if (a.sponsored !== "true" && b.sponsored === "true") {
+        return 1;
+      } else {
+        return 0;
+      }
+    },
+  );
+
+  const filteredChallenges = sortedChallenges.filter((challenge: Challenge) => {
     if (selectedOption === "All") {
       return (
         challenge.id.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -42,20 +55,20 @@ const Challenges: React.FC = () => {
   });
 
   return (
-    <div className="my-[1rem] md:my-[3rem] min-h-screen text-white">
+    <div className="my-[1rem] min-h-screen text-white md:my-[3rem]">
       <div className="mx-auto max-w-screen-xl px-4 py-8">
-        <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-4">
+        <div className="mb-4 flex flex-col items-start justify-between md:flex-row md:items-center">
           <div className="relative">
             <input
               type="text"
               placeholder="Search by ID or Title"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="text-[0.8rem] md:text-base px-4 py-2 md:pr-10 w-80 md:w-96 bg-gray-800 text-white rounded-md border-2 border-gray-600 focus:outline-none focus:border-blue-300"
+              className="w-80 rounded-md border-2 border-gray-600 bg-gray-800 px-4 py-2 text-[0.8rem] text-white focus:border-blue-300 focus:outline-none md:w-96 md:pr-10 md:text-base"
             />
-            <span className="absolute inset-y-0 right-0 flex items-center pr-3 text-gray-400 pointer-events-none">
+            <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3 text-gray-400">
               <svg
-                className="w-5 h-5"
+                className="h-5 w-5"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -78,7 +91,7 @@ const Challenges: React.FC = () => {
           </div>
 
           <select
-            className="text-[0.8rem] md:text-base my-5 px-4 py-2 bg-gray-800 text-gray-400 rounded-md border border-gray-600 focus:outline-none focus:border-blue-300"
+            className="my-5 rounded-md border border-gray-600 bg-gray-800 px-4 py-2 text-[0.8rem] text-gray-400 focus:border-blue-300 focus:outline-none md:text-base"
             value={selectedOption}
             onChange={(e) => setSelectedOption(e.target.value)}
           >
@@ -99,24 +112,24 @@ const Challenges: React.FC = () => {
         {filteredChallenges.map((challenge: Challenge) => (
           <div
             key={challenge.id}
-            className={`${tech_mono.className} md:mb-[3rem] relative`}
+            className={`${tech_mono.className} relative md:mb-[3rem]`}
           >
-            <div className="flex flex-row items-center mt-[1rem] md:mt-[3rem] ">
-              <span className="text-[#ECECEC] text-[2.5rem] md:text-[4.75rem] not-italic font-normal leading-[normal] tracking-[-0.54rem] text-shadow: 1px 3px 6px rgba(93, 213, 240, 0.4)">
+            <div className="mt-[1rem] flex flex-row items-center md:mt-[3rem] ">
+              <span className="text-shadow: 1px 3px 6px rgba(93, 213, 240, 0.4) text-[2.5rem] font-normal not-italic leading-[normal] tracking-[-0.54rem] text-[#ECECEC] md:text-[4.75rem]">
                 {challenge.id}
               </span>
               <span
-                className={`ml-[2rem] text-white text-[0.8rem] md:text-2xl not-italic font-normal leading-[normal]`}
+                className={`ml-[2rem] text-[0.8rem] font-normal not-italic leading-[normal] text-white md:text-2xl`}
               >
                 {challenge.title}
               </span>
             </div>
-            <div className="flex mt-2 space-x-2 md:space-x-4 mb-[1.5rem]">
+            <div className="mb-[1.5rem] mt-2 flex space-x-2 md:space-x-4">
               {challenge.track.map((trackItem: string, index: number) => (
                 <div key={index} className="items-center justify-center">
                   <div className="rounded-[0.25rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5">
-                    <div className="rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1">
-                      <p className="text-white text-[0.5rem] md:text-[0.8rem]">
+                    <div className="back flex h-full w-full items-center justify-center rounded-[0.18rem] bg-black px-3 py-1">
+                      <p className="text-[0.5rem] text-white md:text-[0.8rem]">
                         {trackItem}
                       </p>
                     </div>
@@ -124,15 +137,24 @@ const Challenges: React.FC = () => {
                 </div>
               ))}
               <div className="flex-grow"></div>
+              {challenge.sponsored === "true" && (
+                <div className="rounded-[0.25rem] bg-gradient-to-r from-[#FFD700] to-[#FFA500] p-0.5">
+                  <div className="back flex h-full w-full items-center justify-center rounded-[0.18rem] bg-black px-3 py-1">
+                    <p className="text-[0.5rem] text-white md:text-[0.8rem]">
+                      Bounty
+                    </p>
+                  </div>
+                </div>
+              )}
               <button
-                className="px-2 py-1 bg-[#0d2339] text-white text-[0.5rem] md:text-[0.8rem] md:text-base rounded-md"
+                className="rounded-md bg-[#0d2339] px-2 py-1 text-[0.5rem] text-white md:text-[0.8rem] md:text-base"
                 onClick={() => toggleDescription(challenge.id)}
               >
                 {expandedId === challenge.id ? "Hide" : "Show"}
               </button>
             </div>
             <div
-              className="absolute opacity-30 w-full h-0.5 bg-gradient-to-r from-white via-white to-white"
+              className="absolute h-0.5 w-full bg-gradient-to-r from-white via-white to-white opacity-30"
               style={{
                 boxShadow:
                   "0px 0px 2.783px 0px #FFF, 0px 0px 5.566px 0px #FFF, 0px 0px 19.481px 0px #FFF",
@@ -140,7 +162,7 @@ const Challenges: React.FC = () => {
             ></div>
             {expandedId === challenge.id && (
               <div
-                className={`mt-2 bg-gray-900 text-white text-[0.8rem] md:text-base rounded-md p-4 ${inter.className} `}
+                className={`leading-loose antialiased ${inter.className} mt-4 rounded-md border border-gray-800 bg-gray-900 p-6 text-sm text-gray-300 shadow-lg md:text-base`}
               >
                 <p>{challenge.description}</p>
               </div>
