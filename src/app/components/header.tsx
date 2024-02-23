@@ -50,9 +50,9 @@ const Header: React.FC = () => {
   };
 
   return (
-    <div className={`relative ${inter.className}`}>
+    <div className={`relative ${inter.className}`} style={{ position: "sticky", top: 0, width: "100%", zIndex: 100 }}>
       <header
-        className="relative opacity-85 text-white py-3 px-4 md:px-14 lg:px-24 flex mt-5 md:mt-10 justify-between items-center p-4 bg-black-rgba"
+        className="relative text-white py-3 px-4 md:px-14 lg:px-24 flex mt-5 md:mt-10 justify-between items-center p-4 bg-black-rgba"
         style={{
           boxShadow:
             "0px 0px 500px 0px rgba(29, 43, 57, 0.28), 0px 0px 500px 0px rgba(34, 81, 127, 0.28), 0px 0px 500px 0px rgba(34, 81, 127, 0.28), 0px 0px 500px 0px rgba(34, 81, 127, 0.28), 0px 0px 500px 0px rgba(34, 81, 127, 0.28)",

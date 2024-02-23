@@ -32,7 +32,7 @@ const Sponsors: React.FC = () => {
                 SPONSORS
               </span>
             </h3>
-            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-[5rem] mx-[1rem] md:mx-[3rem]">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-[5rem] mx-[1rem] md:mx-[3rem]">
               {importedDataOC.map((member) => (
                 <div key={member.name} className="relative">
                   <div className="relative flex flex-row md:flex-col items-center bg-black justify-between md:justify-center rounded-[1rem] p-2 md:p-2">
