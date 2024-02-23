@@ -18,7 +18,7 @@ const Timeline: React.FC<TimelineProps> = ({ events, highlightEvents }) => {
   return (
     <div className="relative ml-[3.5rem]">
       <div
-        className="h-full w-px bg-gray-500 absolute left-0"
+        className="absolute left-0 h-full w-px bg-gray-500"
         style={{
           boxShadow:
             "0px 0px 2.783px 0px #FFF, 0px 0px 5.566px 0px #FFF, 0px 0px 19.481px 0px #FFF",
@@ -26,10 +26,10 @@ const Timeline: React.FC<TimelineProps> = ({ events, highlightEvents }) => {
       ></div>
       <div className="flex flex-col items-start">
         {events.map((event, index) => (
-          <div key={index} className="flex items-start my-2.5">
+          <div key={index} className="my-2.5 flex items-start">
             <div
-              className={`${tech_mono.className} absolute left-0 transform -translate-x-1/2 bg-gray-700 text-white
-            font-semibold px-3 py-2 rounded-full text-sm ${
+              className={`${tech_mono.className} absolute left-0 -translate-x-1/2 transform rounded-full bg-gray-700
+            px-3 py-2 text-sm font-semibold text-white ${
               highlightEvents && highlightEvents.includes(event.event)
                 ? "bg-gradient-to-r from-orange-500 to-red-500 text-black"
                 : ""
@@ -37,7 +37,9 @@ const Timeline: React.FC<TimelineProps> = ({ events, highlightEvents }) => {
             >
               {event.time}
             </div>
-            <div className={`text-gray-200 px-3 py-3 ml-[3rem] text-[0.9rem] ${inter.className}`}>
+            <div
+              className={`ml-[3rem] px-3 py-3 text-[0.9rem] text-gray-200 ${inter.className}`}
+            >
               {event.event}
             </div>
           </div>

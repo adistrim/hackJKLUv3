@@ -35,12 +35,12 @@ const Itinerary: React.FC = () => {
 
   return (
     <div
-      className={`${pathname === '/itinerary' ? 'block' : 'hidden md:block'} min-h-screen mx-[1rem] md:mx-0 my-[3rem] md:my-[15rem]`}
+      className={`${pathname === "/itinerary" ? "block" : "hidden md:block"} mx-[1rem] my-[3rem] min-h-screen md:mx-0 md:my-[15rem]`}
       id="itinerary-section"
     >
       <div className="container mx-auto">
         <h1
-          className={`${tech_mono.className} text-[2rem] md:text-[4rem] text-center mb-4`}
+          className={`${tech_mono.className} mb-4 text-center text-[2rem] md:text-[4rem]`}
           style={{
             backgroundImage:
               "linear-gradient(90deg, #cf3a33 5.87%, #f6982f 59.11%)",
@@ -50,44 +50,54 @@ const Itinerary: React.FC = () => {
         >
           ITINERARY
         </h1>
-        <div className={`grid grid-cols-1 md:grid-cols-3 gap-8`}>
-          <div className="rounded-xl border-2 border-gray-500">
-            <h2 className="text-center border-b-2 border-gray-500 text-lg font-semibold text-gray-300 bg-gray-800 px-4 py-2 rounded-t-xl">
-              Day 1
-            </h2>
-            <Timeline
-              events={day1Events}
-              highlightEvents={["Opening Ceremony", "Workshop by JDW", "Hackathon Starts"]}
-            />
+        <div className={`grid grid-cols-1 gap-8 md:grid-cols-3`}>
+          <div>
+            <div className="rounded-xl border-2 border-gray-500">
+              <h2 className="rounded-t-xl border-b-2 border-gray-500 bg-gray-800 px-4 py-2 text-center text-lg font-semibold text-gray-300">
+                Day 1
+              </h2>
+              <Timeline
+                events={day1Events}
+                highlightEvents={[
+                  "Opening Ceremony",
+                  "Workshop by JDW",
+                  "Hackathon Starts",
+                ]}
+              />
+            </div>
           </div>
-          <div className="border-2 border-gray-500 rounded-xl">
-            <h2 className="text-center border-b-2 border-gray-500 text-lg font-semibold text-gray-300 bg-gray-800 px-4 py-2 rounded-t-xl">
-              Day 2
-            </h2>
-            <Timeline
-              events={day2Events}
-              highlightEvents={[
-                "Scavenger Hunt",
-                "Coding Ninja Event",
-                "Guest Speaker Session",
-                "Improv Event",
-                "Qawwali Night",
-              ]}
-            />
+          <div>
+            <div className="rounded-xl border-2 border-gray-500">
+              <h2 className="rounded-t-xl border-b-2 border-gray-500 bg-gray-800 px-4 py-2 text-center text-lg font-semibold text-gray-300">
+                Day 2
+              </h2>
+              <Timeline
+                events={day2Events}
+                highlightEvents={[
+                  "Scavenger Hunt",
+                  "Coding Ninja Event",
+                  "Guest Speaker Session",
+                  "Improv Event",
+                  "Qawwali Night",
+                ]}
+              />
+            </div>
           </div>
-          <div className="border-2 border-gray-500 rounded-xl">
-            <h2 className="text-center border-b-2 border-gray-500 text-lg font-semibold text-gray-300 bg-gray-800 px-4 py-2 rounded-t-xl">
-              Day 3
-            </h2>
-            <Timeline
-              events={day3Events}
-              highlightEvents={["DJ night by JDW", "Closing Ceremony"]}
-            />
+          <div>
+            <div className="rounded-xl border-2 border-gray-500">
+              <h2 className="rounded-t-xl border-b-2 border-gray-500 bg-gray-800 px-4 py-2 text-center text-lg font-semibold text-gray-300">
+                Day 3
+              </h2>
+              <Timeline
+                events={day3Events}
+                highlightEvents={["DJ night by JDW", "Closing Ceremony"]}
+              />
+            </div>
           </div>
         </div>
       </div>
       <button
-        className={`fixed hidden md:block md:bottom-20 md:right-10 text-black py-2 px-4 rounded-full bg-gradient-to-r from-yellow-400 to-red-500 z-50 ${inter.className}`}
+        className={`fixed z-50 hidden rounded-full bg-gradient-to-r from-yellow-400 to-red-500 px-4 py-2 text-black md:bottom-20 md:right-10 md:block ${inter.className}`}
         onClick={scrollToItinerary}
       >
         Go to Itinerary

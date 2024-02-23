@@ -57,14 +57,14 @@ const Challenges: React.FC = () => {
   return (
     <div className="my-[1rem] min-h-screen text-white md:my-[3rem]">
       <div className="mx-auto max-w-screen-xl px-4 py-8">
-        <div className="mb-4 flex flex-col items-start justify-between md:flex-row md:items-center">
+        <div className="mb-4 flex flex-col justify-center  md:flex-row md:items-center">
           <div className="relative">
             <input
               type="text"
               placeholder="Search by ID or Title"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-80 rounded-md border-2 border-gray-600 bg-gray-800 px-4 py-2 text-[0.8rem] text-white focus:border-blue-300 focus:outline-none md:w-96 md:pr-10 md:text-base"
+              className="w-full rounded-md border-2 border-gray-600 bg-gray-800 px-4 py-2 text-[0.8rem] text-white focus:border-blue-300 focus:outline-none md:w-96 md:pr-10 md:text-base"
             />
             <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3 text-gray-400">
               <svg
@@ -91,7 +91,7 @@ const Challenges: React.FC = () => {
           </div>
 
           <select
-            className="my-5 rounded-md border border-gray-600 bg-gray-800 px-4 py-2 text-[0.8rem] text-gray-400 focus:border-blue-300 focus:outline-none md:text-base"
+            className="my-5 rounded-md border-2 border-gray-600 bg-gray-800 px-4 py-2 text-[0.8rem] text-gray-400 focus:border-blue-300 focus:outline-none md:ml-4 md:text-base"
             value={selectedOption}
             onChange={(e) => setSelectedOption(e.target.value)}
           >
