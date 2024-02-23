@@ -21,7 +21,7 @@ const Sponsors: React.FC = () => {
           className={`mx-[1rem] md:mx-[5rem] lg:mx-[2rem] mt-8 md:mt-16 ${tech_mono.className}`}
         >
           <section className="mb-1 md:mb-16">
-            <h3 className="text-[1.8rem] md:text-[4rem] font-bold text-center my-[2rem] md:my-[6rem] text-[#f58b40]">
+            <h3 className="text-[3rem] md:text-[4rem] font-bold text-center my-[2rem] md:my-[6rem] text-[#f58b40]">
               <span
                 className="text-transparent bg-clip-text"
                 style={{
@@ -32,7 +32,7 @@ const Sponsors: React.FC = () => {
                 SPONSORS
               </span>
             </h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-[5rem] mx-[1rem] md:mx-[3rem]">
+            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-[5rem] mx-[1rem] md:mx-[3rem]">
               {importedDataOC.map((member) => (
                 <div key={member.name} className="relative">
                   <div className="relative flex flex-row md:flex-col items-center bg-black justify-between md:justify-center rounded-[1rem] p-2 md:p-2">

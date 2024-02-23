@@ -99,7 +99,7 @@ const HomeComponent = () => {
 
       <div className=" mt-[10rem]">
         <h1
-          className="text-[2rem] md:text-[4rem] text-center mb-4"
+          className="text-[3rem] md:text-[4rem] text-center mb-4"
           style={{
             backgroundImage:
               "linear-gradient(90deg, #cf3a33 5.87%, #f6982f 59.11%)",
@@ -111,39 +111,141 @@ const HomeComponent = () => {
         </h1>
         <NextLink href="challenges" passHref>
           <div className="cursor-pointer flex flex-wrap justify-center">
-            <div className="rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5">
-              <div className="rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1">
-                <p className="text-white md:text-[2rem]">IOT</p>
+            <div className="rounded-[0.7rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
+              <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-3 py-1">
+                <div className="mx-1 my-2 md:mx-5 md:my-7">
+                  <h1
+                    className={`${inter.className} text-white text-center font-bold text-[1.5rem] md:text-[2rem]`}
+                  >
+                    IoT
+                  </h1>
+                  <p className={`text-center text-gray-400 ${inter.className}`}>
+                    The Internet of Things (IoT) track focuses on connecting
+                    physical devices to the internet and each other, enabling
+                    them to collect and exchange data. It involves hardware and
+                    software development for smart devices, sensors, actuators,
+                    and communication protocols to create innovative solutions
+                    for various industries.
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5">
-              <div className="rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1">
-                <p className="text-white md:text-[2rem]">AI/ML</p>
+            <div className="rounded-[0.7rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
+              <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-3 py-1">
+                <div className="mx-1 my-2 md:mx-5 md:my-7">
+                  <h1
+                    className={`${inter.className} text-white text-center font-bold text-[1.5rem] md:text-[2rem]`}
+                  >
+                    AI/ML
+                  </h1>
+                  <p className={`text-center text-gray-400 ${inter.className}`}>
+                    The AI/ML track delves into the realm of creating
+                    intelligent systems that can learn from data. It covers
+                    algorithms, models, and techniques for pattern recognition,
+                    prediction, classification, and optimization. Applications
+                    span across industries, including healthcare, finance,
+                    marketing, robotics, and autonomous systems.
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5">
-              <div className="rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1">
-                <p className="text-white md:text-[2rem]">WEB 2</p>
+            <div className="rounded-[0.7rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
+              <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-3 py-1">
+                <div className="mx-1 my-2 md:mx-5 md:my-7">
+                  <h1
+                    className={`${inter.className} text-white text-center font-bold text-[1.5rem] md:text-[2rem]`}
+                  >
+                    Web 2
+                  </h1>
+                  <p className={`text-center text-gray-400 ${inter.className}`}>
+                    The Web 2 track revolves around modern web development
+                    practices, focusing on client-side and server-side
+                    technologies to build interactive and responsive web
+                    applications. This includes proficiency in HTML, CSS,
+                    JavaScript, frameworks like React or Angular, RESTful APIs,
+                    and backend technologies like Node.js or Django.
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5">
-              <div className="rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1">
-                <p className="text-white md:text-[2rem]">WEB 3</p>
+            <div className="rounded-[0.7rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
+              <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-3 py-1">
+                <div className="mx-1 my-2 md:mx-5 md:my-7">
+                  <h1
+                    className={`${inter.className} text-white text-center font-bold text-[1.5rem] md:text-[2rem]`}
+                  >
+                    Web 3
+                  </h1>
+                  <p className={`text-center text-gray-400 ${inter.className}`}>
+                    Web 3 refers to the evolution of the internet towards
+                    decentralized, peer-to-peer networks using blockchain
+                    technology. This track explores concepts such as
+                    decentralized finance (DeFi), non-fungible tokens (NFTs),
+                    decentralized applications (DApps), smart contracts, and
+                    protocols like Ethereum and IPFS.
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5">
-              <div className="rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1">
-                <p className="text-white md:text-[2rem]">GAME DEV/ AR/ VR</p>
+            <div className="rounded-[0.7rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
+              <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-3 py-1">
+                <div className="mx-1 my-2 md:mx-5 md:my-7">
+                  <h1
+                    className={`${inter.className} text-white text-center font-bold text-[1.5rem] md:text-[2rem]`}
+                  >
+                    Game Dev/AR/VR
+                  </h1>
+                  <p className={`text-center text-gray-400 ${inter.className}`}>
+                    This track focuses on creating immersive experiences through
+                    game development and extended reality technologies. It
+                    covers game engines like Unity or Unreal Engine, 3D
+                    modeling, animation, physics, interaction design, and the
+                    integration of augmented reality (AR) and virtual reality
+                    (VR) into applications and simulations.
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5">
-              <div className="rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1">
-                <p className="text-white md:text-[2rem]">CYBER SECURITY</p>
+            <div className="rounded-[0.7rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
+              <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-3 py-1">
+                <div className="mx-1 my-2 md:mx-5 md:my-7">
+                  <h1
+                    className={`${inter.className} text-white text-center font-bold text-[1.5rem] md:text-[2rem]`}
+                  >
+                    Cyber Security
+                  </h1>
+                  <p className={`text-center text-gray-400 ${inter.className}`}>
+                    The Cyber Security track deals with protecting digital
+                    systems, networks, and data from malicious attacks,
+                    unauthorized access, and breaches. Topics include
+                    cryptography, network security, application security,
+                    ethical hacking, incident response, risk management,
+                    compliance, and security best practices across various
+                    platforms and technologies.
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="rounded-[0.25rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-0.5">
-              <div className="rounded-[0.18rem] flex h-full w-full items-center justify-center bg-black back px-3 py-1">
-                <p className="text-white md:text-[2rem]">OPEN INNOVATION</p>
+            <div className="rounded-[0.7rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
+              <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-3 py-1">
+                <div className="mx-1 my-2 md:mx-5 md:my-7">
+                  <h1
+                    className={`${inter.className} text-white text-center font-bold text-[1.5rem] md:text-[2rem]`}
+                  >
+                    Open Innovation
+                  </h1>
+                  <p className={`text-center text-gray-400 ${inter.className}`}>
+                    The Open Innovation track embraces a collaborative approach
+                    where participants are encouraged to bring their own ideas
+                    to the table. It serves as a platform for individuals to
+                    explore, refine, and showcase their innovative concepts,
+                    regardless of the domain. Whether it's a novel solution to a
+                    pressing problem, a disruptive technology, or a creative
+                    business model, this track provides the opportunity to
+                    collaborate with peers, mentors, and experts to turn ideas
+                    into reality.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
