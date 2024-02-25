@@ -76,13 +76,13 @@ const Header: React.FC = () => {
               alt="Text"
               width={265}
               height={65}
-              className="ml-2 mt-2 hidden md:block"
+              className="ml-2 mt-2 h-[2rem] w-[10rem] md:h-[3rem] md:w-[15rem] flex items-center justify-center"
             />
           </NextLink>
         </div>
 
         {/* Hamburger menu */}
-        <div className="block md:hidden">
+        <div className="block lg:hidden">
           <button
             onClick={toggleMenu}
             className="navbar-burger flex flex-col items-center py-1.5 px-2"
@@ -93,7 +93,7 @@ const Header: React.FC = () => {
           </button>
         </div>
 
-        <nav className="hidden md:flex items-center space-x-[5.5rem] ${menuOpen ? 'hidden' : 'block'}">
+        <nav className="hidden lg:flex items-center space-x-[5.5rem] ${menuOpen ? 'hidden' : 'block'}">
           <NextLink href="/" passHref>
             <span
               className={`cursor-pointer text-[1.2rem] ${pathname === "/" ? "underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 text-gray-100" : "hover:underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-5 hover:text-gray-100 text-gray-400"}`}
@@ -135,7 +135,7 @@ const Header: React.FC = () => {
       {menuOpen && (
         <div
           ref={sidebarRef}
-          className="md:hidden lg:hidden fixed top-0 right-0 h-full w-1/2 bg-black p-4 shadow-md z-50 overflow-y-auto"
+          className="lg:hidden fixed top-0 right-0 h-full w-1/2 bg-black p-4 shadow-md z-50 overflow-y-auto"
         >
           <div className="mt-[1.5rem] ml-[0.3rem]">
             <NextLink href="/" passHref>
