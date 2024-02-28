@@ -38,5 +38,10 @@
         "name": "ETHIndia",
         "photo": "/sponsors/ethindia.png",
         "website": "https://ethindia.co/"
+    },
+    {
+        "name": "StreamYard",
+        "photo": "/sponsors/streamyard.png",
+        "website": "https://streamyard.com/"
     }
 ]
