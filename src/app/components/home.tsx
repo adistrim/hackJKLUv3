@@ -30,13 +30,13 @@ const HomeComponent = () => {
             15th - 17th March, 2024
           </h2>
           <h1
-            className="text-[2.8rem] md:text-[4rem] font-bold text-left mb-4"
-            style={{
-              backgroundImage:
-                "linear-gradient(90deg, #cf3a33 5.87%, #f6982f 59.11%)",
-              WebkitBackgroundClip: "text",
-              color: "transparent",
-            }}
+              className="text-[2.8rem] md:text-[4rem] font-bold text-left mb-4"
+              style={{
+                backgroundImage:
+                    "linear-gradient(90deg, #cf3a33 5.87%, #f6982f 59.11%)",
+                WebkitBackgroundClip: "text",
+                color: "transparent",
+              }}
           >
             HackJKLU 3.0
           </h1>
@@ -49,21 +49,29 @@ const HomeComponent = () => {
             each win prizes. Don't miss out—register today and put your skills
             to the test in the mainframe!
           </p>
-          <div className="hidden md:block">
-            <RegisterBtn />
-            <p className={`text-[0.8rem] mt-[2rem] ${inter.className}`}>
-              Note: Food & Accomodation info are coming soon.
-            </p>
+          <div className="hidden md:flex items-center justify-between">
+            <RegisterBtn/>
+            <NextLink href="https://ticketify.hackjklu.com" passHref>
+              <div className={`ml-4 relative ${inter.className}`}>
+                <div className="rounded-md bg-gradient-to-r from-red-600 to-yellow-500 p-0.5">
+                  <div className="rounded-md items-center justify-center bg-black px-3 py-2">
+                    <span className="text-white text-sm">Food & Accommodation</span>
+                  </div>
+                </div>
+              </div>
+            </NextLink>
           </div>
+
+
         </div>
 
         <div className="w-4/5  md:w-1/2 ml-[2rem] flex justfiy-center items-center">
           <Image
-            className=""
-            src="/hero-image.png"
-            alt=""
-            width={600}
-            height={600}
+              className=""
+              src="/hero-image.png"
+              alt=""
+              width={600}
+              height={600}
           />
         </div>
         <h3 className="block md:hidden text-[1.5rem] font-thin text-left my-8 border-l-4 border-solid border-gray-300 pl-4">
@@ -75,14 +83,20 @@ const HomeComponent = () => {
           each win prizes. Don't miss out—register today and put your skills to
           the test in the mainframe!
         </p>
-        <div className="my-[1rem] block md:hidden">
+        <div className="my-[1rem] flex items-center md:hidden">
           <RegisterBtn />
         </div>
-        <p
-          className={`block md:hidden text-[0.8rem] mx-[4.5rem] text-center ${inter.className}`}
-        >
-          Note: Food & Accomodation info are coming soon.
-        </p>
+        <div className="md:hidden flex items-center justify-between">
+          <NextLink href="https://ticketify.hackjklu.com" passHref>
+            <div className={`relative ${inter.className}`}>
+              <div className="rounded-md bg-gradient-to-r from-red-600 to-yellow-500 p-0.5">
+                <div className="rounded-md items-center justify-center bg-black px-3 py-2">
+                  <span className="text-white text-sm">Food & Accommodation</span>
+                </div>
+              </div>
+            </div>
+          </NextLink>
+        </div>
       </div>
       <Image
         className="hidden md:block my-[12rem]"
