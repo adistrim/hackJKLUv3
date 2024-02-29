@@ -60,7 +60,7 @@ const About = () => {
                   alt=""
                   width={300}
                   height={300}
-                  className="w-[170px] h-[180px] md:w-[360px] md:h-[500px] lg:w-[290px] lg:h-[300px] mb-[3rem]"
+                  className="w-[180px] h-[180px] md:w-[360px] md:h-[325px] lg:w-[300px] lg:h-[300px] mb-[3rem]"
                 />
               </div>
             </div>

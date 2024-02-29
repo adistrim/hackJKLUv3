@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
               <RegisterBtn />
               <NextLink href="/code-of-conduct" passHref>
                 <p
-                  className={`text-[0.9rem] my-[1rem] md:mr-[3rem] md:text-[1.2rem] text-gray-600 hover:text-gray-500 hover:underline`}
+                  className={`text-[0.9rem] my-[1rem] md:mr-[3rem] md:ml-[3rem] md:text-[1.2rem] text-gray-600 hover:text-gray-500 hover:underline`}
                 >
                   Code of conduct
                 </p>
