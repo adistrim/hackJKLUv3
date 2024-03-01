@@ -4,6 +4,7 @@ import RegisterBtn from "./registerbtn";
 import NextLink from "next/link";
 import Itinerary from "../itinerary/page";
 import Faq from "./faq";
+import Prizes from "./prizes";
 import Sponsors from "./sponsors";
 import { Share_Tech_Mono, Inter } from "next/font/google";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -319,6 +320,7 @@ const HomeComponent = () => {
           </ul>
         </div>
       </div>
+      <Prizes/>
       <div className="relative">
         <div className="absolute -inset-0.5 bg-gray-400 rounded-[1rem] blur opacity-75"></div>
         <div className="flex flex-col bg-black rounded-[1rem] items-center justify-center relative">
