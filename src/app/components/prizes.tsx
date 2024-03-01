@@ -13,12 +13,12 @@ const Prizes: React.FC = () => {
 
   return (
     <div
-      className={`${pathname === "/sponsors" ? "block" : "md:block"} ${tech_mono.className} min-h-screen mx-[1rem] my-[3rem] md:my-[8rem]`}
+      className={`${pathname === "/sponsors" ? "block" : "md:block"} ${tech_mono.className} min-h-screen mx-[1rem] my-[8rem] md:my-[8rem]`}
       id="sponsor-section"
     >
       <div className="bg-black">
         <section className="mb-1 md:mb-16">
-          <h3 className="text-[2.8rem] md:text-[4rem] font-bold text-center my-[2rem] md:mb-[1rem] md:mt-[8rem] text-[#f58b40] ">
+          <h3 className="text-[2rem] md:text-[4rem] font-bold text-center my-[2rem] md:mb-[1rem] md:mt-[8rem] text-[#f58b40] ">
             <span
               className="text-transparent bg-clip-text"
               style={{
@@ -48,17 +48,12 @@ const Prizes: React.FC = () => {
               </div>
             </div>
           </div>
-          <p className="text-center text-gray-300 text-[1.1rem] mb-[2rem]">
-            We're thrilled to announce that participants will have the chance
-            to compete for a staggering ₹300k+ worth of cash and goodies.
-            Imagine the possibilities as you dive into a world of innovation,
-            collaboration, and limitless potential. From aspiring developers
-            to seasoned designers, this is your chance to shine and claim your
-            share of the rewards.
+          <p className={`text-center text-gray-400 text-sm mb-[2rem] ${inter.className} `}>
+            Prepare yourself for an exciting opportunity to compete for over ₹300k worth of cash and goodies, which includes bounty problem statements, awards for the best projects, and more. Click the button below to learn more about the details.
           </p>
           <NextLink href="https://hack-jklu.devfolio.co/prizes/" passHref target="_blank">
             <div className="flex items-center justify-center">
-              <p className="inline-block px-8 py-3 text-black text-lg md:text-xl rounded-md bg-gradient-to-r from-red-600 to-yellow-500 {{inter.className}}">
+              <p className={`inline-block px-8 py-3 text-black text-lg md:text-xl rounded-md bg-gradient-to-r from-red-600 to-yellow-500 ${inter.className}`}>
                 Check Out Prizes
               </p>
             </div>

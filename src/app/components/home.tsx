@@ -24,7 +24,7 @@ const HomeComponent = () => {
   return (
     <div className={`mx-[1rem] md:mx-[10rem] ${tech_mono.className}`}>
       <div
-        className={`flex flex-col md:flex-row items-center justify-center mt-[1.5rem] md:mt-[5.5rem]`}
+        className={`flex flex-col md:flex-row items-center justify-center mt-[3rem] md:mt-[5.5rem]`}
       >
         <div className="flex flex-col items-center md:items-start justify-center w-100% md:w-1/2">
           <h2 className="text-[1.3rem] md:text-[2.25rem] text-center md:text-left">
@@ -112,7 +112,9 @@ const HomeComponent = () => {
         <Image src="/CONNECT.png" alt="" width={270} height={100} />
       </div>
 
-      <div className=" mt-[10rem]">
+      <Prizes/>
+
+      <div>
         <h1
           className="text-[3rem] md:text-[4rem] text-center mb-4"
           style={{
@@ -320,7 +322,7 @@ const HomeComponent = () => {
           </ul>
         </div>
       </div>
-      <Prizes/>
+
       <div className="relative">
         <div className="absolute -inset-0.5 bg-gray-400 rounded-[1rem] blur opacity-75"></div>
         <div className="flex flex-col bg-black rounded-[1rem] items-center justify-center relative">
