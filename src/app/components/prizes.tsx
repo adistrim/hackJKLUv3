@@ -39,7 +39,7 @@ const Prizes: React.FC = () => {
               <div className="flex flex-col justify-center items-center m-[2rem] lg:order-2 order-1">
                 <Image src="/prize-1.png" alt="" width={250} height={250} />
                 <p className="text-[1.3rem] text-center mt-[1rem]">1st Prize</p>
-                <p className="text-[2rem] text-center mt-[1rem]">₹32,000</p>
+                <p className="text-[2rem] text-center mt-[1rem]">₹57,000</p>
               </div>
               <div className="flex flex-col justify-center items-center m-[2rem] lg:order-3 order-3">
                 <Image src="/prize-3.png" alt="" width={180} height={180} />

@@ -1,30 +1,20 @@
 {
   "day1Events": [
-    { "time": "12:00 PM", "event": "Check-in starts" },
+    { "time": "12:00 PM", "event": "Check-in" },
     { "time": "02:00 PM", "event": "Opening Ceremony" },
     { "time": "03:00 PM", "event": "Workshop by JDW" },
-    { "time": "05:00 PM", "event": "High Tea" },
-    { "time": "06:00 PM", "event": "Hackathon Starts" },
-    { "time": "08:00 PM", "event": "Dinner" }
+    { "time": "06:00 PM", "event": "Hackathon Starts" }
   ],
   "day2Events": [
-    { "time": "08:00 AM", "event": "Breakfast" },
-    { "time": "09:00 AM", "event": "Guest Speaker Session" },
     { "time": "10:00 AM", "event": "Mentoring Round" },
-    { "time": "12:00 PM", "event": "Lunch" },
-    { "time": "01:00 PM", "event": "Coding Ninja Event" },
+    { "time": "01:00 PM", "event": "Coding Ninjas Event" },
     { "time": "02:00 PM", "event": "Improv Event" },
     { "time": "03:00 PM", "event": "Scavenger Hunt" },
-    { "time": "05:00 PM", "event": "High Tea" },
-    { "time": "08:00 PM", "event": "Dinner" },
     { "time": "09:00 PM", "event": "Qawwali Night" }
   ],
   "day3Events": [
-    { "time": "05:00 AM", "event": "Soft Deadline" },
-    { "time": "06:00 AM", "event": "Submission Closes" },
-    { "time": "08:00 AM", "event": "Breakfast" },
+    { "time": "06:00 AM", "event": "Submission Time" },
     { "time": "09:00 AM", "event": "Evaluation Round 1" },
-    { "time": "12:00 PM", "event": "Lunch" },
     { "time": "01:00 PM", "event": "Evaluation Round 2" },
     { "time": "03:00 PM", "event": "Closing Ceremony" },
     { "time": "07:00 PM", "event": "DJ night by JDW" }
