@@ -35,7 +35,7 @@ const Itinerary: React.FC = () => {
 
   return (
     <div
-      className={`${pathname === "/itinerary" ? "block" : "hidden lg:block"} mx-[1rem] my-[3rem] min-h-screen md:mx-0 md:my-[15rem]`}
+      className={`${pathname === "/itinerary" ? "block" : "hidden lg:block"} mx-[1rem] my-[3rem] min-h-screen md:mx-0 md:mt-[20rem]`}
       id="itinerary-section"
     >
       <div className="container mx-auto">

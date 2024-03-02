@@ -128,8 +128,8 @@ const HomeComponent = () => {
         </h1>
         <NextLink href="challenges" passHref>
           <div className="cursor-pointer flex flex-wrap justify-center">
-            <div className="rounded-[0.7rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
-              <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-3 py-1">
+            <div className="rounded-[0.7rem] my-[0.5rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
+              <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-6 py-3">
                 <div className="mx-1 my-3 md:mx-5 md:my-7">
                   <h1
                     className={`${inter.className} text-white my-3 text-center font-bold text-[1.5rem] md:text-[2rem]`}
@@ -147,8 +147,8 @@ const HomeComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="rounded-[0.7rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
-              <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-3 py-1">
+            <div className="rounded-[0.7rem] my-[0.5rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
+              <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-6 py-3">
                 <div className="mx-1 my-3 md:mx-5 md:my-7">
                   <h1
                     className={`${inter.className} text-white my-3 text-center font-bold text-[1.5rem] md:text-[2rem]`}
@@ -166,8 +166,8 @@ const HomeComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="rounded-[0.7rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
-              <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-3 py-1">
+            <div className="rounded-[0.7rem] my-[0.5rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
+              <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-6 py-3">
                 <div className="mx-1 my-3 md:mx-5 md:my-7">
                   <h1
                     className={`${inter.className} text-white my-3 text-center font-bold text-[1.5rem] md:text-[2rem]`}
@@ -185,8 +185,8 @@ const HomeComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="rounded-[0.7rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
-              <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-3 py-1">
+            <div className="rounded-[0.7rem] my-[0.5rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
+              <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-6 py-3">
                 <div className="mx-1 my-3 md:mx-5 md:my-7">
                   <h1
                     className={`${inter.className} text-white my-3 text-center font-bold text-[1.5rem] md:text-[2rem]`}
@@ -204,8 +204,8 @@ const HomeComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="rounded-[0.7rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
-              <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-3 py-1">
+            <div className="rounded-[0.7rem] my-[0.5rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
+              <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-6 py-3">
                 <div className="mx-1 my-3 md:mx-5 md:my-7">
                   <h1
                     className={`${inter.className} text-white my-3 text-center font-bold text-[1.5rem] md:text-[2rem]`}
@@ -223,8 +223,8 @@ const HomeComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="rounded-[0.7rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
-              <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-3 py-1">
+            <div className="rounded-[0.7rem] my-[0.5rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
+              <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-6 py-3">
                 <div className="mx-1 my-3 md:mx-5 md:my-7">
                   <h1
                     className={`${inter.className} text-white my-3 text-center font-bold text-[1.5rem] md:text-[2rem]`}
@@ -243,8 +243,8 @@ const HomeComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="rounded-[0.7rem] m-[0.8rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
-              <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-3 py-1">
+            <div className="rounded-[0.7rem] my-[0.5rem] bg-gradient-to-r from-[#1C4B79] to-[#5AD2ED] p-1">
+              <div className="rounded-[0.5rem] h-full w-full items-center justify-center bg-black back px-6 py-3">
                 <div className="mx-1 my-3 md:mx-5 md:my-7">
                   <h1
                     className={`${inter.className} text-white my-3 text-center font-bold text-[1.5rem] md:text-[2rem]`}

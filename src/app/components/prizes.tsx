@@ -13,7 +13,7 @@ const Prizes: React.FC = () => {
 
   return (
     <div
-      className={`${pathname === "/sponsors" ? "block" : "md:block"} ${tech_mono.className} min-h-screen mx-[1rem] my-[8rem] md:my-[8rem]`}
+      className={`${tech_mono.className} min-h-screen mx-[1rem] my-[10rem]`}
       id="sponsor-section"
     >
       <div className="bg-black">

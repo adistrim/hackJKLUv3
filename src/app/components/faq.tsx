@@ -24,7 +24,7 @@ const Faq: React.FC = () => {
   };
 
   return (
-    <div className="container mx-auto my-[7rem] md:my-0 md:mb-[5rem]">
+    <div className="container mx-auto my-[5rem] md:my-0">
       <h1
         className="text-[2rem] md:text-[4rem] text-center mb-4"
         style={{
