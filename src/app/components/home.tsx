@@ -5,10 +5,12 @@ import NextLink from "next/link";
 import Itinerary from "../itinerary/page";
 import Faq from "./faq";
 import Prizes from "./prizes";
-import Sponsors from "./sponsors";
 import { Share_Tech_Mono, Inter } from "next/font/google";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
+// import SponsorComponent from 'SponsorComponent';
+import SponsorComponent from "@/app/components/sponsors";
+import sponsors from "../data/sponsors.json";
 
 const tech_mono = Share_Tech_Mono({ subsets: ["latin"], weight: ["400"] });
 const inter = Inter({ subsets: ["latin"] });
@@ -384,10 +386,27 @@ const HomeComponent = () => {
       </div>
       <Itinerary />
       <Faq />
-      <Sponsors />
+      <div className="my-[5rem] md:my-[15rem]">
+        <h1
+            className="text-[2rem] md:text-[4rem] text-center mb-[1rem] md:mb-[5rem]"
+            style={{
+              backgroundImage:
+                  "linear-gradient(90deg, #cf3a33 5.87%, #f6982f 59.11%)",
+              WebkitBackgroundClip: "text",
+              color: "transparent",
+            }}
+        >
+          SPONSORS AND PARTNERS
+        </h1>
+        <div className="flex flex-wrap justify-center gap-8">
+          {sponsors.map((sponsor, index) => (
+              <SponsorComponent key={index} sponsor={sponsor}/>
+          ))}
+        </div>
+      </div>
       <div className="flex justify-center item-center">
         <button
-          className="bg-gray-700 text-white rounded-full w-12 h-12 flex items-center justify-center shadow-md hover:bg-gray-800 focus:outline-none"
+            className="bg-gray-700 text-white rounded-full w-12 h-12 flex items-center justify-center shadow-md hover:bg-gray-800 focus:outline-none"
           onClick={scrollToTop}
         >
           <FontAwesomeIcon icon={faArrowUp} />

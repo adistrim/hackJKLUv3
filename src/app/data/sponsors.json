@@ -1,8 +1,8 @@
 [
     {
-        "name": "AIC-JKLU",
-        "photo": "/sponsors/aic-jklu.png",
-        "website": "https://www.aicjklu.in/"
+        "name": "Niti-Aayog",
+        "photo": "/sponsors/niti-aayog.png",
+        "website": "https://www.niti.gov.in/"
     },
     {
         "name": "AIM",
@@ -10,19 +10,14 @@
         "website": "https://aim.gov.in/"
     },
     {
-        "name": "Niti-Aayog",
-        "photo": "/sponsors/niti-aayog.png",
-        "website": "https://www.niti.gov.in/"
+        "name": "AIC-JKLU",
+        "photo": "/sponsors/aic-jklu.png",
+        "website": "https://www.aicjklu.in/"
     },
     {
         "name": "IEEE",
         "photo": "/sponsors/ieee.png",
         "website": "https://www.ieee.org/"
-    },
-    {
-        "name": "Devfolio",
-        "photo": "/sponsors/devfolio.png",
-        "website": "https://devfolio.co/"
     },
     {
         "name": "Polygon",
@@ -43,5 +38,17 @@
         "name": "StreamYard",
         "photo": "/sponsors/streamyard.png",
         "website": "https://streamyard.com/"
+    },
+    {
+        "name": "Devfolio",
+        "photo": "/sponsors/devfolio.png",
+        "website": "https://devfolio.co/",
+        "type": "Registrations Partner"
+    },
+    {
+        "name": "Dev-Station",
+        "photo": "/sponsors/dev-station.png",
+        "website": "https://www.devstations.tech/",
+        "type": "Community Partner"
     }
 ]
