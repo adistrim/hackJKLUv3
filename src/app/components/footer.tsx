@@ -13,16 +13,21 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-start">
           {/* Left Side */}
           <div className="w-full md:w-50% lg:40% flex flex-col">
-            <div className="flex flex-col md:flex-row md:justify-between">
-              <RegisterBtn />
-              <NextLink href="/code-of-conduct" passHref>
-                <p
-                  className={`text-[0.9rem] my-[1rem] md:mr-[3rem] md:ml-[3rem] md:text-[1.2rem] text-gray-600 hover:text-gray-500 hover:underline`}
-                >
-                  Code of conduct
-                </p>
-              </NextLink>
-            </div>
+            <RegisterBtn />
+            <NextLink href="/code-of-conduct" passHref>
+              <p
+                className={`text-[0.9rem] mt-[2rem] my-[1rem] md:text-[1.2rem] text-gray-600 hover:text-gray-500 hover:underline`}
+              >
+                Code of conduct
+              </p>
+            </NextLink>
+            <NextLink href="https://storageapi.ticketify.tech/ticketify2/Terms%20&%20Conditions.pdf" passHref>
+              <p
+                className={`text-[0.9rem] md:text-[1.2rem] text-gray-600 hover:text-gray-500 hover:underline`}
+              >
+                Terms & Conditions
+              </p>
+            </NextLink>
 
             <div className="mt-[2rem] md:mr-[7rem] mb-[2rem]">
               <h4 className="text-[1rem] md:text-[1.5rem] text-[#E16931] mb-[0.5rem] md:mb-[1.5rem]">

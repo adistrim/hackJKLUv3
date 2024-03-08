@@ -14,7 +14,7 @@ const Team: React.FC = () => {
   return (
     <div className="bg-black">
       <div
-        className={`mx-[1rem] md:mx-[5rem] lg:mx-[10rem] mt-8 md:mt-16 ${tech_mono.className}`}
+        className={`mx-[1rem] md:mx-[5rem] lg:mx-[10rem] mt-8 md:mt-16 mb-[5rem] md:mb-[10rem] ${tech_mono.className}`}
       >
         <section className="mb-1 md:mb-16">
           <h3 className="text-[1.8rem] md:text-[4rem] font-bold text-center my-[2rem] md:my-[6rem] text-[#f58b40]">
