@@ -59,8 +59,34 @@ const Header: React.FC = () => {
         }}
       >
         <div className="flex items-center">
+          <NextLink href="https://in.msi.com/" passHref>
+            <div className="hidden md:block relative h-[2.3rem] w-[7.33rem] md:h-[3rem] md:w-[9.2rem]">
+              <Image
+                src="/sponsors/msi.png"
+                alt="Logo"
+                fill
+                style={{ objectFit: "cover" }}
+                className="h-full w-full"
+              />
+            </div>
+          </NextLink>
+
           <NextLink href="/" passHref>
-            <div className="relative h-[2rem] w-[2rem] md:h-[4rem] md:w-[4rem]">
+            <div className="md:hidden block relative h-[2rem] w-[1.6rem] md:h-[3rem] md:w-[9.2rem]">
+              <Image
+                src="/sponsors/msi-nontext.png"
+                alt="Logo"
+                fill
+                style={{ objectFit: "cover" }}
+                className="h-full w-full"
+              />
+            </div>
+          </NextLink>
+
+          <div className="h-[40px] mx-[0.5rem] md:mx-[2rem] md:h-[50px] w-[0.1rem] bg-gradient-to-b from-gray-300 to-gray-500"></div>
+
+          <NextLink href="/" passHref>
+            <div className="relative h-[2rem] w-[2rem] md:h-[3rem] md:w-[3rem]">
               <Image
                 src="/hackjklu-logo.png"
                 alt="Logo"
@@ -76,7 +102,7 @@ const Header: React.FC = () => {
               alt="Text"
               width={265}
               height={65}
-              className="ml-2 mt-2 h-[2rem] w-[10rem] md:h-[3rem] md:w-[15rem] flex items-center justify-center"
+              className="ml-2 mt-2 h-[2rem] w-[10rem] md:h-[2.5rem] md:w-[12.5rem] flex items-center justify-center"
             />
           </NextLink>
         </div>
@@ -93,38 +119,38 @@ const Header: React.FC = () => {
           </button>
         </div>
 
-        <nav className="hidden lg:flex items-center space-x-[5.5rem] ${menuOpen ? 'hidden' : 'block'}">
+        <nav className="hidden lg:flex items-center space-x-[4rem] ${menuOpen ? 'hidden' : 'block'}">
           <NextLink href="/" passHref>
             <span
-              className={`cursor-pointer text-[1.2rem] ${pathname === "/" ? "underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 text-gray-100" : "hover:underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-5 hover:text-gray-100 text-gray-400"}`}
+              className={`cursor-pointer text-[1.2rem] ${pathname === "/" ? "underline decoration-[#A9A9A9] underline-offset-[1.7rem] decoration-2 text-gray-100" : "hover:underline decoration-[#A9A9A9] underline-offset-[1.7rem] decoration-5 hover:text-gray-100 text-gray-400"}`}
             >
               Home
             </span>
           </NextLink>
           <NextLink href="/challenges" passHref>
             <span
-              className={`cursor-pointer text-[1.2rem] ${pathname === "/challenges" ? "underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 text-gray-100" : "hover:underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 hover:text-gray-100 text-gray-400"}`}
+              className={`cursor-pointer text-[1.2rem] ${pathname === "/challenges" ? "underline decoration-[#A9A9A9] underline-offset-[1.7rem] decoration-2 text-gray-100" : "hover:underline decoration-[#A9A9A9] underline-offset-[1.7rem] decoration-2 hover:text-gray-100 text-gray-400"}`}
             >
               Challenges
             </span>
           </NextLink>
           <NextLink href="/about" passHref>
             <span
-              className={`cursor-pointer text-[1.2rem] ${pathname === "/about" ? "underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 text-gray-100" : "hover:underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 hover:text-gray-100 text-gray-400"}`}
+              className={`cursor-pointer text-[1.2rem] ${pathname === "/about" ? "underline decoration-[#A9A9A9] underline-offset-[1.7rem] decoration-2 text-gray-100" : "hover:underline decoration-[#A9A9A9] underline-offset-[1.7rem] decoration-2 hover:text-gray-100 text-gray-400"}`}
             >
               About
             </span>
           </NextLink>
           <NextLink href="/gallery" passHref>
             <span
-              className={`cursor-pointer text-[1.2rem] ${pathname === "/gallery" ? "underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 text-gray-100" : "hover:underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 hover:text-gray-100 text-gray-400"}`}
+              className={`cursor-pointer text-[1.2rem] ${pathname === "/gallery" ? "underline decoration-[#A9A9A9] underline-offset-[1.7rem] decoration-2 text-gray-100" : "hover:underline decoration-[#A9A9A9] underline-offset-[1.7rem] decoration-2 hover:text-gray-100 text-gray-400"}`}
             >
               Gallery
             </span>
           </NextLink>
           <NextLink href="/team" passHref>
             <span
-              className={`cursor-pointer text-[1.2rem] ${pathname === "/team" ? "underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 text-gray-100" : "hover:underline decoration-[#A9A9A9] underline-offset-[2.2rem] decoration-2 hover:text-gray-100 text-gray-400"}`}
+              className={`cursor-pointer text-[1.2rem] ${pathname === "/team" ? "underline decoration-[#A9A9A9] underline-offset-[1.7rem] decoration-2 text-gray-100" : "hover:underline decoration-[#A9A9A9] underline-offset-[1.7rem] decoration-2 hover:text-gray-100 text-gray-400"}`}
             >
               Team
             </span>

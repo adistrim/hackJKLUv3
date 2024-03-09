@@ -20,6 +20,11 @@
         "website": "https://www.ieee.org/"
     },
     {
+        "name": "MSI",
+        "photo": "/sponsors/msi.png",
+        "website": "https://in.msi.com/"
+    },
+    {
         "name": "Polygon",
         "photo": "/sponsors/polygon.png",
         "website": "https://polygon.technology/"
@@ -38,6 +43,11 @@
         "name": "StreamYard",
         "photo": "/sponsors/streamyard.png",
         "website": "https://streamyard.com/"
+    },
+    {
+        "name": "Sunrise Computers",
+        "photo": "/sponsors/sunrisecomputers.png",
+        "website": "https://thesunrisecomputers.com/"
     },
     {
         "name": "Devfolio",
