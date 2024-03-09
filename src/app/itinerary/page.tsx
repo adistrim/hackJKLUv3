@@ -62,6 +62,7 @@ const Itinerary: React.FC = () => {
                   "Opening Ceremony",
                   "Workshop by JDW",
                   "Hackathon Starts",
+                  "Improv Event",
                 ]}
               />
             </div>
@@ -74,11 +75,12 @@ const Itinerary: React.FC = () => {
               <Timeline
                 events={day2Events}
                 highlightEvents={[
-                  "Scavenger Hunt",
-                  "Coding Ninja Event",
+                  "Coding Ninjas Event",
                   "Guest Speaker Session",
-                  "Improv Event",
                   "Qawwali Night",
+                  "IIT Ropar Prof. Session",
+                  "Cyber Security Session",
+                  "GFG Workshop",
                 ]}
               />
             </div>
@@ -90,7 +92,7 @@ const Itinerary: React.FC = () => {
               </h2>
               <Timeline
                 events={day3Events}
-                highlightEvents={["DJ night by JDW", "Closing Ceremony"]}
+                highlightEvents={["DJ night by JDW", "Closing Ceremony", "Software Engineering Session"]}
               />
             </div>
           </div>

@@ -1,0 +1,44 @@
+[
+    {
+        "role": "SDE-II at Microsoft",
+        "name": "Pranav M",
+        "photo": "/speakers-judges/PranavM.jpg",
+        "linkedin": "https://www.linkedin.com/in/candidatepstx-95adfsdk23/"
+    },
+    {
+        "role": "Lead Data Scientist at KainSkep",
+        "name": "Devendra Parihar",
+        "photo": "/speakers-judges/devendraparihar.jpg",
+        "linkedin": "https://www.linkedin.com/in/devendra-parihar/"
+    },
+    {
+        "role": "Quality & Auto Testing at Pratham Software",
+        "name": "Rohit Mehta",
+        "photo": "/speakers-judges/rohitmehta.webp",
+        "linkedin": "https://www.linkedin.com/in/rohitmehta086/"
+    },
+    {
+        "role": "Remote Sensing Engineer at BharatRohan",
+        "name": "Harshaditya Gaur",
+        "photo": "/speakers-judges/harshadityagaur.webp",
+        "linkedin": "https://www.linkedin.com/in/harshadityagaur/"
+    },
+    {
+        "role": "Associate Software Engineer at Celebal Technologies",
+        "name": "Vineet Sharma",
+        "photo": "/speakers-judges/vineetsharma.webp",
+        "linkedin": "https://www.linkedin.com/in/vineetsharma-24/"
+    },
+    {
+        "role": "Associate Software Engineer at CoinDCX",
+        "name": "Sparsh Agarwal",
+        "photo": "/speakers-judges/sparshagarwal.webp",
+        "linkedin": "https://linkedin.com/in/akathecoder"
+    },
+    {
+        "role": "Associate Software Engineer at CoinDCX",
+        "name": "Nonit Mittal",
+        "photo": "/speakers-judges/nonitmittal.webp",
+        "linkedin": "https://linkedin.com/in/nonit-mittal"
+    }
+]

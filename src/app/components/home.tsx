@@ -8,7 +8,7 @@ import Prizes from "./prizes";
 import { Share_Tech_Mono, Inter } from "next/font/google";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
-// import SponsorComponent from 'SponsorComponent';
+import Speakersjudges from "./speakersjudges";
 import SponsorComponent from "@/app/components/sponsors";
 import sponsors from "../data/sponsors.json";
 
@@ -115,6 +115,8 @@ const HomeComponent = () => {
       </div>
 
       <Prizes/>
+
+      <Speakersjudges />
 
       <div>
         <h1
