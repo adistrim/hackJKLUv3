@@ -54,18 +54,17 @@ const HomeComponent = () => {
           </p>
           <div className="hidden md:flex items-center justify-between">
             <RegisterBtn/>
-            <NextLink href="https://ticketify.hackjklu.com" passHref>
+            <NextLink href="https://hackjklu.com/discord" passHref>
               <div className={`ml-4 relative ${inter.className}`}>
-                <div className="rounded-md bg-gradient-to-r from-red-600 to-yellow-500 p-0.5">
-                  <div className="rounded-md items-center justify-center bg-black px-3 py-2">
-                    <span className="text-white text-sm">Food & Accommodation</span>
+                <div className="rounded-md bg-[#7289da] p-0.5">
+                  <div className="rounded-[0.3rem] items-center justify-center bg-[#23272a] py-2 px-3">
+                    <span className="text-white text-sm">Join us on Discord</span>
                   </div>
                 </div>
               </div>
             </NextLink>
+
           </div>
-
-
         </div>
 
         <div className="w-4/5  md:w-1/2 ml-[2rem] flex justfiy-center items-center">
@@ -90,15 +89,15 @@ const HomeComponent = () => {
           <RegisterBtn />
         </div>
         <div className="md:hidden flex items-center justify-between">
-          <NextLink href="https://ticketify.hackjklu.com" passHref>
-            <div className={`relative ${inter.className}`}>
-              <div className="rounded-md bg-gradient-to-r from-red-600 to-yellow-500 p-0.5">
-                <div className="rounded-md items-center justify-center bg-black px-3 py-2">
-                  <span className="text-white text-sm">Food & Accommodation</span>
-                </div>
+        <NextLink href="https://hackjklu.com/discord" passHref>
+          <div className={`relative ${inter.className}`}>
+            <div className="rounded-md bg-[#7289da] p-0.5">
+              <div className="rounded-[0.3rem] items-center justify-center bg-[#23272a] px-3 py-2">
+                <span className="text-white text-sm">Join us on Discord</span>
               </div>
             </div>
-          </NextLink>
+          </div>
+        </NextLink>
         </div>
       </div>
       <Image

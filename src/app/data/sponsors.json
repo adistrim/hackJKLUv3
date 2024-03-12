@@ -50,6 +50,11 @@
         "website": "https://streamyard.com/"
     },
     {
+        "name": "Pantone",
+        "photo": "/sponsors/pantone.jpg",
+        "website": "https://www.pantone.com/"
+    },
+    {
         "name": "Devfolio",
         "photo": "/sponsors/devfolio.png",
         "website": "https://devfolio.co/",
@@ -65,6 +70,12 @@
         "name": "Devs Dungeon",
         "photo": "/sponsors/devs-dungeon.png",
         "website": "https://devs-dungeon.github.io/bio/",
+        "type": "Community Partner"
+    },
+    {
+        "name": "The Dev Army",
+        "photo": "/sponsors/devarmy.png",
+        "website": "https://thedevarmy.com/",
         "type": "Community Partner"
     }
 ]
