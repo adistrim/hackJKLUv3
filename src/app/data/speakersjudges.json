@@ -6,6 +6,18 @@
         "linkedin": "https://www.linkedin.com/in/candidatepstx-95adfsdk23/"
     },
     {
+        "role": "Head CSE at IIT Ropar",
+        "name": "Sudarshan Iyengar",
+        "photo": "/speakers-judges/profiyengar.jpeg",
+        "linkedin": "https://www.linkedin.com/in/sudarshan-iyengar-3560b8145/"
+    },
+    {
+        "role": "Founder at Hygge",
+        "name": "Sandhita Agarwal",
+        "photo": "/speakers-judges/sandhitaagarwal.jpeg",
+        "linkedin": "https://www.linkedin.com/in/sandhitaagarwal/"
+    },
+    {
         "role": "Lead Data Scientist at KainSkep",
         "name": "Devendra Parihar",
         "photo": "/speakers-judges/devendraparihar.jpg",
@@ -34,11 +46,5 @@
         "name": "Sparsh Agarwal",
         "photo": "/speakers-judges/sparshagarwal.webp",
         "linkedin": "https://linkedin.com/in/akathecoder"
-    },
-    {
-        "role": "Associate Software Engineer at CoinDCX",
-        "name": "Nonit Mittal",
-        "photo": "/speakers-judges/nonitmittal.webp",
-        "linkedin": "https://linkedin.com/in/nonit-mittal"
     }
 ]

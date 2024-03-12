@@ -15,7 +15,7 @@ interface SponsorComponentProps {
 const SponsorComponent: React.FC<SponsorComponentProps> = ({ sponsor }) => {
     return (
         <a href={sponsor.website} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center">
-            <div className="relative w-24 h-24 mb-2">
+            <div className="relative w-32 h-32 mb-2">
                 <Image src={sponsor.photo} alt={sponsor.name} layout="fill" objectFit="contain" />
             </div>
             {sponsor.type && <span className="text-sm text-gray-500">{sponsor.type}</span>}

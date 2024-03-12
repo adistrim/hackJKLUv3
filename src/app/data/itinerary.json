@@ -7,8 +7,8 @@
     { "time": "07:00 PM", "event": "Improv Event" }
   ],
   "day2Events": [
+    { "time": "09:00 AM", "event": "Prof. Iyenger Session" },
     { "time": "10:00 AM", "event": "Mentoring Round" },
-    { "time": "11:00 AM", "event": "IIT Ropar Prof. Session" },
     { "time": "01:00 PM", "event": "Coding Ninjas Event" },
     { "time": "03:00 PM", "event": "Cyber Security Session" },
     { "time": "06:00 PM", "event": "GFG Workshop" },
@@ -18,7 +18,6 @@
     { "time": "06:00 AM", "event": "Submission Time" },
     { "time": "09:00 AM", "event": "Evaluation Round 1" },
     { "time": "01:00 PM", "event": "Evaluation Round 2" },
-    { "time": "03:00 PM", "event": "Software Engineering Session" },
     { "time": "03:00 PM", "event": "Closing Ceremony" },
     { "time": "07:00 PM", "event": "DJ night by JDW" }
   ]

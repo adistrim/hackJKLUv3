@@ -1,5 +1,15 @@
 [
     {
+        "name": "MSI",
+        "photo": "/sponsors/msi.png",
+        "website": "https://in.msi.com/"
+    },
+    {
+        "name": "Sunrise Computers",
+        "photo": "/sponsors/sunrisecomputers.png",
+        "website": "https://thesunrisecomputers.com/"
+    },
+    {
         "name": "Niti-Aayog",
         "photo": "/sponsors/niti-aayog.png",
         "website": "https://www.niti.gov.in/"
@@ -18,11 +28,6 @@
         "name": "IEEE",
         "photo": "/sponsors/ieee.png",
         "website": "https://www.ieee.org/"
-    },
-    {
-        "name": "MSI",
-        "photo": "/sponsors/msi.png",
-        "website": "https://in.msi.com/"
     },
     {
         "name": "Polygon",
@@ -45,11 +50,6 @@
         "website": "https://streamyard.com/"
     },
     {
-        "name": "Sunrise Computers",
-        "photo": "/sponsors/sunrisecomputers.png",
-        "website": "https://thesunrisecomputers.com/"
-    },
-    {
         "name": "Devfolio",
         "photo": "/sponsors/devfolio.png",
         "website": "https://devfolio.co/",
@@ -59,6 +59,12 @@
         "name": "Dev-Station",
         "photo": "/sponsors/dev-station.png",
         "website": "https://www.devstations.tech/",
+        "type": "Community Partner"
+    },
+    {
+        "name": "Devs Dungeon",
+        "photo": "/sponsors/devs-dungeon.png",
+        "website": "https://devs-dungeon.github.io/bio/",
         "type": "Community Partner"
     }
 ]

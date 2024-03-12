@@ -59,7 +59,7 @@ const Speakersjudges: React.FC = () => {
                       alt={member.name}
                       fill
                       style={{ objectFit: "cover" }}
-                      className="rounded-md"
+                      className="rounded-full"
                     />
                   </div>
                 </div>
