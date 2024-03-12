@@ -5,7 +5,6 @@ interface Sponsor {
     name: string;
     photo: string;
     website: string;
-    type?: string;
 }
 
 interface SponsorComponentProps {
@@ -18,7 +17,6 @@ const SponsorComponent: React.FC<SponsorComponentProps> = ({ sponsor }) => {
             <div className="relative w-32 h-32 mb-2">
                 <Image src={sponsor.photo} alt={sponsor.name} layout="fill" objectFit="contain" />
             </div>
-            {sponsor.type && <span className="text-sm text-gray-500">{sponsor.type}</span>}
         </a>
     );
 };

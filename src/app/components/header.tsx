@@ -71,7 +71,7 @@ const Header: React.FC = () => {
             </div>
           </NextLink>
 
-          <NextLink href="/" passHref>
+          <NextLink href="https://in.msi.com/" passHref>
             <div className="md:hidden block relative h-[2rem] w-[1.6rem] md:h-[3rem] md:w-[9.2rem]">
               <Image
                 src="/sponsors/msi-nontext.png"
