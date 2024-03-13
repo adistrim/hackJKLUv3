@@ -76,11 +76,12 @@ const Itinerary: React.FC = () => {
                 events={day2Events}
                 highlightEvents={[
                   "Coding Ninjas Event",
-                  "Guest Speaker Session",
+                  "Session by Pranav M.",
                   "Qawwali Night",
-                  "IIT Ropar Prof. Session",
-                  "Cyber Security Session",
-                  "GFG Workshop",
+                  "Session by Prof. Iyenger",
+                  "Improv by Nakab",
+                  "Workshop by GFG",
+                  "Music Night by Anunaad",
                 ]}
               />
             </div>

@@ -40,6 +40,11 @@
         "website": "https://www.codingninjas.com/"
     },
     {
+        "name": "GeeksforGeeks",
+        "photo": "/sponsors/geeksforgeeks.png",
+        "website": "https://www.geeksforgeeks.org/"
+    },
+    {
         "name": "ETHIndia",
         "photo": "/sponsors/ethindia.png",
         "website": "https://ethindia.co/"

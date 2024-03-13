@@ -15,11 +15,6 @@
     "isOpen": false
   },
   {
-    "question": "Do we provide travel reimbursement?",
-    "answer": "We can provide bus facility if there are more than 25 participants from a single locality (Jaipur to Jaipur).",
-    "isOpen": false
-  },
-  {
     "question": "Will there be food and living accommodation at the hackathon location?",
     "answer": "Yes, Participants can avail university food at very minimal cost and accommodations are free.",
     "isOpen": false
