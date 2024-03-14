@@ -82,5 +82,15 @@
         "photo": "/sponsors/devarmy.png",
         "website": "https://thedevarmy.com/",
         "type": "Community Partner"
+    },
+    {
+        "name": "Correct Steps Consultancy",
+        "photo": "/sponsors/csc.png",
+        "website": "https://thecorrectsteps.com/"
+    },
+    {
+        "name": "Give My Certificate",
+        "photo": "/sponsors/gmc.png",
+        "website": "https://givemycertificate.com/"
     }
 ]
