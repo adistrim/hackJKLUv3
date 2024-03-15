@@ -24,7 +24,7 @@
         "linkedin": "https://www.linkedin.com/in/devendra-parihar/"
     },
     {
-        "role": "Quality & Auto Testing at Pratham Software",
+        "role": "Head of Quality and Automation Testing",
         "name": "Rohit Mehta",
         "photo": "/speakers-judges/rohitmehta.webp",
         "linkedin": "https://www.linkedin.com/in/rohitmehta086/"
@@ -34,6 +34,12 @@
         "name": "Harshaditya Gaur",
         "photo": "/speakers-judges/harshadityagaur.webp",
         "linkedin": "https://www.linkedin.com/in/harshadityagaur/"
+    },
+    {
+        "role": "",
+        "name": "Aman",
+        "photo": "/speakers-judges/sparshagarwal.webp",
+        "linkedin": "https://linkedin.com/in/akathecoder"
     },
     {
         "role": "Associate Software Engineer at Celebal Technologies",
@@ -46,5 +52,11 @@
         "name": "Sparsh Agarwal",
         "photo": "/speakers-judges/sparshagarwal.webp",
         "linkedin": "https://linkedin.com/in/akathecoder"
+    },
+    {
+        "role": "Founder Ecovia",
+        "name": "Aman",
+        "photo": "/speakers-judges/aman.jpg",
+        "linkedin": "https://ecovia-pro.com/"
     }
 ]
