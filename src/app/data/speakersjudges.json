@@ -18,6 +18,18 @@
         "linkedin": "https://www.linkedin.com/in/sandhitaagarwal/"
     },
     {
+        "role": "Founder at Ecovia",
+        "name": "Aman",
+        "photo": "/speakers-judges/aman.jpg",
+        "linkedin": "https://ecovia-pro.com/"
+    },
+    {
+        "role": "Co Founder at Humanli AI",
+        "name": "Rishabh Nag",
+        "photo": "/speakers-judges/rishabhnag.jpeg",
+        "linkedin": "https://www.linkedin.com/in/rishabh-nag-founder03/"
+    },
+    {
         "role": "Lead Data Scientist at KainSkep",
         "name": "Devendra Parihar",
         "photo": "/speakers-judges/devendraparihar.jpg",
@@ -36,12 +48,6 @@
         "linkedin": "https://www.linkedin.com/in/harshadityagaur/"
     },
     {
-        "role": "",
-        "name": "Aman",
-        "photo": "/speakers-judges/sparshagarwal.webp",
-        "linkedin": "https://linkedin.com/in/akathecoder"
-    },
-    {
         "role": "Associate Software Engineer at Celebal Technologies",
         "name": "Vineet Sharma",
         "photo": "/speakers-judges/vineetsharma.webp",
@@ -52,11 +58,5 @@
         "name": "Sparsh Agarwal",
         "photo": "/speakers-judges/sparshagarwal.webp",
         "linkedin": "https://linkedin.com/in/akathecoder"
-    },
-    {
-        "role": "Founder Ecovia",
-        "name": "Aman",
-        "photo": "/speakers-judges/aman.jpg",
-        "linkedin": "https://ecovia-pro.com/"
     }
 ]
