@@ -5,7 +5,7 @@ import { Share_Tech_Mono } from "next/font/google";
 const tech_mono = Share_Tech_Mono({ subsets: ["latin"], weight: ['400'] });
 
 const Gallery: React.FC = () => {
-  const imageCount = 40;
+  const imageCount = 52;
   const imageList = Array.from(
     { length: imageCount },
     (_, index) => `/gallery/${index + 1}.jpg`
